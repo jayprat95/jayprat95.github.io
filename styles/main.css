@@ -228,16 +228,17 @@ main {
     }
 
     .app-bar .logo {
-        display:inline-block;
-        margin-left: 200px; 
-        padding: 0px;
-        line-height: 130px;
-        font-size: 46px;
+        float: left; 
+        margin-top: 95px; 
+        margin-left: -7 5px;
+        padding: -40px;
+        line-height: 40px;
+        font-size: 26px;
         color: #999;
     }
 
     .app-bar-actions {
-        float: right;
+        float: left;
     }
 
     .app-bar:after {
@@ -303,7 +304,7 @@ main {
 
 @media all and (min-device-width: 1200px) and (max-width: 800px) {
     .app-bar .logo {
-        float: none;
+        float: left;
         width: 100%;
         line-height: normal;
         text-align: center;
