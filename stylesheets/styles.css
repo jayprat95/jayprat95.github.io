@@ -96,9 +96,11 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+  width:440px;
+  float:inherit;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
 }
 
 header ul {
