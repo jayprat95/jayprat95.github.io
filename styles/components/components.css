@@ -1969,9 +1969,11 @@ li > p {
 .button, .button--primary, .button--secondary, .button--secondary-variation {
   position: absolute:
   top: 50%;
-  display: inline-block;
+  display: inline-block #1266f1;
   padding: 12px 32px;
   margin-bottom: 13px;
+  border-radius: 20px; 
+  border: 2px solid;
   margin-top: 13px;
   min-height: 26px;
   text-align: center;
