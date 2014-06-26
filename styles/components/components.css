@@ -1981,7 +1981,11 @@ li > p {
   font-weight: 600;
   text-decoration: none;
   outline: 0;
-  transition: none;
+  -o-transition:.25s;
+  -ms-transition:.25s;
+  -moz-transition:.25s;
+  -webkit-transition:.25s;
+  transition:.25s;
 }
 .button:hover, .button--primary:hover, .button--secondary:hover, .button--secondary-variation:hover {
   background: #68bc43;

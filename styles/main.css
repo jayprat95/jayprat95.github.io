@@ -308,8 +308,8 @@ main {
         transition:.5s;
     }
     .underline:hover, a:focus {
-    color: #13A89E;
-    border-bottom: 1px solid #13A89E;
+    color: #68bc43;
+    border-bottom: 1px solid #68bc43;
      }
      .btnWrapper {
        text-align: center;
