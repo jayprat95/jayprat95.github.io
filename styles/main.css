@@ -126,6 +126,8 @@ button.menu img {
     */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 .base, p, ul, ol {
@@ -228,8 +230,8 @@ main {
     }
 
     .app-bar .logo {
-        float: left; 
-        margin-top: 95px; 
+        float: left;
+        margin-top: 95px;
         margin-left: -7 5px;
         padding: -40px;
         line-height: 40px;
