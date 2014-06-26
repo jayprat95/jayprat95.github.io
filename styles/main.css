@@ -311,6 +311,9 @@ main {
     color: #13A89E;
     border-bottom: 1px solid #13A89E;
      }
+     .btnWrapper {
+       text-align: center;
+    }
 
     body {
         overflow-y: scroll;
@@ -322,6 +325,10 @@ main {
     }
 }
 
+.btnWrapper {
+  text-align: center;
+}
+
 @media all and (min-device-width: 1200px) and (max-width: 800px) {
     .app-bar .logo {
         float: left;
@@ -331,6 +338,10 @@ main {
         padding-top: 36px;
         padding-left: 20px;
     }
+
+    .btnWrapper {
+      text-align: center;
+   }
 
     .app-bar-container {
         height: auto;
