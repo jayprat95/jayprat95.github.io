@@ -1990,6 +1990,7 @@ li > p {
 .button:hover, .button--primary:hover, .button--secondary:hover, .button--secondary-variation:hover {
   background: #68bc43;
   color: #ffffff;
+  border: 2px solid #68bc43;
   text-decoration: none;
 }
 
