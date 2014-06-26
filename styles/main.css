@@ -142,7 +142,7 @@ button.menu img {
     bottom: 0;
     width: 250px;
     height: 100%;
-    background-color: #3367D6;
+    background-color: #68bc43;
     color: #fefefe;
     -webkit-transform: translate(-250px, 0);
     transform: translate(-250px, 0);
@@ -296,7 +296,7 @@ main {
     }
     .underline {
 
-        color: #383838;
+        color: #68bc43;
         text-decoration: none;
         border-bottom: 1px solid #ccc;
         line-height: inherit;

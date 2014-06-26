@@ -1982,9 +1982,8 @@ li > p {
   transition: none;
 }
 .button:hover, .button--primary:hover, .button--secondary:hover, .button--secondary-variation:hover {
-  background: #4d4d4d;
+  background: #68bc43;
   color: #ffffff;
-  border: 1px solid #4d4d4d;
   text-decoration: none;
 }
 
