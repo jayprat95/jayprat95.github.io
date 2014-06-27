@@ -66,16 +66,17 @@
         <main>
             <h1 id="hello" style="text-align:center"><br>Hey There!</h1>
             <p style="text-align:center"><br> I'm a developer at <a href="http://www.element84.com/" class="underline">Element 84</a> and a CS Undergrad at <a href="http://www.cs.vt.edu" class="underline">Virginia Tech.</a> I'm priviledged to work on awesome projects at e84 and at the <a href="http://www.hci.vt.edu/index.php" class="underline">VT Usability Lab.</a> <br>    <br>      <br></p>
-            <div class="btnWrapper"><a href="#about" class="small round button">View My Work</a></div>
+            <div class="btnWrapper"><a data-scroll="" data-options="easing: easeInQuart" href="#about" class="small round button">View My Work</a></div>
             <p> <br> <br> <br> <br> <br> <br> <br> </p>
 
-            <section class="about"> 
+            <div id="about" class="about"> 
                 <h1 style="text-align:center"> About Me</h1>
-            </section>
+            </div>
         </main>
 
         <!-- build:js scripts/main.min.js -->
         <script src="scripts/main.js"></script>
+        <script src="javascripts/smooth-scroll.js"></script>
         <!-- endbuild -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -86,6 +87,7 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
+            smoothScroll.init();
         </script>
         <!-- Built with love using Web Starter Kit -->
     </body>

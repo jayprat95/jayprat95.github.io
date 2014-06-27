@@ -215,6 +215,17 @@ main {
     min-height: 100%;
 }
 
+.about { 
+    background-color: #ccc; 
+    opacity: 0.5;
+    width: 100%;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: block;
+
+}
+
 /** Larger Screens - desktops and tablets **/
 @media all and (min-device-width: 1200px) {
     .app-bar {
