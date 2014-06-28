@@ -1994,22 +1994,32 @@ li > p {
   text-decoration: none;
 }
 
+.mod.small.round.button {
+  color: rgb(66, 66, 66);
+}
+.mod.small.round.button:hover, .mod.small.round.button--primary:hover, .mod.small.round.button--secondary:hover, .mod.small.round.button--secondary-variation:hover {
+  background: #68bc43;
+  color: #ffffff;
+  border: 1px solid #68bc43;
+  text-decoration: none;
+}
+
 .button--primary {
-  background: #4285f4;
+  background: rgb(153, 153, 153);
   color: white;
-  border: 1px solid #1266f1;
+  border: 1px solid rgb(153, 153, 153);
 }
 
 .button--secondary {
   background: white;
   color: #3372df;
-  border: 1px solid #e6e6e6;
+  border: 1px solid rgb(153, 153, 153);
 }
 
 .button--secondary-variation {
   background: white;
   color: #3372df;
-  border: 1px solid #e6e6e6;
+  border: 1px solid rgb(153, 153, 153);
   border-color: transparent;
 }
 
@@ -2369,6 +2379,7 @@ ol.list-links.list-links--secondary a:before {
 a {
   color: #3372df;
 }
+
 
 a:hover {
   text-decoration: none;
