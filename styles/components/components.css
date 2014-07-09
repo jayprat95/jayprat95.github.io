@@ -1996,6 +1996,7 @@ li > p {
 
 .mod.small.round.button {
   color: rgb(66, 66, 66);
+  text-align: center;
 }
 .mod.small.round.button:hover, .mod.small.round.button--primary:hover, .mod.small.round.button--secondary:hover, .mod.small.round.button--secondary-variation:hover {
   background: #68bc43;

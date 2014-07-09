@@ -219,6 +219,7 @@ main {
     background-color: #ccc; 
     width:100%;
     padding-bottom: 120px;
+    margin-bottom: 120px; 
     position:relative;
     display:block;
 }
@@ -229,6 +230,25 @@ main {
     padding-bottom: 120px; 
     position: relative;
 }
+
+    #mod_underline {
+
+        color:rgb(64, 64, 64);
+        text-decoration: none;
+        text-color:rgb(64, 64, 64);
+        border-bottom: 1px solid rgb(64, 64, 64);
+        line-height: inherit;
+        a:visited {color:rgb(64, 64, 64);} /* sets visited link color */
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+    #mod_underline:hover, a:focus {
+    color: #91b93e;
+    border-bottom: 1px solid #91b93e;
+     }
 
 /** Larger Screens - desktops and tablets **/
 @media all and (min-device-width: 1200px) {
