@@ -5,25 +5,27 @@
  * Web Starter Kit team.
  *
  */
-* {margin: 0; padding: 0 };
-html, body {
+
+* {
+    margin: 0;
+    padding: 0
+}
+;
+ html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
 }
-
 body {
     position: relative;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 300;
+    font-weight: 300;
     background-color: #FFFFFF;
     box-sizing: border-box;
     overflow: hidden;
     min-height: 100%;
 }
-
-
 .app-bar {
     display: block;
     width: 100%;
@@ -34,7 +36,6 @@ body {
     overflow: hidden;
     z-index: 1;
 }
-
 .app-bar-container {
     display: -webkit-flex;
     display: flex;
@@ -45,13 +46,10 @@ body {
     flex-direction: row;
     margin: 0 auto;
 }
-
-.app-bar.open,
-.app-bar.open ~ main {
+.app-bar.open, .app-bar.open ~ main {
     -webkit-transform: translate(250px, 0);
     transform: translate(250px, 0);
 }
-
 .app-bar .logo {
     -webkit-flex: 1;
     flex: 1;
@@ -66,13 +64,11 @@ body {
     font-weight: 300;
     line-height: 60px;
 }
-
 .app-bar .logo a {
     text-decoration: none;
     color: inherit;
     font-weight: normal;
 }
-
 .app-bar-actions {
     display: -webkit-flex;
     display: flex;
@@ -80,7 +76,6 @@ body {
     flex-direction: row;
     z-index: 2;
 }
-
 .app-bar button {
     width: 60px;
     height: 60px;
@@ -89,33 +84,26 @@ body {
     border: none;
     padding: 0;
     transition: background-color 0.2s ease-out;
-
     -webkit-tap-highlight-color: transparent;
 }
-
 .app-bar button img {
     width: 60px;
     height: 60px;
 }
-
 .app-bar button:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
-
 .app-bar button:focus {
     background-color: rgba(255, 255, 255, 0.2);
     outline: 0;
 }
-
 .app-bar button:active {
     background-color: rgba(255, 255, 255, 0.4);
 }
-
 button.menu img {
-    height:24px;
+    height: 24px;
     width: 24px;
 }
-
 .promote-layer {
     /*
     This may promote the layer to a composited
@@ -128,13 +116,12 @@ button.menu img {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+    filter: alpha(opacity=60);
+    /* For IE8 and earlier */
 }
-
 .base, p, ul, ol {
     font-size: 19px;
 }
-
 .navdrawer-container {
     z-index: 1;
     position: fixed;
@@ -148,123 +135,108 @@ button.menu img {
     transform: translate(-250px, 0);
     overflow-y: scroll;
 }
-
 .navdrawer-container.open {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
 }
-
 .app-bar, .navdrawer-container, main {
     transition: -webkit-transform 0.3s ease-out;
     transition: transform 0.3s ease-out;
 }
-
-.navdrawer-container h4,
-.navdrawer-container ul li a {
+.navdrawer-container h4, .navdrawer-container ul li a {
     height: 60px;
     padding: 0 20px;
     line-height: 60px;
 }
-
 .navdrawer-container h4 {
     background-color: white;
     color: #3367D6;
 }
-
 .navdrawer-container ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
-
 .navdrawer-container ul li a {
     display: block;
     text-decoration: none;
     color: white;
     transition: background-color 0.2s ease-out;
 }
-
 .navdrawer-container ul li {
     border-bottom-style: solid;
     border-width: 1px;
     border-color: white;
     padding: 0;
 }
-
 .navdrawer-container ul li:before {
     content: none;
 }
-
 .navdrawer-container ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
-
 .navdrawer-container ul li a:focus {
     background-color: rgba(255, 255, 255, 0.3);
     outline: 0;
-}.
-
-.navdrawer-container ul li a:active {
+}
+. .navdrawer-container ul li a:active {
     background-color: rgba(255, 255, 255, 0.4);
 }
-
 main {
     margin: 0 auto;
     /* Height of the header */
     padding: 60px 16px 16px 16px;
     min-height: 100%;
 }
-
-.about { 
-    background-color: #ccc; 
-    width:100%;
-    padding-bottom: 120px;
-    margin-bottom: 120px; 
-    position:relative;
-    display:block;
-}
-
-.modabout {
-    background-color: #ccc; 
-    width:100%;
-    padding-top: 10px;
-    padding-bottom: 70px;
-    margin-bottom: 60px; 
-    position:relative;
-    display:block;
-}
-#portfolio { 
-    background-color: #fff; 
+.about {
+    background-color: #ccc;
     width: 100%;
-    padding-bottom: 120px; 
+    padding-bottom: 120px;
+    margin-bottom: 120px;
+    position: relative;
+    display: block;
+}
+.modabout {
+    background-color: #ccc;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin-bottom: 60px;
+    position: relative;
+    display: block;
+}
+#portfolio {
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 120px;
     position: relative;
 }
-
-    #mod_underline {
-
-        color:rgb(64, 64, 64);
-        text-decoration: none;
-        text-color:rgb(64, 64, 64);
-        border-bottom: 1px solid rgb(64, 64, 64);
-        line-height: inherit;
-        a:visited {color:rgb(64, 64, 64);} /* sets visited link color */
-        -o-transition:.5s;
-        -ms-transition:.5s;
-        -moz-transition:.5s;
-        -webkit-transition:.5s;
-        transition:.5s;
+#mod_underline {
+    color: rgb(64, 64, 64);
+    text-decoration: none;
+    text-color: rgb(64, 64, 64);
+    border-bottom: 1px solid rgb(64, 64, 64);
+    line-height: inherit;
+    a: visited {
+        color: rgb(64, 64, 64);
     }
-    #mod_underline:hover, a:focus {
+    /* sets visited link color */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+#mod_underline:hover, a:focus {
     color: #91b93e;
     border-bottom: 1px solid #91b93e;
-     }
-
+}
 /** Larger Screens - desktops and tablets **/
+
 @media all and (min-device-width: 1200px) {
     .app-bar {
         position: relative;
     }
-
     .app-bar-container {
         display: block;
         height: 130px;
@@ -273,7 +245,6 @@ main {
         box-sizing: border-box;
         background-color: #fff;
     }
-
     .app-bar .logo {
         float: left;
         margin-top: 95px;
@@ -283,11 +254,9 @@ main {
         font-size: 26px;
         color: #999;
     }
-
     .app-bar-actions {
         float: left;
     }
-
     .app-bar:after {
         content: ' ';
         display: block;
@@ -295,16 +264,13 @@ main {
         overflow: hidden;
         clear: both;
     }
-
     button.menu {
         display: none;
     }
-
     nav {
         display: block;
         margin-top: 130px;
     }
-
     .navdrawer-container {
         position: relative;
         width: 100%;
@@ -315,11 +281,9 @@ main {
         transition: none;
         overflow-y: auto;
     }
-
     .navdrawer-container h4 {
         display: none;
     }
-
     .navdrawer-container ul {
         display: -webkit-flex;
         display: flex;
@@ -328,23 +292,23 @@ main {
         -webkit-flex-direction: row;
         flex-direction: row;
     }
-
     .navdrawer-container ul li {
         border: none;
     }
-
     main {
         max-width: 864px;
         padding-top: 0;
         min-height: initial;
     }
     .underline {
-
         color: #91b93e;
         text-decoration: none;
         border-bottom: 1px solid #ccc;
         line-height: inherit;
-        a:visited {color:#ccc;} /* sets visited link color */
+        a: visited {
+            color: #ccc;
+        }
+        /* sets visited link color */
         -o-transition:.5s;
         -ms-transition:.5s;
         -moz-transition:.5s;
@@ -352,18 +316,19 @@ main {
         transition:.5s;
     }
     .underline:hover, a:focus {
-    color: #91b93e;
-    border-bottom: 1px solid #91b93e;
-     }
-
+        color: #91b93e;
+        border-bottom: 1px solid #91b93e;
+    }
     #mod_underline {
-
-        color:rgb(64, 64, 64);
+        color: rgb(64, 64, 64);
         text-decoration: none;
-        text-color:rgb(64, 64, 64);
+        text-color: rgb(64, 64, 64);
         border-bottom: 1px solid rgb(64, 64, 64);
         line-height: inherit;
-        a:visited {color:rgb(64, 64, 64);} /* sets visited link color */
+        a: visited {
+            color: rgb(64, 64, 64);
+        }
+        /* sets visited link color */
         -o-transition:.5s;
         -ms-transition:.5s;
         -moz-transition:.5s;
@@ -371,32 +336,27 @@ main {
         transition:.5s;
     }
     #mod_underline:hover, a:focus {
-    color: #91b93e;
-    border-bottom: 1px solid #91b93e;
-     }
-     .btnWrapper {
-       text-align: center;
+        color: #91b93e;
+        border-bottom: 1px solid #91b93e;
     }
-
-    #modBtnWrapper {
-        color:#ccc;
+    .btnWrapper {
         text-align: center;
     }
-
+    #modBtnWrapper {
+        color: #ccc;
+        text-align: center;
+    }
     body {
         overflow-y: scroll;
     }
-
     .navdrawer-container {
         position: relative;
         margin-top: 0;
     }
 }
-
 .btnWrapper {
-  text-align: center;
+    text-align: center;
 }
-
 @media all and (min-device-width: 1200px) and (max-width: 800px) {
     .app-bar .logo {
         float: left;
@@ -406,24 +366,19 @@ main {
         padding-top: 36px;
         padding-left: 20px;
     }
-
     .btnWrapper {
-      text-align: center;
-   }
-
+        text-align: center;
+    }
     .app-bar-container {
         height: auto;
     }
-
     .app-bar-actions {
         width: 100%;
     }
-
     .navdrawer-container {
         padding: 0 16px;
         overflow-y: auto;
     }
-
     .navdrawer-container li {
         -webkit-flex: 1;
         flex: 1;
