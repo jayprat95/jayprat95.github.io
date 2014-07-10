@@ -224,6 +224,15 @@ main {
     display:block;
 }
 
+.modabout {
+    background-color: #ccc; 
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    margin-bottom: 60px; 
+    position:relative;
+    display:block;
+}
 #portfolio { 
     background-color: #fff; 
     width: 100%;
