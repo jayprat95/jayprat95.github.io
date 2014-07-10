@@ -1,0 +1,155 @@
+/*
+ *  basics.less
+ *  Contains the basic styling for Business Casual.
+ *
+ *  (C)2014 Jonathan Ballands
+ */
+
+
+/*
+ *  MIXINS
+ */
+
+.give-large-header-attributes(@size) {
+    font-weight: @header-font-weight;
+    color: @large-header-color;
+    font-style: @header-font-style;
+    
+    span.aside {
+        color: @aside-color;
+        font-size: 2 * (@size / 3);
+        font-style: @aside-font-style;
+        font-weight: @aside-font-weight;
+        
+        margin-left: @aside-gutter/2;
+    }
+    
+    &.separate {
+        padding-bottom: 10px;
+        border-bottom: 1px solid @seperator-color;
+    }
+    
+    &.seperate {
+        padding-bottom: 10px;
+        border-bottom: 1px solid @seperator-color;
+    }
+}
+
+.give-small-header-attributes(@size) {
+    font-weight: @header-font-weight;
+    color: @small-header-color;
+    font-style: @header-font-style;
+    
+    &.separate {
+        padding-bottom: 10px;
+        border-bottom: 1px solid @seperator-color;
+    }
+    
+    &.seperate {
+        padding-bottom: 10px;
+        border-bottom: 1px solid @seperator-color;
+    }
+}
+
+body {
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+    
+    background-color: @body-color;
+    color: @text-color;
+    
+    font-family: @font-family-sans-serif;
+    font-size: @font-size;
+    font-weight: @font-weight;
+    
+    .clearfix();
+}
+
+h1 {
+    font-size: @header1-font-size;
+    
+    .give-large-header-attributes(@header1-font-size);
+}
+
+h2 {
+    font-size: @header2-font-size;
+    
+    .give-large-header-attributes(@header2-font-size);
+}
+
+h3 {
+    font-size: @header3-font-size;
+    
+    .give-large-header-attributes(@header3-font-size);
+}
+
+h4 {
+    font-size: @header4-font-size;
+    
+    margin: @h4-gutter 0;
+    padding: 0;
+    
+    .give-small-header-attributes(@header4-font-size);
+}
+
+h5 {
+    font-size: @header5-font-size;
+    
+    margin: @h5-gutter 0;
+    padding: 0;
+    
+    .give-small-header-attributes(@header5-font-size);
+}
+
+h6 {
+    font-size: @header6-font-size;
+    
+    margin: @h6-gutter 0;
+    padding: 0;
+    
+    .give-small-header-attributes(@header6-font-size);
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: @teal;
+    
+    &:hover {
+        color: @white;
+    }
+}
+
+code {
+    font-family: @font-family-monospace;
+    font-size: @code-font-size;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    
+    min-height: 1px;
+    border-bottom: 1px solid @seperator-color;
+    margin-top: @seperator-gutter / 2;
+    margin-bottom: @seperator-gutter / 2;
+    
+    .clearfix();
+}
+
+.seperator {
+    width: 100%;
+    height: 1px;
+    
+    min-height: 1px;
+    border-bottom: 1px solid @seperator-color;
+    margin-top: @seperator-gutter / 2;
+    margin-bottom: @seperator-gutter / 2;
+    
+    .clearfix();
+}

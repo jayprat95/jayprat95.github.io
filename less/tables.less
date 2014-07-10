@@ -1,0 +1,313 @@
+/*
+ *  tables.less
+ *  Contains styling required for tables in Business
+ *  Casual.
+ *
+ *  (C)2014 Jonathan Ballands
+ */
+
+/*
+ *  MIXINS
+ */
+
+.provide-text-align() {
+    .left {
+        text-align: left;
+    }
+    .right {
+        text-align: right;
+    }
+}
+
+.provide-colors() {  
+    
+    // The last-child part prevent double bordering for the
+    // last column of cells
+    
+    td.invert, th.invert {
+        background-color: @darker-gray;
+        color: @white;
+        // border-right: 1px solid @table-head-border-color;
+        // border-top: 1px solid @table-head-border-color;
+        
+        a {
+            color: @teal;
+            
+            &:hover {
+                color: @white;
+            }
+        }
+    }
+    td:last-child.invert, th:last-child.invert {
+        background-color: @darker-gray;
+        color: @white;
+        border-right: 0px;
+        
+        a {
+            color: @teal;
+            
+            &:hover {
+                color: @white;
+            }
+        }
+    }
+    
+    td.danger, th.danger {
+        background-color: @danger-background;
+        color: @danger-text;
+        // border-right: 1px solid @danger-border;
+        // border-top: 1px solid @danger-border;
+        
+        a {
+            color: darken(@danger-text, 15%);
+            
+            &:hover {
+                color: @danger-text;
+            }
+        }
+    }
+    td:last-child.danger, th:last-child.danger {
+        background-color: @danger-background;
+        color: @danger-text;
+        border-right: 0px;
+        
+        a {
+            color: darken(@danger-text, 15%);
+            
+            &:hover {
+                color: @danger-text;
+            }
+        }
+    }
+    
+    td.warning, th.warning {
+        background-color: @warning-background;
+        color: @warning-text;
+        // border-right: 1px solid @warning-border;
+        // border-top: 1px solid @warning-border;
+        
+        a {
+            color: darken(@warning-text, 15%);
+            
+            &:hover {
+                color: @warning-text;
+            }
+        }
+    }
+    td:last-child.warning, th:last-child.warning {
+        background-color: @warning-background;
+        color: @warning-text;
+        border-right: 0px;
+        
+        a {
+            color: darken(@warning-text, 15%);
+            
+            &:hover {
+                color: @warning-text;
+            }
+        }
+    }
+    
+    td.info, th.info {
+        background-color: @info-background;
+        color: @info-text;
+        // border-right: 1px solid @info-border;
+        // border-top: 1px solid @info-border;
+        
+        a {
+            color: darken(@info-text, 15%);
+            
+            &:hover {
+                color: @info-text;
+            }
+        }
+    }
+    td:last-child.info, th:last-child.info {
+        background-color: @info-background;
+        color: @info-text;
+        border-right: 0px;
+        
+        a {
+            color: darken(@info-text, 15%);
+            
+            &:hover {
+                color: @info-text;
+            }
+        }
+    }
+    
+    td.success, th.success {
+        background-color: @success-background;
+        color: @success-text;
+        // border-right: 1px solid @success-border;
+        // border-top: 1px solid @success-border;
+        
+        a {
+            color: darken(@success-text, 15%);
+            
+            &:hover {
+                color: @success-text;
+            }
+        }
+    }
+    td:last-child.success, th:last-child.success {
+        background-color: @success-background;
+        color: @success-text;
+        border-right: 0px;
+        
+        a {
+            color: darken(@success-text, 15%);
+            
+            &:hover {
+                color: @success-text;
+            }
+        }
+    }
+    
+    // No border on top when first row
+    tr:first-child {
+        th, td {
+            border-top: 0px;
+        }
+    }
+}
+
+/*
+ *  CLASSES
+ */
+
+.rounded-table {
+    width: 100%;
+    margin-bottom: @line-height;
+    
+    // Suppress spacing
+    border-spacing: 0;
+
+    // Align text
+    .provide-text-align();
+    
+    // Affects all cells
+    thead, tbody, tfoot {
+        
+        // Give color options
+        .provide-colors();
+        
+        // Round that shit (LESS FAILED ME HERE!!)
+        // Top
+        tr:first-child th:first-child, tr:first-child td:first-child {
+            border-top-left-radius: @table-edge-radius;  
+        }
+        tr:first-child th:last-child, tr:first-child td:last-child {
+            border-top-right-radius: @table-edge-radius;  
+        }
+    
+        // Bottom
+        tr:last-child th:first-child, tr:last-child td:first-child {
+            border-bottom-left-radius: @table-edge-radius;  
+        }
+        tr:last-child th:last-child, tr:last-child td:last-child {
+            border-bottom-right-radius: @table-edge-radius;  
+        }
+        
+        tr {
+            
+            // Applying colors to cells makes it easy to change their color
+            th, td {
+                background-color: @table-body-background-color;
+                color: @table-body-text-color;
+                
+                // Use well gutter size until you know if this is a full table or not
+                padding: @well-gutter-size / 2;
+                vertical-align: top;
+                // border-top: 1px solid @table-body-border-color;
+                // border-right: 1px solid @table-body-border-color;
+                
+                font-style: @table-body-font-style;
+                font-family: @font-family-sans-serif;
+                font-weight: @table-body-font-weight;
+                font-size: @table-body-font-size;
+                
+                a {
+                    color: @table-body-text-color;
+                    
+                    &:hover {
+                        color: lighten(@table-body-text-color, 30%);
+                    }
+                }
+            }
+            th:last-child, td:last-child {
+                vertical-align: bottom;
+                border-right: 0px;
+            }
+        }
+    }
+    
+    // Only affects head
+    thead {
+        
+        // Fixes an issue where the head would round
+        tr:last-child th:first-child, tr:last-child td:first-child {
+            border-bottom-left-radius: 0px;  
+        }
+        tr:last-child th:last-child, tr:last-child td:last-child {
+            border-bottom-right-radius: 0px;  
+        }
+        
+        tr {
+            
+            th, td {
+                vertical-align: bottom;
+                // border-bottom: 1px solid @table-head-border-color;
+                // border-right: 1px solid @table-head-border-color;
+                border-top: 0px;
+                
+                font-weight: @table-head-font-weight;
+                font-style: @table-head-font-style;
+                font-size: @table-head-font-size;
+                
+                background-color: @table-head-background-color;
+                color: @table-head-text-color;
+            }
+            th:last-child, td:last-child {
+                vertical-align: bottom;
+                // border-bottom: 1px solid @table-head-border-color;
+                border-right: 0px;
+                
+                background-color: @table-head-background-color;
+                color: @table-head-text-color;
+            }
+        }
+    }
+    
+    // If a full fledged table, continue to suppress rounding
+    &.full {
+        
+        // Use table-cell-padding if this is a full table
+        thead {
+            tr {
+                th, td {
+                    padding: @table-cell-padding;
+                }
+            }
+        }
+        
+        tbody, tfoot {
+            
+            // Use table-cell-padding if this is a full table
+            tr {
+                th, td {
+                    padding: @table-cell-padding;
+                }
+            }
+            
+            // Fixes an issue where the body's top would unnecessarily round
+            tr:first-child th:first-child, tbody tr:first-child td:first-child {
+                border-top-left-radius: 0px;  
+            }
+            tr:first-child th:last-child, tbody tr:first-child td:last-child {
+                border-top-right-radius: 0px;  
+            }
+            
+        } 
+    }
+}

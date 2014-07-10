@@ -201,7 +201,8 @@ main {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 70px;
-    margin-bottom: 60px;
+    margin-top: -30px;
+    margin-bottom: 0px;
     position: relative;
     display: block;
 }
@@ -230,6 +231,71 @@ main {
 #mod_underline:hover, a:focus {
     color: #91b93e;
     border-bottom: 1px solid #91b93e;
+}
+.navigation-bar {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    padding-top: 12;
+    padding-bottom: 12;
+    font-size: 16pt;
+    font-weight: 300;
+    color: #ababab;
+    opacity: 0.95;
+    z-index: 100;
+    height: 50px; 
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+.navigation-bar.magnetic {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navigation-bar.hidden {
+    opacity: 0;
+    pointer-events: none;
+    cursor: default;
+}
+.navigation-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px; 
+}
+.navigation-bar ul.center {
+    text-align: center;
+}
+.navigation-bar ul.right {
+    text-align: right;
+}
+.navigation-bar ul li {
+    display: inline;
+    padding-left: 25;
+    padding-right: 25;
+    height: 50px; 
+
+}
+.navigation-bar ul li:not(:last-child) {
+    border-right: 1px solid #d9d9d9;
+}
+.navigation-bar ul li.logo {
+    font-weight: 600;
+    color: #282828;
+}
+.navigation-bar ul li.active {
+    color: #282828;
+}
+.navigation-bar ul li a {
+    text-decoration: none;
+    color: #ababab;
+    font-weight: 300;
+}
+.navigation-bar ul li a:hover {
+    text-decoration: none;
+    color: #282828;
 }
 /** Larger Screens - desktops and tablets **/
 

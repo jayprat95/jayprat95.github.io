@@ -1,0 +1,83 @@
+/*
+ *  navigation-bar.less
+ *  Contains styling for the built-in navigation bar.
+ *
+ *  (C)2014 Jonathan Ballands
+ */
+
+.navigation-bar {
+    background-color: @navigation-bar-color;
+    border-bottom: 1px solid @navigation-bar-border-color; 
+    border-top: 1px solid @navigation-bar-border-color;
+
+    padding-top: @navigation-bar-vertical-gutter / 2;
+    padding-bottom: @navigation-bar-vertical-gutter / 2;
+
+    font-size: @navigation-bar-font-size;
+    font-weight: @navigation-bar-font-weight;
+    color: @navigation-bar-buttons-color;
+    opacity: @navigation-bar-opacity;
+    z-index: 100;
+    
+    -webkit-transition: opacity @navigation-bar-fade-out-time linear;
+    -moz-transition: opacity @navigation-bar-fade-out-time linear;
+    -o-transition: opacity @navigation-bar-fade-out-time linear;
+    transition: opacity @navigation-bar-fade-out-time linear;
+    
+    &.magnetic {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    &.hidden {
+        opacity: 0;
+           
+        // Issue #2 fix
+        pointer-events: none;
+        cursor: default;
+    }
+}
+
+.navigation-bar ul {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+
+    &.center {
+        text-align: center;
+    }
+    &.right {
+        text-align: right;
+    }
+}
+
+.navigation-bar ul li {
+    display: inline;
+
+    padding-left: @navigation-bar-horizontal-gutter / 2;
+    padding-right: @navigation-bar-horizontal-gutter / 2;
+    
+    &:not(:last-child) {
+        border-right: 1px solid @navigation-bar-divider-color;
+    }
+    &.logo {
+        font-weight: @navigation-bar-logo-font-weight;
+        color: @navigation-bar-logo-color;
+    }
+    &.active {
+        color: @navigation-bar-buttons-active-color;
+    }
+    
+    & a {
+        text-decoration: none;
+        color: @navigation-bar-buttons-color;
+        font-weight: @font-light;
+        
+        &:hover {
+            text-decoration: none;
+            color: @navigation-bar-buttons-hover-color;
+        }
+    }
+}

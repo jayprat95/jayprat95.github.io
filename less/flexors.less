@@ -1,0 +1,89 @@
+/*
+ *  flexors.less
+ *  A flexible gridding system that allows you to align
+ *  content properlly. 
+ *
+ *  (C)2014 Jonathan Ballands
+ */
+
+/*
+ *  MIXINS
+ */
+
+.container-fixed() {
+    margin: 50 auto;
+    width: @page-width;
+}
+
+.make-flexor(@columns:@columns) {
+    display: block;
+    
+    // Force flexors to adjust move right by the margin
+    margin: 0 (@container-width * ((@gutter-width * .5) / @container-width) * -1);
+    
+    .clearfix();
+}
+
+.make-flexor-columns() {
+    
+    // Think "do-while" loops
+    // First iteration
+    .column(@index) when (@index = 1)
+    {
+        // Make the item so that we may pass it along
+        @item: ~".column-@{index}";
+           
+        // Set width
+        .column-@{index} {
+            width: (@container-width * (@index / @columns)) - @gutter-width;
+        }
+        
+        // Recursive call
+        .column((@index + 1), @item);
+    }
+    // All other iterations
+    .column(@index, @list) when (@index =< @columns) 
+    {
+        // Make the item so that we may pass it along
+        @item: ~".column-@{index}";
+        
+        // Set width
+        .column-@{index} {
+            width: (@container-width * (@index / @columns)) - @gutter-width;
+        }
+        
+        // Recursive call
+        .column((@index + 1), ~"@{list}, @{item}");
+    }
+    
+    // Terminating state
+    .column(@index, @list) when (@index > @columns) 
+    {
+        // Give all items in list these properties
+        @{list} {
+            position: relative;
+            float: left;
+            min-height: 1px;
+            margin: 0 (@gutter-width / 2);
+        }
+    }
+    
+    // Go!
+    .column(1);
+}
+
+/*
+ *  CLASSES
+ */
+
+.container {
+    .container-fixed();
+}
+
+.flexor {
+    .make-flexor(@columns:@columns);
+    margin-top: 5;
+    margin-bottom: 5;
+}
+
+.make-flexor-columns();
