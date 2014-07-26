@@ -14,6 +14,7 @@
  html, body {
     width: 100%;
     height: 100%;
+    display: flex;
     margin: 0;
     padding: 0;
 }
@@ -209,9 +210,8 @@ main {
 .modabout {
     background-color: #ccc;
     width: 100%;
+    min-height: 100%;
     padding-top: 40px;
-    padding-bottom: 70px;
-    margin-bottom: 60px;
     position: relative;
     display: block;
 }
@@ -407,6 +407,28 @@ main {
         transition:.5s;
     }
     #mod_underline:hover, a:focus {
+        color: #91b93e;
+        border-bottom: 1px solid #91b93e;
+    }
+
+
+        #mod_works_underline {
+        color: #ccc;
+        text-decoration: none;
+        text-color: rgb(64, 64, 64);
+        border-bottom: 1px solid #ccc;
+        line-height: inherit;
+        a: visited {
+            color: #ccc;
+        }
+        /* sets visited link color */
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+    #mod_works_underline:hover, a:focus {
         color: #91b93e;
         border-bottom: 1px solid #91b93e;
     }

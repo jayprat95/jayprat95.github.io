@@ -42,6 +42,8 @@
     <link rel="stylesheet" href="styles/h5bp.css">
     <link rel="stylesheet" href="styles/components/components.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href="stylesheets/menu-styles.css" rel="stylesheet" type="text/css">
     <!-- endbuild -->
 </head>
@@ -78,7 +80,7 @@
         <h1 id="hello" style="text-align:center">
             <br>Hey There!</h1>
         <p style="text-align:center">
-            <br>I'm a developer at <a href="http://www.element84.com/" class="underline">Element 84</a> and a CS Undergrad at <a href="http://www.cs.vt.edu" class="underline">Virginia Tech.</a> I'm priviledged to work on awesome projects at e84 and at the <a href="http://www.hci.vt.edu/index.php" class="underline">VT Usability Lab.</a> 
+            <br>I'm a developer at <a href="http://www.element84.com/" id="mod_works_underline">Element 84</a> and a CS Undergrad at <a href="http://www.cs.vt.edu" id="mod_works_underline">Virginia Tech.</a> I'm priviledged to work on awesome projects at e84 and at the <a href="http://www.hci.vt.edu/index.php" id="mod_works_underline">VT Usability Lab.</a> 
             <br>
             <br>
             <br>
@@ -121,60 +123,41 @@
     <div class="large-12 medium-12 columns"id="portfolio">
         <h1 style="text-align:center">
             <span style="border-bottom: 1px solid;padding-bottom:3px;">Portfolio</h1>
+        <div class="row">
 
-        <div class="large-4 medium-4 columns" id="portfolio-left" style="float:left;width:50%;text-align:center;">
-            <p>
+            <div class="col-xs-6" style="text-align:center">
                 <h2>
+                    <br> 
+                    <br> 
                     <span style="border-bottom: 1px solid;padding-bottom:3px;">Element 84</span>
                     <br>
-                    <span style="font-size: 20px;font-family: Helvetica, Arial, sans-serif;font-weight: 600;">Software Intern - Alexandria, VA</span>
+                    <span style="font-size: 20px;font-family: Helvetica, Arial, sans-serif;font-weight: 600;">
+                        Software Intern - Alexandria, VA</span>
                 </h2>
-
-                <p style="display: inline-block;width:75%;">I am a Software Intern working on various iOS and Web projects. I've worked on apps such as <a href="https://itunes.apple.com/us/app/pivotal-element/id663962643?mt=12" class="underline">Pivotal Element</a>, <a href="https://itunes.apple.com/us/app/ihomework/id302786560?mt=8" class="underline">iHomework</a>, and <a href="https://itunes.apple.com/us/app/seizure-log/id410716391?mt=8" class="underline">Seizure Tracker</a>
+                 <p style="display: inline-block;width:75%;">
+                    I am a Software Intern working on various iOS and Web projects. I've worked on apps such as <a href="https://itunes.apple.com/us/app/pivotal-element/id663962643?mt=12" id="mod_works_underline">Pivotal Element</a>, <a href="https://itunes.apple.com/us/app/ihomework/id302786560?mt=8" id="mod_works_underline">iHomework</a>, and <a href="https://itunes.apple.com/us/app/seizure-log/id410716391?mt=8" id="mod_works_underline">Seizure Tracker</a>
                 </p>
-        </div>
-        <div class="large-7 medium-7 medium-offset-1 columns" id="portfolio-right" style="float:right;width:50%;text-align:center">
-            <img src="images/e84_square.png" alt="Smiley face">
-        </div>
+            </div>
 
-                <p>
-            <br>
-            <br>
-        </p>
-        <div class="large-4 medium-4 columns" id="portfolio-left" style="float:left;width:50%;text-align:center;">
-            <p>
-                <br>
-                <br>
-                <br>
+            <div class="col-xs-6"> 
+                <img src="images/e84_square.png" alt="Smiley face">
+            </div>
+            <div class="col-xs-6" style="text-align:center"> 
                 <h2>
+                    <br> 
+                    <br> 
                     <span style="border-bottom: 1px solid;padding-bottom:3px;">Virginia Tech</span>
                     <br>
-                    <span style="font-size: 20px;font-family: Helvetica, Arial, sans-serif;font-weight: 600;">Undergraduate Researcher - Blacksburg, VA</span>
+                    <span style="font-size: 20px;font-family: Helvetica, Arial, sans-serif;font-weight: 600;">
+                        Undergraduate Researcher - Blacksburg, VA</span>
                 </h2>
-
-                <p style="display: inline-block;width:75%;">I am an undergraduate researcher working on an <a href="https://github.com/aweck/engagement-tracker" class="underline">Android app</a> which will help people track their engagement with EEG devices.
+                <p style="display: inline-block;width:75%;">I am an undergraduate researcher working on an <a href="https://github.com/aweck/engagement-tracker" id="mod_works_underline">Android app</a> which will help people track their engagement with EEG devices.
                 </p>
-        </div>
-        <div class="large-7 medium-7 medium-offset-1 columns" id="portfolio-right" style="float:right;width:50%;text-align:center">
-            <img src="images/mindSet.jpg" alt="Smiley face">
-        </div>
-
-        <p>
-            <br>
-            <br>
-        </p>
-
-
-        <div class="large-4 medium-4 columns" id="portfolio-left" style="float:left;width:50%;text-align:center;">
-            <p>
-                <p>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </p>
-
-
+            </div>
+            <div class="col-xs-6"> 
+                <img src="images/mindSet.jpg" alt="Smiley face">
+            </div>
+            <div class="col-xs-6" style="text-align:center"> 
                 <h2>
                     <span style="border-bottom: 1px solid;padding-bottom:3px;">ASUS</span>
                     <br>
@@ -183,16 +166,11 @@
 
                 <p style="display: inline-block;width:75%;">I worked as a campus rep promoting ASUS at Virginia Tech and managed the ASUS CampusLife Twitter and Facebook page.
                 </p>
-        </div>
-        <div class="large-7 medium-7 medium-offset-1 columns" id="portfolio-right" style="float:right;width:50%;text-align:center">
-            <p>
-                <br>
-                <br>
-                <br>
-                <br>
-            </p>
-            <img src="images/Asus logo.jpg" alt="Smiley face">
-        </div>
+            </div>
+            <div class="col-xs-6"> 
+                <img src="images/Asus logo.jpg" alt="Smiley face">
+            </div>
+        </div>     
         <div class="btnWrapper" style="float:right;width:100%;text-align:center">
             <br>
             <br>
@@ -206,58 +184,8 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
     </div>
     <div id="contact" class="modabout">
-
         <h1 style="text-align:center">
             <br>Contact Me!</h1>
 
@@ -271,7 +199,12 @@
                     <br>
                     <br>
                     <h6 style="text-align:center;">This website was made with love and the help of <a href="https://developers.google.com/web/starter-kit/" id="mod_underline">Google Web Starter Kit</a> and <a href="http://jonathanballands.me/bc/" id="mod_underline">Business Casual</a>.</h6>
-                </p>
+        </p>
+        <p>
+            <br>
+            <br> 
+            <br> 
+        </p>
     </div>
 
     <!-- build:js scripts/main.min.js -->
