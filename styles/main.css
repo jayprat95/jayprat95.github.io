@@ -437,6 +437,10 @@ main {
         color: #ccc;
         text-align: center;
     }
+    #modBtnWrapper_underline:hover, a:focus {
+        color: #91b93e;
+        border-bottom: 1px solid #91b93e;
+    }
     body {
         overflow-y: scroll;
     }
