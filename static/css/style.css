@@ -6,17 +6,58 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 
+/* touchtap_medium copy: */
+
+.tt1 {
+	background-image: linear-gradient(-180deg, #B4EC51 0%, #429321 100%);
+box-shadow: 0px 2px 13px 0px rgba(0,0,0,0.50);
+border-radius: 29px;
+height: 400.69 px; 
+width: 203.5 px; 
+}
+
+.tt2 {
+	/* touchtap_medium: */
+background-image: linear-gradient(46deg, #3023AE 0%, #C86DD7 100%);
+box-shadow: 2px 2px 13px 0px rgba(0,0,0,0.50);
+border-radius: 29px;
+}
+
+.tt3 {
+	/* touchtap_small: */
+background-image: linear-gradient(-180deg, #FAD961 12%, #F76B1C 100%);
+box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.50);
+border-radius: 29px;
+
+}
+
+
+
+
 #link {
 	color: #ff6600;
+
+	/*color: rgb(64, 64, 64);*/
+	border-width: 0;
+    text-decoration: none;
+    text-color: #ff6600;
+    
+    line-height: inherit;
+    link:visited {
+        color: #ff6600;
+    }
+    /* sets visited link color */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
 
 }
 
 #link:hover {
-	background-color: #ff6600; 
-	color: #fff; 
-	background-size: 80px 60px;
-	line-height: 1.00; 
-
+	text-decoration: underline;
+    
 }
 
 #share-icons {
