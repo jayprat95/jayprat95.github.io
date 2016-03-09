@@ -13,15 +13,53 @@
 /*.navbar .nav {
   float: right; }*/
 
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
+
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  
 }
+
 #footer {
   
 }
 
+.hero-subheader {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400; 
+    font-size: 30px; 
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+}
+.hero-header {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700; 
+    font-size: 92px; 
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
+.parallax-window {
+    position: relative;
+    min-height: 75vh;
+    width: 100%; 
+    background: transparent;
+}
 
+.navbar {
+    margin-bottom: 0;
+}
 
 /* posts index */
 .post > h3.title {
