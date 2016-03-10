@@ -51,6 +51,7 @@ h1, h2, h3, h4 {
     text-align: center; 
 }
 .parallax-window {
+    background-image: url(""); 
     position: relative;
     min-height: 75vh;
     width: 100%; 
