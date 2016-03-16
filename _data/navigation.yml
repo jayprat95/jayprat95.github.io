@@ -1,0 +1,21 @@
+# Site navigation links
+
+- title: About
+  url: About
+  excerpt:
+  image:
+
+- title: Process
+  url: About
+  excerpt:
+  image:
+
+- title: Projects
+  url: About
+  excerpt:
+  image:
+
+- title: Blog
+  url: About
+  excerpt:
+  image:

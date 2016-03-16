@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    {% if page.author %}
+      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+    {% endif %}
+    {% include open-graph.html %}
 
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
-    <meta name="author" content="{{ site.name }}" />
-    <meta name="description" content="{{ site.description }}">
+    <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
+    <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
+      <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <body>
-    <div class="content-wrapper">
+  <body id="js-body">
+    {% include browser-upgrade.html %}
+    {% include header.html %}
 
-      {% include masthead.html %}
+    <div id="page-wrapper">
+      {{ content }}
+      {% include footer.html %}
+    </div>
 
-      <div id="main" role="main" class="container">
-        {{ content }}
-      </div>
+    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="{{ site.url }}/js/main.js"></script>
 
-    </div><!-- /content-wrapper -->
-
-    {% include footer.html %}
-
-    {% include analytics.html %}
   </body>
+
 </html>

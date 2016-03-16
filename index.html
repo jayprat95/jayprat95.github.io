@@ -1,20 +1,20 @@
 ---
-layout: home
+layout: default
 ---
+<div class="page-lead" style="background-image:url({{ site.url }}/images/hero_image.jpg)">
+      <div class="wrap page-lead-content">
+        <h1>Jayanth Prathipati</h1>
+        <h2> User Experience Researcher and Software Developer
+        <br> <br> <br> <br> <br>  <br> <br> 
+      </div><!-- /.page-lead-content -->
+</div><!-- /.page-lead -->
 
-<div class="posts clearfix">
-  {% for post in site.posts %}
-    <article class="post">    
-      <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<div></div>
 
-      <div class="entry">
-      	<p>{{ post.content | truncatewords:40}}</p>
-        
-  </div>
-      
-      <a href="{{ post.proj-url }}" class="small-link primary-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read details</a>
-    </article>
-  {% endfor %}
-</div>
+
+
+<div class="tiles">
+{% for post in site.posts %}
+	{% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->
