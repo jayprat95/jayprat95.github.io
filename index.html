@@ -1,20 +1,38 @@
 ---
 layout: default
 ---
-<div class="page-lead" style="background-image:url({{ site.url }}/images/hero_image.jpg)">
-      <div class="wrap page-lead-content">
-        <h1>Jayanth Prathipati</h1>
-        <h2> User Experience Researcher and Software Developer
-        <br> <br> <br> <br> <br>  <br> <br> 
-      </div><!-- /.page-lead-content -->
-</div><!-- /.page-lead -->
 
-<div></div>
+<div class="home">
+  <div id="hero-content">
+  	<h1 id="hero-title">Hi! I'm Jayanth Prathipati</h1>
+  	<div id="typed-effect">
+    	<span class="subtitle"></span>
+    </div>
+  </div>
+</div>
+<div class="about">
+	<h1>TEST</h1>
+</div>
 
 
 
-<div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
+
+
+
+
+
+<script type="text/javascript">
+	$(function(){
+			$.stellar({
+				horizontalScrolling: true,
+				verticalOffset: 40
+			});
+		});
+      $(function(){
+        $(".subtitle").typed({
+          strings: ["UX Researcher.", "Podcaster.", "Indie iOS Developer.", "Early Adopter."],
+          loop: true,
+          typeSpeed: 30
+        });
+      });
+</script>
