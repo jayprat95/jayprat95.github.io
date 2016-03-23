@@ -476,4 +476,21 @@ pre {
 
 #about-title {
   text-align: center;
-  font-size: 2.5vw; }
+  font-size: 2.5vw;
+  color: white;
+  padding-top: 200px; }
+
+#about-description {
+  padding-bottom: 200px;
+  text-align: center;
+  color: white; }
+
+#share-icons {
+  padding-left: 20px;
+  color: #222222; }
+
+#share-icons:hover {
+  color: blue; }
+
+.about {
+  background-color: blue; }
