@@ -14,6 +14,7 @@
   <script src="/js/jquery-2.2.2.min.js"></script>
   <script src="/js/typed.js"></script>
   <script src="/js/jquery.stellar.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="canonical" href="http://yourdomain.com/">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
 </head>
@@ -25,7 +26,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">Your awesome title</a>
+    
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -59,12 +60,13 @@
   <div id="hero-content">
   	<h1 id="hero-title">Hi! I'm Jayanth Prathipati</h1>
   	<div id="typed-effect">
-    	<span class="subtitle"></span>
+    	<p> I am  <span class="subtitle"></span> </p>
     </div>
   </div>
 </div>
 <div class="about">
-	<h1>TEST</h1>
+	<h1 id="about-title">Student, Developer, Researcher, and Designer</h1>
+  <p id="about-description"></p>
 </div>
 
 
@@ -83,7 +85,7 @@
 		});
       $(function(){
         $(".subtitle").typed({
-          strings: ["UX Researcher.", "Podcaster.", "Indie iOS Developer.", "Early Adopter."],
+          strings: ["a UX Researcher.", "an iOS Developer.", "a Designer.", "an Early Adopter."],
           loop: true,
           typeSpeed: 30
         });
