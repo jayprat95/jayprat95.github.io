@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 /**
  * Reset some basic elements
  */
@@ -457,7 +463,7 @@ pre {
     color: #099; }
 
 #hero-content {
-  background: url(../img/hero_image.jpg) no-repeat center center;
+  background: url(../img/hero_img_2.jpg) no-repeat center center;
   width: 100%;
   height: 730px;
   background-size: cover; }
@@ -465,25 +471,49 @@ pre {
 #hero-title {
   text-align: center;
   color: white;
-  font-size: 4.5vw;
+  font-size: 4.5em;
   padding-top: 200px;
   margin: 0px 0px; }
 
 #typed-effect {
   text-align: center;
   color: white;
-  font-size: 2.5vw; }
+  font-size: 2.5em; }
+
+.about-section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .about-section::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #about-title {
   text-align: center;
-  font-size: 2.5vw;
   color: white;
-  padding-top: 200px; }
+  padding-top: 0px;
+  font-size: 3.5em; }
+
+.img-circle {
+  border-radius: 50%; }
+
+#about-pic {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  #about-pic:last-child {
+    margin-right: 0; }
 
 #about-description {
-  padding-bottom: 200px;
-  text-align: center;
-  color: white; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  text-align: center; }
+  #about-description:last-child {
+    margin-right: 0; }
 
 #share-icons {
   padding-left: 20px;
@@ -494,3 +524,35 @@ pre {
 
 .about {
   background-color: blue; }
+
+/* mobile portrait */
+@media screen and (min-width: 320px) {
+  #hero-title {
+    font-size: 2.5em; }
+
+  #typed-effect {
+    font-size: 1.5em; }
+
+  #hero-content {
+    height: 530px; } }
+/* mobile landscape */
+@media screen and (min-width: 480px) {
+  #hero-title {
+    font-size: 3.5em; }
+
+  #typed-effect {
+    font-size: 1.5em; }
+
+  #hero-content {
+    height: 630px; } }
+/* ipad portrait */
+@media screen and (min-width: 768px) {
+  #hero-title {
+    font-size: 3.5em; }
+
+  #typed-effect {
+    font-size: 2.5em; }
+
+  #hero-content {
+    height: 730px; } }
+/* browser, ipad landscape */
