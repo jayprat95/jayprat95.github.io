@@ -5,6 +5,7 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "animate.css"; 
+@import "hover-min.css"; 
 
 
 
@@ -140,10 +141,7 @@ $on-laptop:        800px;
 
 #share-icons {
 	padding-left: 20px; 
-	color: rgb(34, 34, 34);
-}
-#share-icons:hover {
-	color: blue;
+	color: white;
 }
 
 
