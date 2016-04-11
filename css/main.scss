@@ -4,6 +4,7 @@
 @charset "utf-8";
 @import "bourbon/bourbon";
 @import "neat/neat";
+@import "animate.css"; 
 
 
 
@@ -85,11 +86,12 @@ $on-laptop:        800px;
 #about-title {
 	text-align: center;  
 	color: white; 
-	padding-top: 0px; 
+	padding-top: 100px; 
 	font-size: 3.5em; 
 }
 
 .img-circle {
+	-webkit-transform: scale(0.80);
 	 border-radius: 50%;
 }
 
@@ -100,6 +102,10 @@ $on-laptop:        800px;
 #about-description {
 	@include span-columns(6);
 	text-align: center; 
+	padding-top: 200px;
+    margin: 0px 0px;
+    color: white; 
+
 }
 
 

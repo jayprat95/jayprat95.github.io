@@ -20,7 +20,10 @@ layout: default
     <div id="about-description">
       <p>I am a Computer Science senior at Virginia Tech with a heavy focus on HCI. <br> I work at the Usability Lab at Virginia Tech doing research on personal and health informatics. I'm also a software engineer at Element 84. <br> Finally, I'm the creator of Jhana and Compost for Instapaper. When I'm not working, I like to take photographs on instagram and write about UX on my blog. </p>
     </div>
+
+
   </section>
+
 </div>
 
 
@@ -48,11 +51,17 @@ layout: default
 				verticalOffset: 40
 			});
 		});
-      $(function(){
+  $(function(){
         $(".subtitle").typed({
           strings: ["a UX Researcher.", "an iOS Developer.", "a Designer.", "an Early Adopter."],
           loop: true,
           typeSpeed: 30
         });
-      });
+  });
+
+  $('#about-pic').addClass('animated fadeIn');
+  $('#about-title').addClass('animated fadeIn');
+  $('#about-description').addClass('animated fadeIn');
+
+
 </script>
