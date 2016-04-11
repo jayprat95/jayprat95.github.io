@@ -549,7 +549,8 @@ pre {
   padding-top: 100px;
   font-size: 1.5em;
   margin: 0px 0px;
-  color: black; }
+  color: black;
+  font-weight: lighter; }
   #about-description:last-child {
     margin-right: 0; }
 
