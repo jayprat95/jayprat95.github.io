@@ -499,6 +499,7 @@ pre {
 
 #hero-title {
   text-align: center;
+  font-weight: lighter;
   color: white;
   font-size: 4.5em;
   padding-top: 200px;
@@ -507,8 +508,10 @@ pre {
 #typed-effect {
   text-align: center;
   color: white;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 2.5em; }
+  #typed-effect .subtitle {
+    font-weight: normal; }
 
 .about-section {
   max-width: 1200px;
