@@ -550,12 +550,18 @@ pre {
   #about-description:last-child {
     margin-right: 0; }
 
+#portfolio-title {
+  text-align: center; }
+
 #share-icons {
   padding-left: 20px;
   color: white; }
 
 .about {
   background-color: blue; }
+
+.portfolio {
+  background-color: gray; }
 
 /* mobile portrait */
 @media screen and (min-width: 320px) {
