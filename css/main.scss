@@ -185,6 +185,87 @@ $on-laptop:        800px;
 
 
 
+.cards {
+  /*margin: -50px 30px auto;*/
+  margin: 15px auto;
+}
+
+.card {
+  border-radius: 5px 5px 2px 2px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  width: 512px;
+  height: 380px;
+  margin: 10px 8px;
+  text-align: left;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s;
+  position: relative;
+  vertical-align: top;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #1274C5;
+}
+
+.card > p {
+  font-size: 16px;
+  margin: 10px 20px;
+  color: black;
+  opacity: 0.6;
+  transition: all 0.2s;
+}
+
+.card > img {
+  border-radius: 2px 2px 0 0;
+  border-bottom: 1px solid #eee;
+}
+
+.card .post_thumb {
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  border-radius: 2px 2px 0 0;
+}
+
+.card > h3 {
+  font-weight: 300;
+  font-size: 22px;
+  margin: 10px 20px;
+  color: black;
+  transition: color 0.2s;
+}
+
+.card > a {
+  margin: 10px 20px;
+  font-size: 16px;
+}
+.card:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #1274C5;
+}
+
+@media (max-width: 525px) {
+  .card {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .card > img {
+    width: 100%;
+    height: auto;
+  }
+}
 
 /* mobile portrait */
 @media screen and (min-width:320px){
