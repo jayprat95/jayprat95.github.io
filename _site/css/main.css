@@ -158,6 +158,14 @@ pre {
 /**
  * Site header
  */
+::selection {
+  background-color: #FFDD33;
+  color: #222222; }
+
+::-moz-selection {
+  background-color: #FFDD33;
+  color: #222222; }
+
 .site-header {
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
@@ -180,10 +188,15 @@ pre {
     display: none; }
   .site-nav .page-link {
     color: #111;
-    line-height: 1.5; }
+    line-height: 1.5;
+    transition: all 0.5s ease; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   .site-nav .page-link:hover {
+    text-decoration: none;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none; }
   @media screen and (max-width: 600px) {
     .site-nav {

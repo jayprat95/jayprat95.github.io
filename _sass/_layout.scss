@@ -1,6 +1,17 @@
 /**
  * Site header
  */
+
+ ::selection {
+    background-color: #FFDD33;
+    color: #222222;
+}
+::-moz-selection {
+    background-color: #FFDD33;
+    color: #222222;
+}
+
+
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -36,6 +47,7 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        transition: all 0.5s ease;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -45,6 +57,10 @@
     }
 
     .page-link:hover {
+            text-decoration: none; 
+        background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         text-decoration: none; 
     }
 
