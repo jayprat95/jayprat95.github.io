@@ -1,8 +1,6 @@
 @import url(animate.css);
 @import url(hover-min.css);
 @import url(bootstrap.min.css);
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,500,200);
-@import url(https://fonts.googleapis.com/css?family=Karla:700);
 html {
   box-sizing: border-box; }
 
@@ -527,11 +525,11 @@ h1 {
 #typed-effect {
   text-align: center;
   color: white;
-  font-weight: 200;
-  font-family: 'Work Sans', sans-serif;
+  font-weight: light;
+  font-family: "proxima-nova",sans-serif;
   font-size: 2.5em; }
   #typed-effect .subtitle {
-    font-weight: normal; }
+    font-weight: thin; }
 
 #about-title {
   text-align: center;
@@ -557,7 +555,7 @@ h1 {
   padding-right: 20px;
   color: black;
   font-weight: 300;
-  font-family: 'Work Sans', sans-serif; }
+  font-family: "proxima-nova",sans-serif; }
 
 #portfolio-title {
   text-align: center; }

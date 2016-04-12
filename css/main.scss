@@ -7,8 +7,6 @@
 @import "animate.css"; 
 @import "hover-min.css"; 
 @import "bootstrap.min.css"; 
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,500,200);
-@import url(https://fonts.googleapis.com/css?family=Karla:700);
 
 
 
@@ -127,11 +125,11 @@ font-family: "sofia-pro",sans-serif;
 #typed-effect {
 	text-align: center; 
 	color: white; 
-	font-weight: 200; 
+	font-weight: light; 
 	.subtitle {
-		font-weight: normal; 
+		font-weight: thin; 
 	} 
-	font-family: 'Work Sans', sans-serif;
+	font-family: "proxima-nova",sans-serif;
 	font-size: 2.5em;  
 }
 
@@ -163,7 +161,7 @@ font-family: "sofia-pro",sans-serif;
     padding-right: 20px; 
     color: black; 
     font-weight: 300; 
-    font-family: 'Work Sans', sans-serif;
+    font-family: "proxima-nova",sans-serif;
 }
 
 #portfolio-title {
