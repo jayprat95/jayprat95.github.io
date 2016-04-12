@@ -7,8 +7,8 @@
 @import "animate.css"; 
 @import "hover-min.css"; 
 @import "bootstrap.min.css"; 
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,500);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,500,200);
+@import url(https://fonts.googleapis.com/css?family=Karla:700);
 
 
 
@@ -84,7 +84,7 @@ $on-laptop:        800px;
 
 h1 {
 font-weight: 700;
-font-family: "Inconsolata", Helvetica, Arial, sans-serif;
+font-family: 'Karla', sans-serif;
 }
 
 
@@ -127,7 +127,7 @@ font-family: "Inconsolata", Helvetica, Arial, sans-serif;
 #typed-effect {
 	text-align: center; 
 	color: white; 
-	font-weight: lighter; 
+	font-weight: 200; 
 	.subtitle {
 		font-weight: normal; 
 	} 
@@ -162,7 +162,7 @@ font-family: "Inconsolata", Helvetica, Arial, sans-serif;
     margin: 0px 0px;
     padding-right: 20px; 
     color: black; 
-    font-weight: 340; 
+    font-weight: 300; 
     font-family: 'Work Sans', sans-serif;
 }
 
