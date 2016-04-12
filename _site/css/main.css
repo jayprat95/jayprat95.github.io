@@ -184,6 +184,8 @@ pre {
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
+  .site-nav .page-link:hover {
+    text-decoration: none; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
@@ -513,6 +515,7 @@ body:before {
   transition: all 0.5s ease; }
 
 .site-title:hover {
+  text-decoration: none;
   background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }

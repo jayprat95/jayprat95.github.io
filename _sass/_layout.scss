@@ -12,11 +12,13 @@
 
 .site-title {
     font-size: 26px;
+
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+
 
     &,
     &:visited {
@@ -40,6 +42,11 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
+
+    }
+
+    .page-link:hover {
+        text-decoration: none; 
     }
 
     @include media-query($on-palm) {
