@@ -203,7 +203,7 @@ font-family: "sofia-pro",sans-serif;
   background: #FFFFFF;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   width: 512px;
-  height: 380px;
+  height: 500px;
   margin: 10px 8px;
   text-align: left;
   display: inline-block;
@@ -215,6 +215,7 @@ font-family: "sofia-pro",sans-serif;
 }
 
 .card:hover {
+	text-decoration: none; 
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -379,9 +380,16 @@ font-family: "sofia-pro",sans-serif;
 	#about-description {
 		font-size: 1.5em;  
 		padding-left: 50px; 
-		padding-top: 100px; 
+		padding-top: 0px; 
 	}
 
+}
+
+
+@media screen and (min-width: 1366px) {
+		#about-description {
+		padding-top: 100px; 
+	}
 }
 
 
