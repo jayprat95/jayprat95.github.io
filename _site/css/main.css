@@ -159,7 +159,7 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
+  
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: relative; }
@@ -229,20 +229,7 @@ pre {
   padding: 30px 0;
   background-color: black;
   position: relative;
-  margin-top: -180px;
-  /* negative value of footer height */
-  height: 180px;
-  clear: both; }
-
-/*Opera Fix*/
-body:before {
-  /* thanks to Maleika (Kohoutec)*/
-  content: "";
-  height: 100%;
-  float: left;
-  width: 0;
-  margin-top: -32767px;
-  /* thank you Erik J - negate effect of float*/ }
+ }
 
 .footer-heading {
   font-size: 18px;
