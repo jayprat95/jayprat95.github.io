@@ -80,6 +80,17 @@ $on-laptop:        800px;
 }
 
 
+.site-title {
+	transition: all 0.5s ease;
+}
+.site-title:hover {
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+
+}
+
+
 #hero-content {
   background: 
     linear-gradient(
@@ -121,6 +132,7 @@ $on-laptop:        800px;
 	color: black; 
 	padding-top: 100px; 
 	font-size: 3.5em; 
+	font-weight: bold; 
 }
 
 .img-circle {
@@ -134,13 +146,14 @@ $on-laptop:        800px;
 
 #about-description {
 	@include span-columns(6);
+	@include omega;
 	text-align: center; 
 	padding-top: 100px;
 	font-size: 1.5em; 
     margin: 0px 0px;
+    padding-right: 20px; 
     color: black; 
-    font-weight: lighter; 
-
+    font-weight: 340; 
 }
 
 #portfolio-title {
@@ -162,6 +175,17 @@ $on-laptop:        800px;
 	background-color: gray; 
 }
 
+#portfolio-title {
+	text-align: center;  
+	color: black; 
+	font-weight: bold;
+	padding-top: 100px; 
+	font-size: 3.5em; 
+}
+
+
+
+
 /* mobile portrait */
 @media screen and (min-width:320px){
 	#hero-title {
@@ -172,6 +196,14 @@ $on-laptop:        800px;
 	}
 	#hero-content {
 		height: 530px;
+	}
+
+	#about-title {
+		font-size: 2.5em;  
+	}
+
+	#about-description {
+		font-size: 1.0em;  
 	}
 }
 
@@ -186,6 +218,14 @@ $on-laptop:        800px;
 	#hero-content {
 		height: 630px;
 	}
+
+	#about-title {
+		font-size: 3.5em;  
+	}
+
+	#about-description {
+		font-size: 1.0em;  
+	}
 }
 
 /* ipad portrait */
@@ -198,6 +238,13 @@ $on-laptop:        800px;
 	}
 	#hero-content {
 		height: 730px;
+	}
+	#about-title {
+		font-size: 3.5em;  
+	}
+
+	#about-description {
+		font-size: 1.5em;  
 	}
 }
 
