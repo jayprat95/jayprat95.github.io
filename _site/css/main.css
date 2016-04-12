@@ -1,6 +1,8 @@
 @import url(animate.css);
 @import url(hover-min.css);
 @import url(bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,500);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 html {
   box-sizing: border-box; }
 
@@ -495,6 +497,10 @@ pre {
     opacity: 0; }
   100% {
     opacity: 1; } }
+h1 {
+  font-weight: 700;
+  font-family: "Inconsolata", Helvetica, Arial, sans-serif; }
+
 .site-title {
   transition: all 0.5s ease; }
 
@@ -522,6 +528,7 @@ pre {
   text-align: center;
   color: white;
   font-weight: lighter;
+  font-family: 'Work Sans', sans-serif;
   font-size: 2.5em; }
   #typed-effect .subtitle {
     font-weight: normal; }
@@ -549,7 +556,8 @@ pre {
   margin: 0px 0px;
   padding-right: 20px;
   color: black;
-  font-weight: 340; }
+  font-weight: 340;
+  font-family: 'Work Sans', sans-serif; }
 
 #portfolio-title {
   text-align: center; }

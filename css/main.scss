@@ -7,6 +7,8 @@
 @import "animate.css"; 
 @import "hover-min.css"; 
 @import "bootstrap.min.css"; 
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,500);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 
 
@@ -80,6 +82,13 @@ $on-laptop:        800px;
     100% { opacity:1; }
 }
 
+h1 {
+font-weight: 700;
+font-family: "Inconsolata", Helvetica, Arial, sans-serif;
+}
+
+
+
 
 .site-title {
 	transition: all 0.5s ease;
@@ -122,6 +131,7 @@ $on-laptop:        800px;
 	.subtitle {
 		font-weight: normal; 
 	} 
+	font-family: 'Work Sans', sans-serif;
 	font-size: 2.5em;  
 }
 
@@ -153,6 +163,7 @@ $on-laptop:        800px;
     padding-right: 20px; 
     color: black; 
     font-weight: 340; 
+    font-family: 'Work Sans', sans-serif;
 }
 
 #portfolio-title {
