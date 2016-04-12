@@ -3,16 +3,14 @@
 
   {% include head.html %}
 
-  <body style="	min-height:100%;
-	position:relative;">
+  <body style="	min-height: 100%;">
 
     {% include header.html %}
-    <div style="padding-bottom:100px; /* Height of the footer element */">
+    <div style="overflow:auto;
+	padding-bottom: 180px;">
     	{{ content }}
     </div>
-    
-    {% include footer.html %}
-
   </body>
+      {% include footer.html %}
 
 </html>

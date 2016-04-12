@@ -6,6 +6,7 @@
 @import "neat/neat";
 @import "animate.css"; 
 @import "hover-min.css"; 
+@import "bootstrap.min.css"; 
 
 
 
@@ -124,7 +125,6 @@ $on-laptop:        800px;
 }
 
 .about-section {
-	@include outer-container;
 }
 
 #about-title {
@@ -136,17 +136,14 @@ $on-laptop:        800px;
 }
 
 .img-circle {
-	-webkit-transform: scale(0.80);
+	-webkit-transform: scale(0.5);
 	 border-radius: 50%;
 }
 
 #about-pic {
-	@include span-columns(6);
 }
 
 #about-description {
-	@include span-columns(6);
-	@include omega;
 	text-align: center; 
 	padding-top: 100px;
 	font-size: 1.5em; 
