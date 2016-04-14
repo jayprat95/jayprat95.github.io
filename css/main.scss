@@ -82,7 +82,7 @@ $on-laptop:        800px;
 
 h1 {
 font-weight: 700;
-font-family: "sofia-pro",sans-serif;
+/*font-family: "sofia-pro",sans-serif;*/
 }
 
 
@@ -90,6 +90,7 @@ font-family: "sofia-pro",sans-serif;
 
 .site-title {
 	transition: all 0.5s ease;
+	/*font-family: "sofia-pro",sans-serif;*/
 }
 .site-title:hover {
 	text-decoration: none; 
@@ -115,7 +116,7 @@ font-family: "sofia-pro",sans-serif;
 
 #hero-title {
 	text-align: center;  
-	font-weight: lighter; 
+	font-weight: normal; 
 	color: white; 
 	font-size: 4.5em;  
 	padding-top: 200px;
@@ -127,9 +128,8 @@ font-family: "sofia-pro",sans-serif;
 	color: white; 
 	font-weight: light; 
 	.subtitle {
-		font-weight: thin; 
+		font-weight: 200; 
 	} 
-	font-family: "proxima-nova",sans-serif;
 	font-size: 2.5em;  
 }
 
@@ -215,7 +215,7 @@ font-family: "sofia-pro",sans-serif;
 }
 
 .card:hover {
-	text-decoration: none; 
+	text-decoration: none;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
