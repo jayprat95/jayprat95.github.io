@@ -14,21 +14,23 @@ layout: default
 </div>
 
 <div style="width:100%;border-top: 1px solid #D8D8D8;
-border-bottom: 1px solid #D8D8D8;" class="row">
+border-bottom: 1px solid #D8D8D8;" class="row" id="about_combined">
   <section class="about-section">
-          <h1 id="about-title">Student, Mobile Developer, UX Researcher</h1>
-      <div id="about-pic" class="col-md-6">
-        <img class="img-circle" src="../img/about_img.jpg" alt="Mountain View"> </img> 
-      </div>
-      <div id="about-description" class="col-md-6">
-        <p>I am a Computer Science senior at Virginia Tech with a heavy focus on HCI. I work at the Usability Lab at Virginia Tech doing research on personal and health informatics. I'm also a software engineer at Element 84 and I'm the creator of Jhana and Compost for Instapaper. When I'm not working, I like to take photographs, hike, and write about UX on my blog. </p>
-      </div>
+          <h1 id="about-title">Hi, I'm Jayanth</h1>
+  <div class="row vcenter">
+          <div class="col-sm-6">
+            <img class="img-circle" src="../img/about_img.jpg">
+          </div>
+          <div class="col-sm-6">
+          <p id="about-description">I'm an aspiring Product Manager and a current masters student at Carnegie Mellon's Human Computer Interaction Institute. Before joining CMU, I was a Computer Science student and HCI Researcher at Virginia Tech and a Software Developer at Element 84. </p>
+          </div>
+    </div> 
   </section>
 </div>
 
 
 <div style="width:100%;background-color:#F8F8F8; border-top: 1px solid #D8D8D8;
-border-bottom: 1px solid #D8D8D8;">
+border-bottom: 1px solid #D8D8D8;" >
   <h1 id="portfolio-title">Check out my projects!</h1>
   <div style="text-align:center;">
       {% for post in site.posts %}
@@ -44,9 +46,9 @@ border-bottom: 1px solid #D8D8D8;">
 </div>
 
 
-<div>
+
+<div id="test-text">
   <h1 id="portfolio-title">Want to get in Touch? </h1>
-  <
 </div>
 
 
@@ -63,7 +65,7 @@ border-bottom: 1px solid #D8D8D8;">
 		});
   $(function(){
         $(".subtitle").typed({
-          strings: ["UX Researcher", "iOS Developer", "Designer", "Early Adopter"],
+          strings: ["UX Researcher", "Mobile Developer", "Designer", "Early Adopter"],
           loop: true,
           typeSpeed: 30
         });
