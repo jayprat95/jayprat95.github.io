@@ -552,7 +552,6 @@ h1 {
   font-weight: bold; }
 
 .img-circle {
-  margin-left: 30px;
   padding-left: 20px;
   padding-bottom: 20px; }
 
@@ -745,3 +744,6 @@ h1 {
   #about-description {
     padding-left: 50px;
     padding-top: 0px; } }
+@media screen and (min-width: 1366px) {
+  .img-circle {
+    margin-left: 30px; } }

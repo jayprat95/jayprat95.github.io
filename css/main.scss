@@ -147,7 +147,6 @@ font-weight: 700;
 }
 
 .img-circle {
-	margin-left: 30px; 
 	padding-left: 20px; 
 	padding-bottom: 20px; 
 
@@ -404,9 +403,11 @@ font-weight: 700;
 
 
 @media screen and (min-width: 1366px) {
-		#about-description {
+		.img-circle {
+			margin-left: 30px; 
+		}
 	}
-}
+
 
 
 
