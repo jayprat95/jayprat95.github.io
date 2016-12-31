@@ -560,7 +560,7 @@ h1 {
   padding-bottom: 30px; }
 
 #about-description {
-  text-align: center;
+  text-align: left;
   font-weight: 400;
   padding-right: 20px; }
 
@@ -706,6 +706,9 @@ h1 {
     padding-left: 50px;
     padding-top: 0px; }
 
+  .row.vcenter {
+    display: block; } }
+@media screen and (max-width: 736px) {
   .row.vcenter {
     display: block; } }
 /* ipad portrait */

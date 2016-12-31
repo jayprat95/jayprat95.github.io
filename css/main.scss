@@ -160,7 +160,7 @@ font-weight: 700;
 
 
 #about-description {
-	text-align: center; 
+	text-align: left; 
 	font-weight: 400; 
     padding-right: 20px; 
 
@@ -345,6 +345,13 @@ font-weight: 700;
 	}
 
 	.row.vcenter {
+		display: block; 
+	}
+}
+
+
+@media screen and (max-width:736px) {
+		.row.vcenter {
 		display: block; 
 	}
 }
