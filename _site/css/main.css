@@ -1,13 +1,8 @@
 @import url(animate.css);
 @import url(hover-min.css);
 @import url(bootstrap.min.css);
+@import url("https://afeld.github.io/emoji-css/emoji.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 /**
  * Reset some basic elements
  */
@@ -547,10 +542,13 @@ h1 {
 #about-title {
   text-align: center;
   color: black;
-  padding-top: 100px;
   padding-bottom: 30px;
   font-size: 3.5em;
   font-weight: bold; }
+
+.about-section {
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
 .img-circle {
   padding-left: 20px;

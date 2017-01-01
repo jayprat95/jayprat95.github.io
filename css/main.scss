@@ -2,11 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import "bourbon/bourbon";
-@import "neat/neat";
 @import "animate.css"; 
 @import "hover-min.css"; 
 @import "bootstrap.min.css"; 
+@import url('https://afeld.github.io/emoji-css/emoji.css'); 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
@@ -140,10 +139,14 @@ font-weight: 700;
 #about-title {
 	text-align: center;  
 	color: black; 
-	padding-top: 100px; 
 	padding-bottom: 30px; 
 	font-size: 3.5em; 
 	font-weight: bold; 
+}
+
+.about-section {
+	padding-top: 100px; 
+	padding-bottom: 100px; 
 }
 
 .img-circle {
@@ -268,6 +271,8 @@ font-weight: 700;
   outline: none;
   box-shadow: 0 0 0 2px #1274C5;
 }
+
+
 
 @media (max-width: 525px) {
   .card {
