@@ -16,16 +16,16 @@ layout: default
 <div style="width:100%;border-top: 1px solid #D8D8D8;
 border-bottom: 1px solid #D8D8D8;" class="row" id="about_combined">
   <section class="about-section">
-          <h1 id="about-title">Hi, I'm Jayanth</h1>
+          <h1 id="about-title">About Me</h1>
   <div class="row vcenter">
           <div class="col-sm-6">
             <img class="img-circle" src="../img/about_img.jpg">
           </div>
           <div class="col-sm-6">
-          <p id="about-description">I'm an aspiring Product Manager and a current masters student at Carnegie Mellon's Human Computer Interaction Institute. Before joining CMU, I was a Computer Science student and <a href='http://research.cs.vt.edu/ns/'> UX Researcher at Virginia Tech</a>, a Software Developer at <a href='http://www.element84.com'>Element 84</a>, and an 
+          <p id="about-description">Hi, I'm Jayanth! I'm an aspiring Product Manager and a current masters student at Carnegie Mellon's Human Computer Interaction Institute. Before joining CMU, I was a Computer Science student and <a href='http://research.cs.vt.edu/ns/'> UX Researcher at Virginia Tech</a>, a Software Developer at <a href='http://www.element84.com'>Element 84</a>, and an 
             <a href'https://itunes.apple.com/us/developer/jayanth-prathipati/id1020926584'> indie mobile developer</a>. </p>
           <p id="about-description">
-            I like wearing many hats and I love to live at the intersection of business, design, and development. I stumbled into Human Computer Interaction and Human-Centered Design and have loved it's approach in building the best product for your users. I've learned how to lead interdisciplinary teams and help create some awesome products and I'd love to bring my approach to your company.</p>
+            I like wearing many hats and I love to live at the intersection of business, design, and development. After my first year at Virginia Tech, I stumbled into Human Computer Interaction and Human-Centered Design and have loved it's approach in building the best product for your users. I've learned how to lead interdisciplinary teams and help create some awesome products and I'd love to bring my approach to your company.</p>
           </div>
     </div> 
   </section>
@@ -34,7 +34,8 @@ border-bottom: 1px solid #D8D8D8;" class="row" id="about_combined">
 
 <div style="width:100%;background-color:#F8F8F8; border-top: 1px solid #D8D8D8;
 border-bottom: 1px solid #D8D8D8;" >
-  <h1 id="portfolio-title">Check out my projects!</h1>
+<section class="portfolio-section">
+  <h1 id="portfolio-title">Check out my portfolio</h1>
   <div style="text-align:center;">
       {% for post in site.posts %}
           <a class="card" href="{{ post.url | prepend: site.baseurl }}">
@@ -46,12 +47,16 @@ border-bottom: 1px solid #D8D8D8;" >
           </a>
       {% endfor %}
   </div>
+  </section>
 </div>
 
 
 
 <div id="test-text">
   <h1 id="portfolio-title">Want to get in Touch? </h1>
+  <p id="about-description">
+    I'm always excited to collaborate on projects and learn more from others. If you'd like to get in touch, feel free to contact me over email at jayprat95[at]gmail.com or contact me on social media as listed below. 
+  </p>
 </div>
 
 
@@ -68,7 +73,7 @@ border-bottom: 1px solid #D8D8D8;" >
 		});
   $(function(){
         $(".subtitle").typed({
-          strings: ["UX Researcher", "Mobile Developer", "Designer", "Early Adopter"],
+          strings: ["Product Manager", "UX Designer", "Mobile Developer", "Early Adopter"],
           loop: true,
           typeSpeed: 30
         });

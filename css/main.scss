@@ -161,8 +161,9 @@ font-weight: 700;
 
 #about-description {
 	text-align: left; 
-	font-weight: 400; 
+	font-size: 1.2em; 
     padding-right: 20px; 
+    color: #555; 
 
     
    
@@ -327,7 +328,7 @@ font-weight: 700;
 	}
 
 	#about-description {
-		font-size: 1.0em;  
+		
 	}
 
 		#about-pic {
@@ -353,6 +354,9 @@ font-weight: 700;
 @media screen and (max-width:736px) {
 		.row.vcenter {
 		display: block; 
+	}
+	#about-description {
+		font-size: 1em; 
 	}
 }
 

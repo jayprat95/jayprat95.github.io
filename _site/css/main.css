@@ -318,7 +318,8 @@ pre {
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 1;
+  margin-top: 20px; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
@@ -561,8 +562,9 @@ h1 {
 
 #about-description {
   text-align: left;
-  font-weight: 400;
-  padding-right: 20px; }
+  font-size: 1.2em;
+  padding-right: 20px;
+  color: #555; }
 
 #portfolio-title {
   text-align: center; }
@@ -692,9 +694,6 @@ h1 {
   #about-title {
     font-size: 3.5em; }
 
-  #about-description {
-    font-size: 1.0em; }
-
   #about-pic {
     padding-left: 40px; }
 
@@ -710,7 +709,10 @@ h1 {
     display: block; } }
 @media screen and (max-width: 736px) {
   .row.vcenter {
-    display: block; } }
+    display: block; }
+
+  #about-description {
+    font-size: 1em; } }
 /* ipad portrait */
 @media screen and (min-width: 768px) {
   #hero-title {
