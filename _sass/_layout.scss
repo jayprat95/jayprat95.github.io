@@ -210,7 +210,9 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    text-align: center;
+    color: #555; 
+ 
 }
 
 .post-link {
@@ -227,6 +229,7 @@
 
 .post-header {
     margin-bottom: $spacing-unit;
+    border-bottom: 1px solid #D8D8D8;
 }
 
 .post-title {
@@ -234,6 +237,7 @@
     letter-spacing: -1px;
     line-height: 1;
     margin-top: 20px; 
+    text-align: center; 
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -242,6 +246,14 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    text-align: center;
+
+
+    p {
+        text-align: left;
+        margin-left: $spacing-unit; 
+        margin-right: $spacing-unit; 
+    }
 
     h2 {
         font-size: 32px;

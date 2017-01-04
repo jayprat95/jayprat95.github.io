@@ -5,8 +5,8 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Dec 2016 23:06:25 -0500</pubDate>
-    <lastBuildDate>Sat, 31 Dec 2016 23:06:25 -0500</lastBuildDate>
+    <pubDate>Wed, 04 Jan 2017 14:14:01 -0500</pubDate>
+    <lastBuildDate>Wed, 04 Jan 2017 14:14:01 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -248,19 +248,27 @@
     
       <item>
         <title>Jhana: An exploration of the Experience Sampling Method</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;h1 id=&quot;about-this-project&quot;&gt;About This Project&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
+	    &lt;div class=&quot;col-sm-6&quot;&gt;
+            &lt;h3&gt; Summary &lt;/h3&gt; 
+            &lt;p&gt;Domain | Mobile Health/Quantified Self &lt;/p&gt; 
+            &lt;p&gt;Skills | prototyping, usability testing, illustration, iOS development (Obj-C)&lt;/p&gt;
+            &lt;p&gt;Tools | Sketch, Xcode&lt;/p&gt; 
+            &lt;p&gt;Role | Lead Researcher, Designer, &amp;amp; Back End Developer&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;col-sm-6&quot;&gt;
+          &lt;h3&gt;Problem Space&lt;/h3&gt;
+          &lt;p&gt;With the advent of wearables and smart phones, tracking your physical activity has been getting easier. However, tracking your mental focus has not changed. we wanted to explore how we could use the devices that are in our pockets and on our wrists to help us better track what we are doing and see how that could change our behaviors over time.&lt;/p&gt;
+          &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h1 id=&quot;our-research&quot;&gt;Our Research&lt;/h1&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;We performed a literature review on quantified-self technologies as well as doing some competitive analysis on what is currently on the market. It turns out that most&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;our-prototyping&quot;&gt;Our Prototyping&lt;/h1&gt;
 
 </description>
         <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>
