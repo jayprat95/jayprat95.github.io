@@ -3,6 +3,7 @@
 @import url(bootstrap.min.css);
 @import url("https://afeld.github.io/emoji-css/emoji.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 /**
  * Reset some basic elements
  */
@@ -322,13 +323,27 @@ pre {
     .post-title {
       font-size: 36px; } }
 
+iframe, object, embed {
+  max-width: 100%; }
+
+#post-caption {
+  text-align: center;
+  font-size: 14px;
+  color: #555; }
+
 .post-content {
   margin-bottom: 30px;
   text-align: center; }
   .post-content p {
     text-align: left;
     margin-left: 30px;
-    margin-right: 30px; }
+    margin-right: 30px;
+    font-family: 'Raleway', sans-serif; }
+  .post-content li {
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Raleway', sans-serif; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
