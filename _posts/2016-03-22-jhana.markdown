@@ -4,7 +4,7 @@ title:  "Jhana: An exploration of the Experience Sampling Method"
 banner_img: "jhana_icon.png"
 date:   2016-03-22 15:33:53 -0400
 description: "Learn insights about how focused you are throughout the day."
-
+permalink: jhana
 categories: jekyll update
 ---
 
@@ -26,6 +26,11 @@ categories: jekyll update
 </div>
 
 
+# Our Solution 
+
+We built an Apple Watch and iPhone app called Jhana that allowed users to self-report their attention. Users get notifications to fill out small 5 second surveys throughout the day on their watch and their phone and get to view graphs and additional insights on their surveys in the corresponding iPhone app. 
+
+
 
 # Our Research 
 
@@ -39,8 +44,16 @@ categories: jekyll update
     We also interviewed students who tracking them own activity in various ways such as using Fitbits, Apple Watch, or even manual diary entries like MyFitnessPal and used this data to construct an affinity diagram as well a hierarchical task analysis.
   </p>
   <p>
-    We gained some key insights from this research. Primarily, we found out that user's felt that entering in activity in apps like MyFitnessPal had a lot of mental strain and felt stressed out when filling out this information. In addition, we found that once users settled into a routine, they didn't find these devices as important anymore as they already knew what insights the Fitbit or MyFitnessPal app would tell them.
+    We gained some key insights from this research: 
   </p>
+  <ul>
+    <li>
+      Primarily, we found out that user's felt that entering in activity in apps like MyFitnessPal had a lot of mental strain and felt stressed out when filling out this information. 
+    </li>
+    <li>
+      In addition, we found that once users settled into a routine, they didn't find these devices as important anymore as they already knew what insights the Fitbit or MyFitnessPal app would tell them.
+    </li>
+  </ul>
 </div>
 <div class="col-sm-6">
 <img src="/img/affinity_jh.png">
@@ -64,13 +77,13 @@ To bring these ideas to fruition, I designed a swiping leikert scale to make it 
 <iframe src="//giphy.com/embed/wBHZfKccOgA5q" width="480" height="859" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 <iframe src="//giphy.com/embed/26FL9ovWI3vCtLU1a" width="480" height="683" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-<br>
+<br> 
+
+We built out our iPhone app using the interactions we learned from these interactions. We used Core Data to create a local database and made use of a lot of App Kit features such as storyboards and auto-layout to make our app compatible with all screen sizes. 
 
 # Our Evaluation 
 
-We ran a 2 day user study to study how using a wearable device would change user's attention. We did pre and post study interviews to understand our users and get their opinions on the product. In addition to that, I integrated <a href="https://developer.yahoo.com/analytics/">Flurry Analytics</a>  into our iPhone and WatchOS app We initially thought that users would favor having the combination of an Apple Watch and iPhone and would be able to perform tasks faster. 
-
-However, we came to some interesting conclusions from our findings. 
+We ran a 2 day user study to study how using a wearable device would change user's attention. We did pre and post study interviews to understand our users and get their opinions on the product. In addition to that, I integrated <a href="https://developer.yahoo.com/analytics/">Flurry Analytics</a>  into our iPhone and WatchOS app in order to log usage information of the app such as how long users took in order to fill out a survey. We initially thought that users would favor having the combination of an Apple Watch and iPhone and would be able to perform tasks faster. However, we came to some interesting conclusions from our findings. 
 
 - We found out that users "felt" that the watch app was much easier to log entries with....however, from our Flurry dashboard we found that the time difference between the watch and the iPhone apps was very small 
 - We found that users were in fact changing their behavior based after using our app. One user reported to us that she changed her studying habits after getting notifications from the app. 
