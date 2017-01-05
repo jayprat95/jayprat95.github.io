@@ -14,7 +14,7 @@ categories: jekyll update
 	    <div class="col-sm-6">
             <h3> Summary </h3> 
             <p><b>Domain </b>| Mobile Health/Quantified Self </p> 
-            <p><b>Skills </b>| prototyping, usability testing, illustration, iOS+watchOS development (Obj-C) </p>
+            <p><b>Skills </b>| prototyping, usability testing, contextual inquiry, interviewing, illustration, iOS+watchOS development (Obj-C) </p>
             <p><b>Tools</b> | Sketch, Xcode</p> 
             <p><b>Role</b> | Lead Researcher, Designer, and Back End Developer</p>
             <p><b>Team</b> | Jayanth Prathipati, <a href="http://schung7.github.io">Steven Chung</a> (Lead Front End Developer & designer), and <a href="http://people.cs.vt.edu/rbeaton/">Bobby Beaton</a> (Mentor)  </p> 
