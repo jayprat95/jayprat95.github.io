@@ -31,7 +31,7 @@ categories: jekyll update
 
 <div class="row" style="margin-left:0px; margin-right:0px;">
 
-<div class="col-sm-8">
+<div class="col-sm-6">
   <p>
     We performed a literature review on quantified-self technologies as well as doing some competitive analysis on what is currently on the market. 
   </p>
@@ -42,7 +42,7 @@ categories: jekyll update
     We gained some key insights from this research. Primarily, we found out that user's felt that entering in activity in apps like MyFitnessPal had a lot of mental strain and felt stressed out when filling out this information. In addition, we found that once users settled into a routine, they didn't find these devices as important anymore as they already knew what insights the Fitbit or MyFitnessPal app would tell them.
   </p>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-6">
 <img src="/img/affinity_jh.png">
 <p id="post-caption">Affinity Diagram from our interviews</p>
 
