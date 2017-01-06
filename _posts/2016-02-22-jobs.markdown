@@ -54,11 +54,14 @@ We used [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) to pars
 
 # Data Cleaning 
 
-We initially had to clean all of the data and try to get the closest major city to a lot of minor locations. For example, we could get a job listing for Queens, New York. We needed to have a way to figure out if that was in the New York metropolitan area. We used reverse geo location to get the general area of a job and sort our listings by metro locations. 
+We initially had to clean all of the data and try to get the closest major city to a lot of minor locations. For example, we could get a job listing for Queens, New York. We needed to have a way to figure out if that was in the New York metropolitan area. We used reverse geocoding to get the general area of a job and sort our listings by metro locations. 
 
 <br> 
 
-# Our Solution 
+# Final Results
+
+After cleaning our data, we fed this data into NumPy to perform K-Means clustering in order to make better sense of the data. We found (to no surprise)
+that jobs were centered around various tech hubs around the US such as S.F, NYC, and Austin. We did find some surprises, namely that Chicago and Atlanta had lots of tech jobs. Chicago had approximately 208 job listings and Atlanta had approximately 63. We have listed two visualizations that we built to better show our results. Please check them below. They are unfortunately not responsive, so please look at them on a laptop or desktop device! 
 
 <p>Here is a choropleth map that cumulates all of the developer jobs in the USA. Slide the bar below to see a count of developer jobs for a specific language!</p>
 
