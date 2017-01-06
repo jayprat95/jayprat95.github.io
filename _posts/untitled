@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Jobs: A look into Data Viz and Machine Learning"
+banner_img: "jhana_icon.png"
+date:   2016-03-22 15:33:53 -0400
+description: "Use Machine Learning to find deep insights into a software developer's job search"
+permalink: jobs
+categories: jekyll update
+---

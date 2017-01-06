@@ -5,8 +5,8 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Jan 2017 10:55:38 -0500</pubDate>
-    <lastBuildDate>Thu, 05 Jan 2017 10:55:38 -0500</lastBuildDate>
+    <pubDate>Thu, 05 Jan 2017 19:31:06 -0500</pubDate>
+    <lastBuildDate>Thu, 05 Jan 2017 19:31:06 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -122,9 +122,13 @@
           &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;our-solution&quot;&gt;Our Solution&lt;/h1&gt;
 
 &lt;p&gt;We built an Apple Watch and iPhone app called Jhana that allowed users to self-report their attention. Users get notifications to fill out small 5 second surveys throughout the day on their watch and their phone and get to view graphs and additional insights on their surveys in the corresponding iPhone app.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;our-research&quot;&gt;Our Research&lt;/h1&gt;
 
@@ -158,6 +162,8 @@
 
 &lt;/div&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;our-prototyping&quot;&gt;Our Prototyping&lt;/h1&gt;
 
 &lt;p&gt;We built low-fi paper prototypes and built a marvel prototype to test our interface. We quickly found that our data entry process was fairly straight forward and didn’t get many complaints.&lt;/p&gt;
@@ -175,6 +181,8 @@
 
 &lt;p&gt;We built out our iPhone app using the interactions we learned from these interactions. We used Core Data to create a local database and made use of a lot of App Kit features such as storyboards and auto-layout to make our app compatible with all screen sizes.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;our-evaluation&quot;&gt;Our Evaluation&lt;/h1&gt;
 
 &lt;p&gt;We ran a 2 day user study to study how using a wearable device would change user’s attention. We did pre and post study interviews to understand our users and get their opinions on the product. In addition to that, I integrated &lt;a href=&quot;https://developer.yahoo.com/analytics/&quot;&gt;Flurry Analytics&lt;/a&gt;  into our iPhone and WatchOS app in order to log usage information of the app such as how long users took in order to fill out a survey. We initially thought that users would favor having the combination of an Apple Watch and iPhone and would be able to perform tasks faster. However, we came to some interesting conclusions from our findings.&lt;/p&gt;
@@ -189,6 +197,21 @@
         <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>
         <link>http://localhost:4000/jhana</link>
         <guid isPermaLink="true">http://localhost:4000/jhana</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Jobs: A look into Data Viz and Machine Learning</title>
+        <description>
+</description>
+        <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>
+        <link>http://localhost:4000/jobs</link>
+        <guid isPermaLink="true">http://localhost:4000/jobs</guid>
         
         
         <category>jekyll</category>

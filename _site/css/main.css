@@ -333,7 +333,9 @@ iframe, object, embed {
 
 .post-content {
   margin-bottom: 30px;
-  text-align: center; }
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%; }
   .post-content p {
     text-align: left;
     margin-left: 30px;
