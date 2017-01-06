@@ -64,7 +64,94 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    
+    <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js?2"></script>
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+<script type="text/javascript" src="/js/dragdealer.min.js"></script>
+
+<link href="/css/dragdealer.css" type="text/css" rel="stylesheet" />
+
+<link href="/css/graph.css" type="text/css" rel="stylesheet" />
+
+<h1 id="about-this-project">About This Project</h1>
+
+<div class="row" style="margin-left:0px; margin-right:0px;">
+	    <div class="col-sm-6">
+            <h3> Summary </h3> 
+            <p><b>Domain </b>| Machine Learning/Data Visualization </p> 
+            <p><b>Skills </b>| Machine Learning, Python development, Front End Web Development </p>
+            <p><b>Tools</b> | Python (SciPy, NumPy, Pandas, and Beautiful Soup), D3.js, Leaflet.js</p> 
+            <p><b>Role</b> | Lead Web Developer and Data Scientist</p>
+            <p><b>Team</b> | Jayanth Prathipati and <a href="http://oliverek.com">Oliver Ebeling-Koning</a> (Lead Data Scientist) </p> 
+          </div>
+          <div class="col-sm-6">
+          <h3>Problem Space</h3>
+          <p>Software professionals have a unique opportunity that very few have had before. They have the ability to work anywhere at anytime. We were curious about what trends were formed in a job search. In addition, as software developers, we were curious about pay distribution for specific features such as location and programming language of choice. </p>
+          </div>
+</div>
+
+<p><br /></p>
+
+<h1 id="solution">Solution</h1>
+
+<p>We used <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a> to parse <a href="http://stackoverflow.com/jobs">Stack Overflow jobs</a>, a website with job listings for software developers. We used data about these job listings, such as location, salary, and programming language of choice to see if there would be any clustering. In addition, we were curious about what programming language had the highest starting salaries. Finally, we were curious about how location influenced salary size, we looked into average cost of living and tried to see where developers would get the most in-pocket income.</p>
+
+<p><br /></p>
+
+<h1 id="data-cleaning">Data Cleaning</h1>
+
+<p>We initially had to clean all of the data and try to get the closest major city to a lot of minor locations. For example, we could get a job listing for Queens, New York. We needed to have a way to figure out if that was in the New York metropolitan area. We used reverse geo location to get the general area of a job and sort our listings by metro locations.</p>
+
+<p><br /></p>
+
+<h1 id="our-solution">Our Solution</h1>
+
+<p>Here is a choropleth map that cumulates all of the developer jobs in the USA. Slide the bar below to see a count of developer jobs for a specific language!</p>
+
+<div id="map" style="height: 440px; border: 1px solid #AAA;"></div>
+<div id="just-a-slider" class="dragdealer" style="width: 800px">
+<div class="handle red-bar" style="">
+    <span class="value">0</span>
+</div>
+</div>
+<p> <br /> <br /> </p>
+
+<p>This is a Map that shows the different clusters that were generated based on the Jobs data. We overlaid a subsample of the raw Jobs data as markers on this map.</p>
+<div id="map2" style="height: 440px; border: 1px solid #AAA;"></div>
+
+<script type="text/javascript" src="/jsons/us-states_stackoverflow.js"></script>
+
+<script type="text/javascript" src="/jsons/us-c.js"></script>
+
+<script type="text/javascript" src="/jsons/us-csharp.js"></script>
+
+<script type="text/javascript" src="/jsons/us-c++.js"></script>
+
+<script type="text/javascript" src="/jsons/us-c++.js"></script>
+
+<script type="text/javascript" src="/jsons/us-java.js"></script>
+
+<script type="text/javascript" src="/jsons/us-objective-c.js"></script>
+
+<script type="text/javascript" src="/jsons/us-perl.js"></script>
+
+<script type="text/javascript" src="/jsons/us-python.js"></script>
+
+<script type="text/javascript" src="/jsons/us-r.js"></script>
+
+<script type="text/javascript" src="/jsons/us-ruby.js"></script>
+
+<script type="text/javascript" src="/jsons/us-ruby+on+rails.js"></script>
+
+<script type="text/javascript" src="/jsons/markers.js"></script>
+
+<script type="text/javascript" src="/jsons/markers-2.js"></script>
+
+<script type="text/javascript" src="/jsons/leaf-demo.js"></script>
+
+<script type="text/javascript" src="/jsons/d3_demo.js"></script>
+
 
   </div>
 

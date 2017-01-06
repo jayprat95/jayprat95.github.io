@@ -338,6 +338,7 @@ iframe, object, embed {
   margin-right: 15%; }
   .post-content p {
     text-align: left;
+    margin-bottom: 0px;
     margin-left: 30px;
     margin-right: 30px;
     font-family: 'Raleway', sans-serif; }
@@ -346,6 +347,9 @@ iframe, object, embed {
     margin-left: 30px;
     margin-right: 30px;
     font-family: 'Raleway', sans-serif; }
+  .post-content h1 {
+    display: inline-block;
+    text-align: left; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {

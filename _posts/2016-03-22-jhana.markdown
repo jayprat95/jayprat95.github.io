@@ -27,13 +27,13 @@ categories: jekyll update
 
 <br> 
 
-# Our Solution 
+# Solution 
 
 We built an Apple Watch and iPhone app called Jhana that allowed users to self-report their attention. Users get notifications to fill out small 5 second surveys throughout the day on their watch and their phone and get to view graphs and additional insights on their surveys in the corresponding iPhone app. 
 
 <br> 
 
-# Our Research 
+# Research 
 
 <div class="row" style="margin-left:0px; margin-right:0px;">
 
@@ -67,7 +67,7 @@ We built an Apple Watch and iPhone app called Jhana that allowed users to self-r
 
 <br> 
 
-# Our Prototyping 
+# Prototyping 
 
 We built low-fi paper prototypes and built a marvel prototype to test our interface. We quickly found that our data entry process was fairly straight forward and didn't get many complaints. 
 
@@ -86,7 +86,7 @@ We built out our iPhone app using the interactions we learned from these interac
 
 <br> 
 
-# Our Evaluation 
+# Evaluation 
 
 We ran a 2 day user study to study how using a wearable device would change user's attention. We did pre and post study interviews to understand our users and get their opinions on the product. In addition to that, I integrated <a href="https://developer.yahoo.com/analytics/">Flurry Analytics</a>  into our iPhone and WatchOS app in order to log usage information of the app such as how long users took in order to fill out a survey. We initially thought that users would favor having the combination of an Apple Watch and iPhone and would be able to perform tasks faster. However, we came to some interesting conclusions from our findings. 
 
