@@ -5,53 +5,65 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Jan 2017 22:49:14 -0500</pubDate>
-    <lastBuildDate>Thu, 05 Jan 2017 22:49:14 -0500</lastBuildDate>
+    <pubDate>Fri, 06 Jan 2017 15:03:37 -0500</pubDate>
+    <lastBuildDate>Fri, 06 Jan 2017 15:03:37 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Jhana: An exploration of the Experience Sampling Method</title>
+        <title>MindMapper: a investigation into bringing insight to EEG Devices</title>
         <description>&lt;h1 id=&quot;about-this-project&quot;&gt;About This Project&lt;/h1&gt;
 
 &lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
 	    &lt;div class=&quot;col-sm-6&quot;&gt;
             &lt;h3&gt; Summary &lt;/h3&gt; 
             &lt;p&gt;&lt;b&gt;Domain &lt;/b&gt;| Mobile Health/Quantified Self &lt;/p&gt; 
-            &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| prototyping, usability testing, illustration, iOS+watchOS development (Obj-C) &lt;/p&gt;
-            &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Sketch, Xcode&lt;/p&gt; 
-            &lt;p&gt;&lt;b&gt;Role&lt;/b&gt; | Lead Researcher, Designer, and Back End Developer&lt;/p&gt;
-            &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati, &lt;a href=&quot;http://schung7.github.io&quot;&gt;Steven Chung&lt;/a&gt; (Lead Front End Developer &amp;amp; designer), and &lt;a href=&quot;http://people.cs.vt.edu/rbeaton/&quot;&gt;Bobby Beaton&lt;/a&gt; (Mentor)  &lt;/p&gt; 
+            &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| prototyping, illustration, heuristic evaluation, persona generation, contextual inquiry, affinity diagramming, and android development  &lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Sketch, Android Studio&lt;/p&gt; 
+            &lt;p&gt;&lt;b&gt;Role&lt;/b&gt; | Researcher, Designer, Developer&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati and &lt;a href=&quot;http://people.cs.vt.edu/rbeaton/&quot;&gt;Bobby Beaton&lt;/a&gt; (Mentor)  &lt;/p&gt; 
           &lt;/div&gt;
           &lt;div class=&quot;col-sm-6&quot;&gt;
           &lt;h3&gt;Problem Space&lt;/h3&gt;
-          &lt;p&gt;With the advent of wearables and smart phones, tracking your physical activity has been getting easier. However, tracking your mental focus has not changed. we wanted to explore how we could use the devices that are in our pockets and on our wrists to help us better track what we are doing and see how that could change our behaviors over time.&lt;/p&gt;
+          &lt;p&gt;With the advent of wearables and smart phones, tracking your physical activity has been getting easier. However, tracking your mental focus has not changed. we wanted to explore how we could use EEG devices (think Fitbits but for mental activity instead of physical) and see if we could bring the power of these devices to market. &lt;/p&gt;
           &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h1 id=&quot;our-solution&quot;&gt;Our Solution&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;We built an Apple Watch and iPhone app called Jhana that allowed users to self-report their attention. Users get notifications to fill out small 5 second surveys throughout the day on their watch and their phone and get to view graphs and additional insights on their surveys in the corresponding iPhone app.&lt;/p&gt;
+&lt;h1 id=&quot;solution&quot;&gt;Solution&lt;/h1&gt;
 
-&lt;h1 id=&quot;our-research&quot;&gt;Our Research&lt;/h1&gt;
+&lt;p&gt;We built an Android app that interfaced with EEG devices to help give actionable feedback to users. Our primary challenge was educating the market on EEG devices and helping users to gain a deeper understanding of how their mental focus trends throughout the day.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;research&quot;&gt;Research&lt;/h1&gt;
 
 &lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
 
 &lt;div class=&quot;col-sm-6&quot;&gt;
   &lt;p&gt;
-    We performed a literature review on quantified-self technologies as well as doing some competitive analysis on what is currently on the market. 
+    We performed a literature review on quantified-self technologies as well as doing some competitive analysis on what is currently on the market, reading relevant research papers such as such as: &lt;a target=&quot;_blank&quot; href=&quot;http://research.microsoft.com/apps/pubs/default.aspx?id=163348&quot;&gt;AffectAura&lt;/a&gt;, &lt;a target=&quot;_blank&quot; href=&quot;http://www.academia.edu/2518447/NeuroPlace_Making_sense_of_a_place&quot;&gt;NeuroPlace&lt;/a&gt;, and &lt;a target=&quot;_blank&quot; href=&quot;http://infovis.cs.vt.edu/oldsite/papers/CHI02-periphvis.pdf&quot;&gt;An Ordering of Secondary Task Display Attributes&lt;/a&gt;
   &lt;/p&gt;
+
+  &lt;br /&gt; 
   &lt;p&gt;
-    We also interviewed students who tracking them own activity in various ways such as using Fitbits, Apple Watch, or even manual diary entries like MyFitnessPal and used this data to construct an affinity diagram as well a hierarchical task analysis.
+    In addition, we intereviewed users with attentional difficulties and tried to get a better understanding of their daily routines. I used this data to create some personas of our target users. 
   &lt;/p&gt;
+  &lt;br /&gt; 
   &lt;p&gt;
     We gained some key insights from this research: 
   &lt;/p&gt;
   &lt;ul&gt;
     &lt;li&gt;
-      Primarily, we found out that user's felt that entering in activity in apps like MyFitnessPal had a lot of mental strain and felt stressed out when filling out this information. 
+      Users define focus based on the context that they are in. It could mean something different per user and also per activity.  
     &lt;/li&gt;
     &lt;li&gt;
-      In addition, we found that once users settled into a routine, they didn't find these devices as important anymore as they already knew what insights the Fitbit or MyFitnessPal app would tell them.
+      Users are focused around increasing productivity
+    &lt;/li&gt;
+    &lt;li&gt;
+      Users are able to interpret this data well when it is used in conjunction with context such as location and activity
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/div&gt;
@@ -230,7 +242,7 @@
           &lt;/div&gt;
           &lt;div class=&quot;col-sm-6&quot;&gt;
           &lt;h3&gt;Problem Space&lt;/h3&gt;
-          &lt;p&gt;Software professionals have a unique opportunity that very few have had before. They have the ability to work anywhere at anytime. We were curious about what trends were formed in a job search. In addition, as software developers, we were curious about pay distribution for specific features such as location and programming language of choice. &lt;/p&gt;
+          &lt;p&gt;Software professionals are in demand in a lot of places in the world. In addition, they have an opportunity that few others have had before; the ability to work remote. We were curious about what trends were formed in a software developer's job search (being a software developer myself...it seemed like a good thing to look into). In addition, as software developers, we were curious about pay distribution for specific features such as location and programming language of choice. &lt;/p&gt;
           &lt;/div&gt;
 &lt;/div&gt;
 
@@ -244,13 +256,17 @@
 
 &lt;h1 id=&quot;data-cleaning&quot;&gt;Data Cleaning&lt;/h1&gt;
 
-&lt;p&gt;We initially had to clean all of the data and try to get the closest major city to a lot of minor locations. For example, we could get a job listing for Queens, New York. We needed to have a way to figure out if that was in the New York metropolitan area. We used reverse geo location to get the general area of a job and sort our listings by metro locations.&lt;/p&gt;
+&lt;p&gt;We initially had to clean all of the data and try to get the closest major city to a lot of minor locations. For example, we could get a job listing for Queens, New York. We needed to have a way to figure out if that was in the New York metropolitan area. We used reverse geocoding to get the general area of a job and sort our listings by metro locations.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;our-solution&quot;&gt;Our Solution&lt;/h1&gt;
+&lt;h1 id=&quot;final-results&quot;&gt;Final Results&lt;/h1&gt;
 
-&lt;p&gt;Here is a choropleth map that cumulates all of the developer jobs in the USA. Slide the bar below to see a count of developer jobs for a specific language!&lt;/p&gt;
+&lt;p&gt;After cleaning our data, we fed this data into NumPy to perform K-Means clustering in order to make better sense of the data. We found (to no surprise)
+that jobs were centered around various tech hubs around the US such as S.F, NYC, and Austin. We did find some surprises, namely that Chicago and Atlanta had lots of tech jobs. Chicago had approximately 208 job listings and Atlanta had approximately 63. We have listed two visualizations that we built to better show our results. Please check them below. They are unfortunately not responsive, so please look at them on a laptop or desktop device!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+Here is a choropleth map that cumulates all of the developer jobs in the USA. Slide the bar below to see a count of developer jobs for a specific language!&lt;/p&gt;
 
 &lt;div id=&quot;map&quot; style=&quot;height: 440px; border: 1px solid #AAA;&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;just-a-slider&quot; class=&quot;dragdealer&quot; style=&quot;width: 800px&quot;&gt;

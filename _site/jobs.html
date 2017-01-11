@@ -87,7 +87,7 @@
           </div>
           <div class="col-sm-6">
           <h3>Problem Space</h3>
-          <p>Software professionals have a unique opportunity that very few have had before. They have the ability to work anywhere at anytime. We were curious about what trends were formed in a job search. In addition, as software developers, we were curious about pay distribution for specific features such as location and programming language of choice. </p>
+          <p>Software professionals are in demand in a lot of places in the world. In addition, they have an opportunity that few others have had before; the ability to work remote. We were curious about what trends were formed in a software developer's job search (being a software developer myself...it seemed like a good thing to look into). In addition, as software developers, we were curious about pay distribution for specific features such as location and programming language of choice. </p>
           </div>
 </div>
 
@@ -101,13 +101,17 @@
 
 <h1 id="data-cleaning">Data Cleaning</h1>
 
-<p>We initially had to clean all of the data and try to get the closest major city to a lot of minor locations. For example, we could get a job listing for Queens, New York. We needed to have a way to figure out if that was in the New York metropolitan area. We used reverse geo location to get the general area of a job and sort our listings by metro locations.</p>
+<p>We initially had to clean all of the data and try to get the closest major city to a lot of minor locations. For example, we could get a job listing for Queens, New York. We needed to have a way to figure out if that was in the New York metropolitan area. We used reverse geocoding to get the general area of a job and sort our listings by metro locations.</p>
 
 <p><br /></p>
 
-<h1 id="our-solution">Our Solution</h1>
+<h1 id="final-results">Final Results</h1>
 
-<p>Here is a choropleth map that cumulates all of the developer jobs in the USA. Slide the bar below to see a count of developer jobs for a specific language!</p>
+<p>After cleaning our data, we fed this data into NumPy to perform K-Means clustering in order to make better sense of the data. We found (to no surprise)
+that jobs were centered around various tech hubs around the US such as S.F, NYC, and Austin. We did find some surprises, namely that Chicago and Atlanta had lots of tech jobs. Chicago had approximately 208 job listings and Atlanta had approximately 63. We have listed two visualizations that we built to better show our results. Please check them below. They are unfortunately not responsive, so please look at them on a laptop or desktop device!</p>
+
+<p><br /> 
+Here is a choropleth map that cumulates all of the developer jobs in the USA. Slide the bar below to see a count of developer jobs for a specific language!</p>
 
 <div id="map" style="height: 440px; border: 1px solid #AAA;"></div>
 <div id="just-a-slider" class="dragdealer" style="width: 800px">
