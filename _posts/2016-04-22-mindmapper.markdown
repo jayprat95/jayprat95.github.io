@@ -84,6 +84,7 @@ We built an Android app that interfaced with EEG devices to help give actionable
 We created a series of personas and use cases from our initial research. We were specifically interested in how a user would use this product daily and we centered our use cases and personas based on that specific interest. 
 
 <br> 
+
 # Prototyping 
 
 We created multiple prototypes in order to evaluate MindMapper. 
@@ -95,6 +96,7 @@ We quickly learned that some visualizations were very hard to use. Users used co
 Afterwards, we created a hi-fi sketch prototype that gave target users a better idea of langugage, icons, and notifications. 
 
 <br> 
+
 # Evaluation 
 
 Based on our previous results, we quickly found out that 
