@@ -90,10 +90,22 @@ We created a series of personas and use cases from our initial research. We were
 We created multiple prototypes in order to evaluate MindMapper. 
 I created paper and pencil prototypes and made them interactive using Marvel. I then ran a quick heuristic review with my teammates to better understand if the information visualizations that I created made sense. 
 
+<br>
+
+<img src="/img/mindmapper_lo_fi.png" style="width:35em; height:45em;  display: block;
+    margin: 0 auto;">
+<p id="post-caption">Lo-Fi prototype of MindMapper</p>
+
+
+<br> 
+
 We quickly learned that some visualizations were very hard to use. Users used color as an indicator for strength rather than size. We quickly focused on another round of lo-fi prototyping and review. 
 
 
 Afterwards, we created a hi-fi sketch prototype that gave target users a better idea of langugage, icons, and notifications. 
+
+
+<iframe src="https://marvelapp.com/68d492?emb=1" width="390" height="755" allowTransparency="true" frameborder="0"></iframe>
 
 <br> 
 
