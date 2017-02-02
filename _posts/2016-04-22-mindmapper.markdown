@@ -120,4 +120,6 @@ Based on our previous results, we quickly found out that
 Based on these results, I led the development team to make quick 
 changes to the app to better fit the mental models for users and create a faster user flow. 
 
+This work won 6 awards at the Virginia Tech Undergraduate Research Symposium and got over $2000 of research funding money. We're proud of this work and hope to release an open source Android app to let people use their EEG's with their devices in the future. 
+
 
