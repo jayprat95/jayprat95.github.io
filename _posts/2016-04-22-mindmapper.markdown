@@ -3,7 +3,7 @@ layout: post
 title:  "MindMapper: a investigation into bringing insight to EEG Devices"
 banner_img: "MindMapper.png"
 date:   2016-03-22 15:33:53 -0400
-description: "Understanding how to bring mental attention"
+description: "Understanding how to help people understand their focus and attention throughout the day"
 permalink: mindmapper
 categories: jekyll update
 ---
