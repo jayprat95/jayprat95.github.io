@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MindMapper: a investigation into bringing insight to EEG Devices"
-banner_img: "jhana_icon.png"
+banner_img: "MindMapper.png"
 date:   2016-03-22 15:33:53 -0400
 description: "Understanding how to bring mental attention"
 permalink: mindmapper
@@ -66,37 +66,44 @@ We built an Android app that interfaced with EEG devices to help give actionable
   </ul>
 </div>
 <div class="col-sm-6">
-<img src="/img/affinity_jh.png">
-<p id="post-caption">Affinity Diagram from our interviews</p>
+<img src="/img/competitive_analysis.png">
+<p id="post-caption">Existing Visualizations in Self-Tracking Apps</p>
+
+
+
+
+
 
 </div>
 
 
 </div>
 
-# Our Prototyping 
-
-We built low-fi paper prototypes and built a marvel prototype to test our interface. We quickly found that our data entry process was fairly straight forward and didn't get many complaints. 
-
-We then moved to a higher fidelity prototype so that we could test some of our interactions on iPhone and Apple Watch. We wanted to make extensive use of swiping on both of these devices since it is a natural and intuitive gesture. 
-
-In addition to intuitive gestures, We wanted to make use of the hardware features of the Apple Watch, such as the digital crown (knob on the side of the Apple Watch) and make the app feel at home on a user's home screen rather than a research project. 
-
-To bring these ideas to fruition, I designed a swiping leikert scale to make it easier and delightful for users to select how focused they were. Here are examples of this interaction on iPhone and Apple Watch. 
-
-<iframe src="//giphy.com/embed/wBHZfKccOgA5q" width="480" height="859" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
-<iframe src="//giphy.com/embed/26FL9ovWI3vCtLU1a" width="480" height="683" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 <br> 
 
-We built out our iPhone app using the interactions we learned from these interactions. We used Core Data to create a local database and made use of a lot of App Kit features such as storyboards and auto-layout to make our app compatible with all screen sizes. 
+We created a series of personas and use cases from our initial research. We were specifically interested in how a user would use this product daily and we centered our use cases and personas based on that specific interest. 
 
-# Our Evaluation 
+<br> 
+# Prototyping 
 
-We ran a 2 day user study to study how using a wearable device would change user's attention. We did pre and post study interviews to understand our users and get their opinions on the product. In addition to that, I integrated <a href="https://developer.yahoo.com/analytics/">Flurry Analytics</a>  into our iPhone and WatchOS app in order to log usage information of the app such as how long users took in order to fill out a survey. We initially thought that users would favor having the combination of an Apple Watch and iPhone and would be able to perform tasks faster. However, we came to some interesting conclusions from our findings. 
+We created multiple prototypes in order to evaluate MindMapper. 
+I created paper and pencil prototypes and made them interactive using Marvel. I then ran a quick heuristic review with my teammates to better understand if the information visualizations that I created made sense. 
 
-- We found out that users "felt" that the watch app was much easier to log entries with....however, from our Flurry dashboard we found that the time difference between the watch and the iPhone apps was very small 
-- We found that users were in fact changing their behavior based after using our app. One user reported to us that she changed her studying habits after getting notifications from the app. 
-- We also found that users were not yet acquainted with Apple Watch. Most of our drawbacks came from lack of Apple Watch education. If we performed the study again, we would spend additional time prompting users on how to use the Apple Watch and teach them additional functionality on how to use it. 
+We quickly learned that some visualizations were very hard to use. Users used color as an indicator for strength rather than size. We quickly focused on another round of lo-fi prototyping and review. 
+
+
+Afterwards, we created a hi-fi sketch prototype that gave target users a better idea of langugage, icons, and notifications. 
+
+<br> 
+# Evaluation 
+
+Based on our previous results, we quickly found out that 
+
+- Users didn't understand the meaning of mental focus 
+- Design metaphors such as the focus score and the attention score didn't make sense to users 
+- Users felt like the flow of the app didn't make much sense
+
+Based on these results, I led the development team to make quick 
+changes to the app to better fit the mental models for users and create a faster user flow. 
 
 
