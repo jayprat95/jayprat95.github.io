@@ -179,7 +179,7 @@ After our changes, we made InVision prototypes for both the mobile and deskop fl
 
 # Evaluate 
 
-After creating these prototypes, we did a final round of evaluation and tried to better view where our end users would be. We did a journey map of a user with our invisioned solution and found that they would be a better experience overall. We were able to add benefits to the university and to the end user and make their admittance experience better overall. 
+After creating these prototypes, we did a final round of evaluation and tried to better view where our end users would be. We did a journey map of a user with our envisioned solution and found that they would be a better experience overall. We were able to add benefits to the university and to the end user and make their admittance experience better overall. 
 
 <div class="row" style="margin-left:0px; margin-right:0px;">
 	    <div class="col-sm-12">
