@@ -16,7 +16,7 @@ categories: jekyll update
             <h4> Summary </h4> 
             <p><b>Domain </b>| Education/Social </p> 
             <p><b>Skills </b>| Journey Mapping, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona & Scenario Generation  </p>
-            <p><b>Tools</b> | Sketch, Invision</p> 
+            <p><b>Tools</b> | Sketch, InVision</p> 
             <p><b>Role</b> | Researcher & Designer</p>
             <p><b>Team</b> | Jayanth Prathipati and <a href="http://carolinewin.com">Caroline Win</a> </p> 
           </div>
