@@ -3,7 +3,7 @@ layout: post
 title:  "ScottyChat"
 banner_img: "scotty.png"
 date:   2016-03-22 15:33:53 -0400
-description: "Helping prospective CMU students make an educated decision on their future "
+description: "Helping prospective CMU students make an educated decision about their futures"
 permalink: scottychat
 categories: jekyll update
 ---
