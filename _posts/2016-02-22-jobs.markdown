@@ -31,7 +31,7 @@ categories: jekyll update
 
 <div class="row" style="margin-left:0px; margin-right:0px;">
 	    <div class="col-sm-6">
-            <h3> Summary </h3> 
+            <h4> Summary </h4> 
             <p><b>Domain </b>| Machine Learning/Data Visualization </p> 
             <p><b>Skills </b>| Machine Learning, Python development, Front End Web Development </p>
             <p><b>Tools</b> | Python (SciPy, NumPy, Pandas, and Beautiful Soup), D3.js, Leaflet.js</p> 
@@ -39,7 +39,7 @@ categories: jekyll update
             <p><b>Team</b> | Jayanth Prathipati and <a href="http://oliverek.com">Oliver Ebeling-Koning</a> (Lead Data Scientist) </p> 
           </div>
           <div class="col-sm-6">
-          <h3>Problem Space</h3>
+          <h4>Problem Space</h4>
           <p>Software professionals are in demand in a lot of places in the world. In addition, they have an opportunity that few others have had before; the ability to work remote. We were curious about what trends were formed in a software developer's job search (being a software developer myself...it seemed like a good thing to look into). In addition, as software developers, we were curious about pay distribution for specific features such as location and programming language of choice. </p>
           </div>
 </div>

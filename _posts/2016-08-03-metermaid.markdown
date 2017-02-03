@@ -12,7 +12,7 @@ categories: jekyll update
 
 <div class="row" style="margin-left:0px; margin-right:0px;">
 	    <div class="col-sm-6">
-            <h3> Summary </h3> 
+            <h4> Summary </h4> 
             <p><b>Domain </b>| Crowdsourcing </p> 
             <p><b>Skills </b>| Literature Review, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona & Scenario Generation  </p>
             <p><b>Tools</b> | Sketch, Principle, and Invision</p> 
@@ -20,7 +20,7 @@ categories: jekyll update
             <p><b>Team</b> | Jayanth Prathipati, <a href="http://carolinewin.com">Shannon Sullivan</a>, Rho Eun Song, and Kathy Liu </p> 
           </div>
           <div class="col-sm-6">
-          <h3>Problem Space</h3>
+          <h4>Problem Space</h4>
           <p>Parking is expensive and difficult to find, yet some research suggests that around 3 parking spaces exist for every car. How can a resource seem scarce, yet actually be so abundant? One contributing factor is that some spaces can only be utilized by a specific person, like a driveway at someone’s house. When the homeowner is away, their driveway is unoccupied, making it an unutilized resource. Is it possible to make these exclusive resources available to others when their primary owner is not using them? And why doesn’t this happen now? One contributing factor is that there is a mutual lack of trust between the person with the driveway and the person looking for parking.
  </p>
           </div>
