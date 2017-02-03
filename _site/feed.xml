@@ -5,8 +5,8 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Feb 2017 18:41:12 -0500</pubDate>
-    <lastBuildDate>Thu, 02 Feb 2017 18:41:12 -0500</lastBuildDate>
+    <pubDate>Thu, 02 Feb 2017 19:14:20 -0500</pubDate>
+    <lastBuildDate>Thu, 02 Feb 2017 19:14:20 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -80,6 +80,7 @@
 
 &lt;p&gt;&lt;br /&gt; 
 &lt;br /&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;initial-research&quot;&gt;Initial Research&lt;/h1&gt;
 
 &lt;p&gt;First, we interviewed 4 Masters students about their experiences from getting accepted into the program to arriving at Carnegie Mellon and created journey maps to get a better understanding of how the experience was for them. 
@@ -135,6 +136,7 @@
 
 &lt;p&gt;&lt;br /&gt; 
 &lt;br /&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h1&gt;
 
 &lt;p&gt;We envisioned some solutions to solve the problems and help answer the questions that students set out. We wanted to reduce the troughs in the previous journey map and make that experience a lot better for incoming students.&lt;/p&gt;
@@ -224,6 +226,7 @@ Mark is able to use this information and figure out what subscription he needs.&
 &lt;iframe width=&quot;438&quot; height=&quot;930&quot; src=&quot;//invis.io/TK8VTWQN8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt; 
 &lt;br /&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;evaluate&quot;&gt;Evaluate&lt;/h1&gt;
 
 &lt;p&gt;After creating these prototypes, we did a final round of evaluation and tried to better view where our end users would be. We did a journey map of a user with our invisioned solution and found that they would be a better experience overall. We were able to add benefits to the university and to the end user and make their admittance experience better overall.&lt;/p&gt;

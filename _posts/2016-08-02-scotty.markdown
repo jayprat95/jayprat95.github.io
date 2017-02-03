@@ -35,6 +35,7 @@ We created ScottyChat, a crowd sourced chatbot that lets you interact with Scott
 
 <br> 
 <br> 
+
 # Initial Research
 
 First, we interviewed 4 Masters students about their experiences from getting accepted into the program to arriving at Carnegie Mellon and created journey maps to get a better understanding of how the experience was for them. 
@@ -86,6 +87,7 @@ They also asked Career-Oriented Questions such as:
 
 <br> 
 <br> 
+
 # Prototyping 
 
 We envisioned some solutions to solve the problems and help answer the questions that students set out. We wanted to reduce the troughs in the previous journey map and make that experience a lot better for incoming students. 
@@ -174,6 +176,7 @@ After our changes, we made Invision prototypes for both the mobile and deskop fl
 <iframe width="438" height="930" src="//invis.io/TK8VTWQN8" frameborder="0" allowfullscreen></iframe>
 <br> 
 <br> 
+
 # Evaluate 
 
 After creating these prototypes, we did a final round of evaluation and tried to better view where our end users would be. We did a journey map of a user with our invisioned solution and found that they would be a better experience overall. We were able to add benefits to the university and to the end user and make their admittance experience better overall. 
