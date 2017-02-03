@@ -5,9 +5,52 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Feb 2017 18:10:52 -0500</pubDate>
-    <lastBuildDate>Thu, 02 Feb 2017 18:10:52 -0500</lastBuildDate>
+    <pubDate>Thu, 02 Feb 2017 18:41:12 -0500</pubDate>
+    <lastBuildDate>Thu, 02 Feb 2017 18:41:12 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>MeterMaid</title>
+        <description>&lt;h1 id=&quot;about-this-project&quot;&gt;About This Project&lt;/h1&gt;
+
+&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
+	    &lt;div class=&quot;col-sm-6&quot;&gt;
+            &lt;h3&gt; Summary &lt;/h3&gt; 
+            &lt;p&gt;&lt;b&gt;Domain &lt;/b&gt;| Crowdsourcing &lt;/p&gt; 
+            &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| Literature Review, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona &amp;amp; Scenario Generation  &lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Sketch, Principle, and Invision&lt;/p&gt; 
+            &lt;p&gt;&lt;b&gt;Role&lt;/b&gt; | Researcher &amp;amp; Designer&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati, &lt;a href=&quot;http://carolinewin.com&quot;&gt;Shannon Sullivan&lt;/a&gt;, Rho Eun Song, and Kathy Liu &lt;/p&gt; 
+          &lt;/div&gt;
+          &lt;div class=&quot;col-sm-6&quot;&gt;
+          &lt;h3&gt;Problem Space&lt;/h3&gt;
+          &lt;p&gt;Parking is expensive and difficult to find, yet some research suggests that around 3 parking spaces exist for every car. How can a resource seem scarce, yet actually be so abundant? One contributing factor is that some spaces can only be utilized by a specific person, like a driveway at someone’s house. When the homeowner is away, their driveway is unoccupied, making it an unutilized resource. Is it possible to make these exclusive resources available to others when their primary owner is not using them? And why doesn’t this happen now? One contributing factor is that there is a mutual lack of trust between the person with the driveway and the person looking for parking.
+ &lt;/p&gt;
+          &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;solution&quot;&gt;Solution&lt;/h1&gt;
+
+&lt;p&gt;MeterMaid is an application that enables homeowners to capitalize upon their open driveway space by connecting with drivers seeking convenient and affordable parking. We designed it specifically to facilitate trust between the two parties, particularly on the homeowner’s side by enabling them to monitor their property in the application, report inappropriate or malicious behavior, and filter out and block certain users.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;research&quot;&gt;Research&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>
+        <link>http://localhost:4000/metermaid</link>
+        <guid isPermaLink="true">http://localhost:4000/metermaid</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>ScottyChat</title>
