@@ -5,17 +5,17 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Feb 2017 19:51:18 -0500</pubDate>
-    <lastBuildDate>Thu, 02 Feb 2017 19:51:18 -0500</lastBuildDate>
+    <pubDate>Sat, 04 Feb 2017 12:02:57 -0500</pubDate>
+    <lastBuildDate>Sat, 04 Feb 2017 12:02:57 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>MeterMaid</title>
-        <description>&lt;h1 id=&quot;about-this-project&quot;&gt;About This Project&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
 
 &lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
 	    &lt;div class=&quot;col-sm-6&quot;&gt;
-            &lt;h3&gt; Summary &lt;/h3&gt; 
+            &lt;h4&gt; Summary &lt;/h4&gt; 
             &lt;p&gt;&lt;b&gt;Domain &lt;/b&gt;| Crowdsourcing &lt;/p&gt; 
             &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| Literature Review, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona &amp;amp; Scenario Generation  &lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Sketch, Principle, and Invision&lt;/p&gt; 
@@ -23,7 +23,7 @@
             &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati, &lt;a href=&quot;http://carolinewin.com&quot;&gt;Shannon Sullivan&lt;/a&gt;, Rho Eun Song, and Kathy Liu &lt;/p&gt; 
           &lt;/div&gt;
           &lt;div class=&quot;col-sm-6&quot;&gt;
-          &lt;h3&gt;Problem Space&lt;/h3&gt;
+          &lt;h4&gt;Problem Space&lt;/h4&gt;
           &lt;p&gt;Parking is expensive and difficult to find, yet some research suggests that around 3 parking spaces exist for every car. How can a resource seem scarce, yet actually be so abundant? One contributing factor is that some spaces can only be utilized by a specific person, like a driveway at someone’s house. When the homeowner is away, their driveway is unoccupied, making it an unutilized resource. Is it possible to make these exclusive resources available to others when their primary owner is not using them? And why doesn’t this happen now? One contributing factor is that there is a mutual lack of trust between the person with the driveway and the person looking for parking.
  &lt;/p&gt;
           &lt;/div&gt;
@@ -34,12 +34,153 @@
 
 &lt;h1 id=&quot;solution&quot;&gt;Solution&lt;/h1&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;MeterMaid is an application that enables homeowners to capitalize upon their open driveway space by connecting with drivers seeking convenient and affordable parking. We designed it specifically to facilitate trust between the two parties, particularly on the homeowner’s side by enabling them to monitor their property in the application, report inappropriate or malicious behavior, and filter out and block certain users.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt; 
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;research&quot;&gt;Research&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We started our research by understanding the target personas for the application. We had one for the homeowner and one for the driver.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
+	    &lt;div class=&quot;col-sm-6&quot;&gt;
+	    	&lt;img src=&quot;/img/metermaid_1.png&quot; /&gt;
+	    &lt;/div&gt; 
+	   	&lt;div class=&quot;col-sm-6&quot;&gt;
+	    	&lt;img src=&quot;/img/metermaid_2.png&quot; /&gt;
+	    &lt;/div&gt; 
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;After examining the personas and problem statement, we conducted an Ecosystem Collection where we discussed what we know about the parking domain, what we don’t know, and what are the critical questions we want to explore.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
+	    &lt;div class=&quot;col-sm-12&quot;&gt;
+	    	&lt;img src=&quot;/img/metermaid_3.png&quot; /&gt;
+	    &lt;/div&gt; 
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the ecosystem collection, we determined that we should focus on understanding the current experience for people looking for parking as well as understanding the factors that go into successful crowd-sharing platforms such as Uber, AirBnB, and eBay, particularly how they build trust between their users.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Based on this focus, we generated the following specific research objectives:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To gain a more complete understanding of the context in which people look for parking and what they prioritize (proximity, cost, etc.).&lt;/li&gt;
+  &lt;li&gt;To understand the existing choices for parking and how they operate.&lt;/li&gt;
+  &lt;li&gt;To understand the trust mechanics of existing resource sharing services (e.g. AirBnB, Uber) and to understand what led current users to trust these services&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To address the first question and part of the second question, we developed a short survey on Google Forms and distributed it on social media. Respondents answered questions such as how frequently they use public parking, what is important to them when finding parking, and how long it took them to find a spot to park in the last time they used public parking.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For our second question, we explored the various parking options in Pittsburgh and reached out to several landlords who handle parking asking for an interview. Of the individuals we reached out to, only one responded. We visited that one person and conducted a brief one-hour interview.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Regarding the third question of how other resource sharing services built trust between users, we read through existing literature analyzing and explaining their methodologies in conjunction with interviewing Uber drivers to better understand what incentivized them to get started and how Uber protects them and their assets.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;key-insights-from-our-research&quot;&gt;Key Insights from our research&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We found from our survey that most indicated that safety is the most important aspect when considering parking, followed by availability/ease of parking. Surprisingly, they said price was the least important, which contradicts the information we had in our scenario (Rebecca doesn’t want to pay the high fees for parking her car in a lot near the hospital) as well as what the Freakonomics podcast indicated, where people in will spend more time driving around looking for a spot that they do not have to pay for&lt;/li&gt;
+  &lt;li&gt;Several respondents remarked that it is currently very hard to find available parking and the price of the parking in advance when using navigation applications such as Google Maps.&lt;/li&gt;
+  &lt;li&gt;The parking lot manager’s biggest challenges include maintaining a good level of public parkers to optimize revenue while also guaranteeing any leaseholder is able to find parking. Another challenge is being unable to contact public parkers who have unknowingly parked in an off-limits space; often she has to have their car towed as a result.&lt;/li&gt;
+  &lt;li&gt;Some ridesharing applications provide more support for drivers than others. For example, before a driver can begin taking passengers using Lyft, a representative comes to their home to verify their information, confirm that their vehicle is up to code, and assists the driver in setting up a profile&lt;/li&gt;
+  &lt;li&gt;There are several factors that will build and retain user trust
+    &lt;ul&gt;
+      &lt;li&gt;A positive first experience with the application&lt;/li&gt;
+      &lt;li&gt;Ratings System&lt;/li&gt;
+      &lt;li&gt;Good support system from the application&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We then built scenarios to exemplify our key insights and figure out what edge cases we need to worry about when building this app, such as What happens when drivers arriving really late to the location? How does a driveway owner handle harassment? What security measures are in place to make sure that people do not use this service for robbing houses?&lt;/p&gt;
+
+&lt;p&gt;From these scenarios, we created over 20 storyboards in order to figure out what details we needed to look at. I was specifically interested in the idea of trust and focused on bringing that up&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We went through multiple rounds of prototyping, starting from paper and pencil prototyping to medium fidelity prototypes, to high fidelity prototypes using InVision and animations using Principle.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was focused on how to build trust into the situation and started prototyping out screens to help both sets of users; the driver and the homeowner do that. I specifically tried to help the homeowners understand their value and how much money they were getting through the service for their time.&lt;/p&gt;
+
+&lt;p&gt;I helped create some of the low and medium fidelity prototypes and focused on directing our user flows to help with situations to help build and retain user trust, such as ratings and support.&lt;/p&gt;
+
+&lt;p&gt;Here are a few examples of lo-fi prototypes that I built:&lt;/p&gt;
+
+&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
+	    &lt;div class=&quot;col-sm-12&quot;&gt;
+	    	&lt;img src=&quot;/img/metermaid_4.png&quot; /&gt;
+	    &lt;/div&gt; 
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
+	    &lt;div class=&quot;col-sm-12&quot;&gt;
+	    	&lt;img src=&quot;/img/metermaid_5.png&quot; /&gt;
+	    &lt;/div&gt; 
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
+	    &lt;div class=&quot;col-sm-12&quot;&gt;
+	    	&lt;img src=&quot;/img/metermaid_6.png&quot; /&gt;
+	    &lt;/div&gt; 
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I also focused on making simple animations with Principle to give a testers a better sense of functionality and flow in the app. In addition, we wanted to add a sense of delight into the app as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
+	    &lt;div class=&quot;col-sm-4&quot;&gt;
+	    	&lt;img src=&quot;/img/metermaid_7.gif&quot; /&gt;
+	    &lt;/div&gt; 
+	    &lt;div class=&quot;col-sm-4&quot;&gt;
+	    	&lt;img src=&quot;/img/metermaid_8.gif&quot; /&gt;
+	    &lt;/div&gt; 
+	    &lt;div class=&quot;col-sm-4&quot;&gt;
+	    	&lt;img src=&quot;/img/metermaid_9.gif&quot; /&gt;
+	    &lt;/div&gt; 
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;final-prototype&quot;&gt;Final Prototype&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We built a prototype using invision to give a better sense of our story and presented it to the class. We found that we weren’t extracting the data from this service effectively and could have had better a better value proposition for businesses and individuals trying to use the service. Overall, people loved our service and found that they wanted us to keep exploring and building out this system.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;500&quot; height=&quot;930&quot; src=&quot;//invis.io/JM9BWXQBZ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>
         <link>http://localhost:4000/metermaid</link>
@@ -229,7 +370,7 @@ Mark is able to use this information and figure out what subscription he needs.&
 
 &lt;h1 id=&quot;evaluate&quot;&gt;Evaluate&lt;/h1&gt;
 
-&lt;p&gt;After creating these prototypes, we did a final round of evaluation and tried to better view where our end users would be. We did a journey map of a user with our invisioned solution and found that they would be a better experience overall. We were able to add benefits to the university and to the end user and make their admittance experience better overall.&lt;/p&gt;
+&lt;p&gt;After creating these prototypes, we did a final round of evaluation and tried to better view where our end users would be. We did a journey map of a user with our envisioned solution and found that they would be a better experience overall. We were able to add benefits to the university and to the end user and make their admittance experience better overall.&lt;/p&gt;
 
 &lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
 	    &lt;div class=&quot;col-sm-12&quot;&gt;
@@ -256,7 +397,7 @@ Mark is able to use this information and figure out what subscription he needs.&
 
 &lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
 	    &lt;div class=&quot;col-sm-6&quot;&gt;
-            &lt;h3&gt; Summary &lt;/h3&gt; 
+            &lt;h4&gt; Summary &lt;/h4&gt; 
             &lt;p&gt;&lt;b&gt;Domain &lt;/b&gt;| Mobile Health/Quantified Self &lt;/p&gt; 
             &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| prototyping, illustration, heuristic evaluation, persona generation, contextual inquiry, affinity diagramming, and android development  &lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Sketch, Android Studio&lt;/p&gt; 
@@ -264,7 +405,7 @@ Mark is able to use this information and figure out what subscription he needs.&
             &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati and &lt;a href=&quot;http://people.cs.vt.edu/rbeaton/&quot;&gt;Bobby Beaton&lt;/a&gt; (Mentor)  &lt;/p&gt; 
           &lt;/div&gt;
           &lt;div class=&quot;col-sm-6&quot;&gt;
-          &lt;h3&gt;Problem Space&lt;/h3&gt;
+          &lt;h4&gt;Problem Space&lt;/h4&gt;
           &lt;p&gt;With the advent of wearables and smart phones, tracking your physical activity has been getting easier. However, tracking your mental focus has not changed. we wanted to explore how we could use EEG devices (think Fitbits but for mental activity instead of physical) and see if we could bring the power of these devices to market. &lt;/p&gt;
           &lt;/div&gt;
 &lt;/div&gt;
@@ -381,7 +522,7 @@ changes to the app to better fit the mental models for users and create a faster
 
 &lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
 	    &lt;div class=&quot;col-sm-6&quot;&gt;
-            &lt;h3&gt; Summary &lt;/h3&gt; 
+            &lt;h4&gt; Summary &lt;/h4&gt; 
             &lt;p&gt;&lt;b&gt;Domain &lt;/b&gt;| Mobile Health/Quantified Self &lt;/p&gt; 
             &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| prototyping, usability testing, contextual inquiry, interviewing, illustration, iOS+watchOS development (Obj-C) &lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Sketch, Xcode&lt;/p&gt; 
@@ -389,7 +530,7 @@ changes to the app to better fit the mental models for users and create a faster
             &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati, &lt;a href=&quot;http://schung7.github.io&quot;&gt;Steven Chung&lt;/a&gt; (Lead Front End Developer &amp;amp; designer), and &lt;a href=&quot;http://people.cs.vt.edu/rbeaton/&quot;&gt;Bobby Beaton&lt;/a&gt; (Mentor)  &lt;/p&gt; 
           &lt;/div&gt;
           &lt;div class=&quot;col-sm-6&quot;&gt;
-          &lt;h3&gt;Problem Space&lt;/h3&gt;
+          &lt;h4&gt;Problem Space&lt;/h4&gt;
           &lt;p&gt;With the advent of wearables and smart phones, tracking your physical activity has been getting easier. However, tracking your mental focus has not changed. we wanted to explore how we could use the devices that are in our pockets and on our wrists to help us better track what we are doing and see how that could change our behaviors over time.&lt;/p&gt;
           &lt;/div&gt;
 &lt;/div&gt;
@@ -493,7 +634,7 @@ changes to the app to better fit the mental models for users and create a faster
 
 &lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
 	    &lt;div class=&quot;col-sm-6&quot;&gt;
-            &lt;h3&gt; Summary &lt;/h3&gt; 
+            &lt;h4&gt; Summary &lt;/h4&gt; 
             &lt;p&gt;&lt;b&gt;Domain &lt;/b&gt;| Machine Learning/Data Visualization &lt;/p&gt; 
             &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| Machine Learning, Python development, Front End Web Development &lt;/p&gt;
             &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Python (SciPy, NumPy, Pandas, and Beautiful Soup), D3.js, Leaflet.js&lt;/p&gt; 
@@ -501,7 +642,7 @@ changes to the app to better fit the mental models for users and create a faster
             &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati and &lt;a href=&quot;http://oliverek.com&quot;&gt;Oliver Ebeling-Koning&lt;/a&gt; (Lead Data Scientist) &lt;/p&gt; 
           &lt;/div&gt;
           &lt;div class=&quot;col-sm-6&quot;&gt;
-          &lt;h3&gt;Problem Space&lt;/h3&gt;
+          &lt;h4&gt;Problem Space&lt;/h4&gt;
           &lt;p&gt;Software professionals are in demand in a lot of places in the world. In addition, they have an opportunity that few others have had before; the ability to work remote. We were curious about what trends were formed in a software developer's job search (being a software developer myself...it seemed like a good thing to look into). In addition, as software developers, we were curious about pay distribution for specific features such as location and programming language of choice. &lt;/p&gt;
           &lt;/div&gt;
 &lt;/div&gt;
