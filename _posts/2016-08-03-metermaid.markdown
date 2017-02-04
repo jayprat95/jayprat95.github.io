@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MeterMaid"
-banner_img: "scotty.png"
+banner_img: "Metermaid.png"
 date:   2016-03-22 15:33:53 -0400
 description: "Envisioning a crowd-sourced on-demand parking service"
 permalink: metermaid
