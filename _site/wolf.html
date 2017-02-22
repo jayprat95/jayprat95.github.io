@@ -54,7 +54,9 @@
 
     <div class="" style="overflow:auto;
 	padding-bottom: 180px;">
-    	<div style="margin-left:5px;">
+    	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<div style="margin-left:5px;">
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   
 
@@ -134,7 +136,7 @@
 
 <h1 id="playtesting">Playtesting</h1>
 
-<p>After we came up with our idea, we went through two rounds of prototyping and playtesting. For our first round, we created scenarios for each character and presented them to a playtesting session at the <strong>__</strong> lab. We quickly found out that our initial script was too predictable and that users could easily game the results. In addition, we found that once users walked through one or two sets of scenarios, the game was repetitive enough that it lost replay value to the users.</p>
+<p>After we came up with our idea, we went through two rounds of prototyping and playtesting. For our first round, we created scenarios for each character and presented them to a playtesting session at the  OH! lab. We quickly found out that our initial script was too predictable and that users could easily game the results. In addition, we found that once users walked through one or two sets of scenarios, the game was repetitive enough that it lost replay value to the users.</p>
 
 <p><br /></p>
 
@@ -175,9 +177,28 @@ from a human and playtest as if they were part of an APG. We found that users we
 
 
   </div>
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+
 
 </article>
 </div>
+
+<script type="text/javascript">
+// ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+</script>
 
 
 
