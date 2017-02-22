@@ -83,7 +83,7 @@ The interaction design of the game serves to foster debate and influence. Typica
 
 # Playtesting 
 
-After we came up with our idea, we went through two rounds of prototyping and playtesting. For our first round, we created scenarios for each character and presented them to a playtesting session at the ______ lab. We quickly found out that our initial script was too predictable and that users could easily game the results. In addition, we found that once users walked through one or two sets of scenarios, the game was repetitive enough that it lost replay value to the users. 
+After we came up with our idea, we went through two rounds of prototyping and playtesting. For our first round, we created scenarios for each character and presented them to a playtesting session at the  OH! lab. We quickly found out that our initial script was too predictable and that users could easily game the results. In addition, we found that once users walked through one or two sets of scenarios, the game was repetitive enough that it lost replay value to the users. 
 
 <br> 
 
