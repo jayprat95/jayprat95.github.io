@@ -1,0 +1,132 @@
+---
+layout: post
+title:  "Wolf Goes To School"
+banner_img: "twitch.png"
+date:   2016-03-22 15:33:53 -0400
+description: "Envisioning the future of Audience 
+Participation games"
+permalink: wolf
+categories: jekyll update
+---
+
+
+# About
+
+<div class="row">
+	    <div class="col-sm-6">
+            <h4> Summary </h4> 
+            <p><b>Domain </b>| Audience Participation, Video Games, Twitch </p> 
+            <p><b>Skills </b>| Game Design/Strategy, Game wireframing, Playtesting, Unity/C# Development </p>
+            <p><b>Tools</b> | Unity, Twitch Api, Keynote, Sketch</p> 
+            <p><b>Role</b> | Software Developer + Designer </p>
+            <p><b>Team</b> | Jayanth Prathipati, Conrad Bassett-Bouchard, Emily Porat, Kate Carey, Riva Fouzdar, Sina Siddiqi</p> 
+          </div>
+          <div class="col-sm-6">
+          <h4>Problem Space</h4>
+          <p>
+          	Design and build a game or Twitch.tv feature that improves upon the current state of Audience Participation Games.
+		 </p>
+          </div>
+</div>
+
+
+<br> 
+<br> 
+
+# Solution 
+
+During an initial round of brainstorming, our team kept coming back to Mafia as a game of choice. We all enjoyed playing Mafia with our friends at parties and one thing we quickly realized is that this game quickly turned into psychological warfare at parties. It turned into behavioral analysis and probabilistic judgments. In addition, Mafia is great with medium to large sized groups and can scale quickly.
+
+<br> 
+
+
+
+Based on this initial brainstorm, Mafia seemed like a logical starting point for designing and building an Audience Participation Game (APG) for the Twitch.tv medium.APGs are a nascent video gaming genre in which the audience has a say in the game's outcome. One weakness of these games, so far, is the interaction tends to be limited to sending commands or votes to a chatbot in a Twitch.tv stream. My team of six believed the influence and persuasion elements of Mafia could serve as a model to overcome the shortcomings of current APGs. Our resulting APG, Wolf Goes to School, leverages the game’s output to inspire lively discussion amongst audience members.
+
+<br>
+
+<img src="/img/wolfe_title_card.png">
+<p id="post-caption">Initial Login Screen</p>
+
+<br> 
+<br> 
+
+# Game Summary
+
+In Wolf Goes to School, audience members take on the role of a teacher tasked with figuring out which of their five students is actually an evil wolf in disguise. Each round, the audience is allowed to ask a question to all of the NPC (non-player character) students, who all give a response to the chosen question. Audience members then use this information to debate the identity of the wolf. This discussion culminates in a final vote to decide which student will be left at the playground that evening, under suspicion of being the wolf. If the class returns to find a wolf tied up the next morning, the audience wins the game, but if they return to find nobody, the class is down a student, and the game continues. Gameplay lasts a maximum of three rounds, at which point only the wolf can win.
+
+<br> 
+
+<img src="/img/wolfe_cast.png">
+<p id="post-caption">The cast in the classroom</p>
+
+<br> 
+<br> 
+# Interaction Design 
+
+We spoke with Twitch streamers to better understand their frustrations with audience participation games. Combined with observation of current APGs like Choice Chamber, it became clear that a major breakdown of this new genre is the forced overreliance on the Twitch stream’s chat channel for both audience interaction and game input. Although time constraints led us to keep the actual casting of votes in the chat, we drew the line here. Specifically, we focused on the audience interactions with each other, as well as the direct feedback the game itself provides to the audience.
+
+<br> 
+
+<img src="/img/wolfe_screen_1.png">
+<p id="post-caption">Classroom screen wireframes</p>
+
+<br> 
+
+The interaction design of the game serves to foster debate and influence. Typically, APGs don’t give realtime feedback of audience member contribution, so in Wolf Goes to School, current results are updated on the game screen as the timer counts down. As players sway each other’s opinions, players are permitted to change their vote, and the vote graph changes accordingly. The salience of vote standings reinforces the design decision to spotlight audience interaction because they are appropriately reminded they have the capacity for continual influence over the game (provided they keep chatting!)
+
+<img src="/img/wolfe_screen_2.png">
+<p id="post-caption">Voting screen wireframes</p>
+
+<br> 
+<br> 
+
+# Playtesting 
+
+After we came up with our idea, we went through two rounds of prototyping and playtesting. For our first round, we created scenarios for each character and presented them to a playtesting session at the ______ lab. We quickly found out that our initial script was too predictable and that users could easily game the results. In addition, we found that once users walked through one or two sets of scenarios, the game was repetitive enough that it lost replay value to the users. 
+
+<br> 
+
+<img src="/img/playtest_1.JPG">
+<p id="post-caption">Users playtesting our initial prototype</p>
+
+<br> 
+
+We immediately went to fix this problem and created more randomized content that could fit each character. While this made our game less personalized, it made each playthrough of the game unique and significantly increased replay value. We tested this session through a chatting system (Slack) and had users get manual responses 
+from a human and playtest as if they were part of an APG. We found that users were having a lot of fun and having lots of discussion with each other.
+
+<br> 
+
+<img src="/img/playtest_2.png">
+<p id="post-caption">Users playtesting our second prototype</p>
+
+
+<br> 
+<br> 
+
+# Development 
+
+After getting great feedback from prototyping, we focused on building the video game out. We used Unity to create the video game and for game logic. In addition, we used the Twitch API to connect to individual channels and stream the game out. Users could type in commands such as "Kill" or "Info" and get specific information from our video game right in their chat window.
+
+<br> 
+
+This was a challenging project for me individually, I have never done C# development nor have I used Unity or the Twitch API's so it was a great learning experience personally. I was primarily responsible for the data structures and API hooks into the application. I used two singletons. One to store all of the neccesary dialog as well as keep track of the game state at any given time in the video game process and another to interface directly with Twitch and listen in for the channel of comments that were typed into a specific user's streams. Key features implemented includes: having randomized dialog using hashtables, interfacing with the Twitch API and using listeners to respond to given key commands, using hashes to reduce spamming and ensure that users got to vote only once, and keeping track of state across the course of the entire game. We found it surprisingly hard to maintain state using Unity and using Unity's scenes. When you transitioned from one scene to the next, Unity would lose all track of state and it was quite hard to learn how to keep that instance of the game state up and running (to keep track of which characters were alive or dead)
+
+<br> 
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Ymg30p_jSw" frameborder="0" allowfullscreen></iframe>
+<p id="post-caption">Final Deliverable</p>
+
+<br> 
+
+<a href="https://drive.google.com/file/d/0BydD14xNnK9bZnhfM3BkXzBsMUE/view?usp=sharing">View our Final Process Doc </a>
+<br> 
+<a href="https://drive.google.com/file/d/0B4jGw51WbvANU3EwU0lQczVmem8/view?usp=sharing">View our Final Presentation</a>
+
+
+
+
+
+

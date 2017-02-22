@@ -229,7 +229,6 @@
 
 .post-header {
     margin-bottom: $spacing-unit;
-    border-bottom: 1px solid #D8D8D8;
 }
 
 .post-title {
@@ -250,7 +249,7 @@ iframe, object, embed {
 
 
 #post-caption {
-  text-align: center;
+  text-align: left;
   font-size: $small-font-size; 
   color: #555; 
 }
@@ -258,7 +257,6 @@ iframe, object, embed {
 
 .post-content {
     margin-bottom: $spacing-unit;
-    text-align: center;
     margin-left: 15%; 
     margin-right: 15%; 
 
@@ -269,7 +267,6 @@ iframe, object, embed {
     p {
         text-align: left;
         margin-bottom: 0px; 
-        margin-left: $spacing-unit; 
         margin-right: $spacing-unit;
         font-family: 'Raleway', sans-serif;
     }

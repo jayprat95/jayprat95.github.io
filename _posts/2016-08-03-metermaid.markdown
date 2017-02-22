@@ -10,14 +10,14 @@ categories: jekyll update
 
 # About
 
-<div class="row" style="margin-left:0px; margin-right:0px;">
+<div class="row">
 	    <div class="col-sm-6">
             <h4> Summary </h4> 
             <p><b>Domain </b>| Crowdsourcing </p> 
             <p><b>Skills </b>| Literature Review, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona & Scenario Generation  </p>
             <p><b>Tools</b> | Sketch, Principle, and Invision</p> 
             <p><b>Role</b> | Researcher & Designer</p>
-            <p><b>Team</b> | Jayanth Prathipati, <a href="http://carolinewin.com">Shannon Sullivan</a>, Rho Eun Song, and Kathy Liu </p> 
+            <p><b>Team</b> | Jayanth Prathipati, <a href="http://shansul.com">Shannon Sullivan</a>, Rho Eun Song, and Kathy Liu </p> 
           </div>
           <div class="col-sm-6">
           <h4>Problem Space</h4>

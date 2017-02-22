@@ -11,7 +11,7 @@ categories: jekyll update
 
 # About 
 
-<div class="row" style="margin-left:0px; margin-right:0px;">
+<div class="row">
 	    <div class="col-sm-6">
             <h4> Summary </h4> 
             <p><b>Domain </b>| Education/Social </p> 
@@ -41,7 +41,7 @@ We created ScottyChat, a crowd sourced chatbot that lets you interact with Scott
 First, we interviewed 4 Masters students about their experiences from getting accepted into the program to arriving at Carnegie Mellon and created journey maps to get a better understanding of how the experience was for them. 
 <br> 
 
-<div class="row" style="margin-left:0px; margin-right:0px;">
+<div class="row">
 	    <div class="col-sm-4">
 	    	<img src="/img/scotty_1.png">
 	    </div> 
@@ -58,7 +58,7 @@ First, we interviewed 4 Masters students about their experiences from getting ac
 
 We consolidated our journey map to get a better understanding of the typical master student's journey at CMU 
 
-<div class="row" style="margin-left:0px; margin-right:0px;">
+<div class="row">
 	    <div class="col-sm-12">
 	    	<img src="/img/scotty_journey_initial.png">
 	    </div> 

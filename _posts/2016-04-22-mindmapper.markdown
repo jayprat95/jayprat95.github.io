@@ -10,7 +10,7 @@ categories: jekyll update
 
 # About This Project
 
-<div class="row" style="margin-left:0px; margin-right:0px;">
+<div class="row" >
 	    <div class="col-sm-6">
             <h4> Summary </h4> 
             <p><b>Domain </b>| Mobile Health/Quantified Self </p> 
@@ -38,7 +38,7 @@ We built an Android app that interfaced with EEG devices to help give actionable
 
 # Research 
 
-<div class="row" style="margin-left:0px; margin-right:0px;">
+<div class="row">
 
 <div class="col-sm-6">
   <p>
