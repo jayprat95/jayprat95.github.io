@@ -173,7 +173,8 @@ After our changes, we made InVision prototypes for both the mobile and deskop fl
 
 <br> 
 
-<iframe width="438" height="930" src="//invis.io/TK8VTWQN8" frameborder="0" sandbox="allow-forms allow-scripts"></iframe>
+<!-- <iframe width="438" height="930" src="//invis.io/TK8VTWQN8" frameborder="0" sandbox="allow-forms allow-scripts"></iframe> -->
+<a href="https://invis.io/2H8XLN5VR">View our Final Prototype on InVision </a>
 <br> 
 <br> 
 
