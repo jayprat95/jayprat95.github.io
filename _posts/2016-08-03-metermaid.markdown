@@ -172,7 +172,10 @@ We built a prototype using invision to give a better sense of our story and pres
 <br> 
 <br> 
 
-<iframe width="500" height="930" src="//invis.io/JM9BWXQBZ" frameborder="0"></iframe>
+<!-- <iframe width="500" height="930" src="//invis.io/JM9BWXQBZ" frameborder="0" allowfullscreen></iframe> -->
+<a href="https://invis.io/C69BWXR45">View our Final Prototype on InVision </a>
+
+
 <br> 
 <br> 
 
