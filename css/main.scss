@@ -166,7 +166,7 @@ font-weight: 700;
 	text-align: center;  
 	font-weight: normal; 
 	font-size: 4.5em;  
-	padding-top: 200px;
+	padding-top: 100px;
     margin: 0px 0px;
 }
 
@@ -375,7 +375,7 @@ font-weight: 700;
 		font-size:	 1.5em;  
 	}
 	#hero-content {
-		height: 630px;
+		height: 730px;
 	}
 
 	#about-title {
@@ -424,7 +424,7 @@ font-weight: 700;
 		font-size: 2.5em;  
 	}
 	#hero-content {
-		height: 730px;
+		height: 830px;
 	}
 
 	#about-pic {
@@ -451,6 +451,9 @@ font-weight: 700;
 /* browser, ipad landscape */
 @media screen and (min-width:1024px){
 
+	#hero-content {
+		height: 730px; 
+	}
 	#about-pic {
 		padding-left: 40px; 
 	}
@@ -460,7 +463,6 @@ font-weight: 700;
 	}
 
 	#about-description {
-		
 		padding-left: 50px; 
 		padding-top: 0px; 
 	}
