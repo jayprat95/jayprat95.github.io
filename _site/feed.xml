@@ -5,8 +5,8 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Mar 2017 15:32:01 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Mar 2017 15:32:01 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Mar 2017 16:45:32 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Mar 2017 16:45:32 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;div class=&quot;row&quot;&gt;
 	    &lt;div class=&quot;col-sm-8&quot;&gt;
-&lt;img src=&quot;/img/wolfe_title_card.png&quot; /&gt;
+&lt;img src=&quot;/img/ci_header.png&quot; /&gt;
           &lt;/div&gt;
           &lt;div class=&quot;col-sm-4&quot;&gt;
           &lt;h4&gt;Project Overview&lt;/h4&gt;
@@ -37,7 +37,84 @@
 
 &lt;h1 id=&quot;solution&quot;&gt;Solution&lt;/h1&gt;
 
-&lt;p&gt;We Propose uClipper, a chrome plugin used for saving content from different sources of literature for&lt;/p&gt;
+&lt;p&gt;We Propose uClipper, a chrome plugin used for saving content from different sources of literature for concept building and analysis. Since uClipper is a flexible tool and can fit in the existing workflow of researchers, research analysis and synthesis can be faster than before.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;contextual-inquiry-interviews--interpretations&quot;&gt;Contextual Inquiry Interviews &amp;amp; Interpretations&lt;/h1&gt;
+
+&lt;p&gt;We started out by conducting hour-long interviews with PhD students, professors, and librarians at Carnegie Mellon in order to understand the academic research process. When we started synthesizing these interviews through interpretation sessions and sequence flow models, we found breakdowns in the literature review process.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ci_1.png&quot; /&gt;
+&lt;img src=&quot;/img/ci_2.png&quot; /&gt;
+&lt;img src=&quot;/img/ci_3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Three breakdowns that we came across were that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;There was a lot of repetition when searching for information; users often had to find literature, synthesize, and then repeat the process based on feedback from stakeholders such as professors&lt;/li&gt;
+  &lt;li&gt;It’s hard to manage keeping track of documents from multiple data sources such as google scholar and academic journals&lt;/li&gt;
+  &lt;li&gt;It’s hard to figure out if experiments are worthwhile &amp;amp; reproducible from research papers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We were also interested in seeing the relationships that researchers had to their tools and external forces such as the university &amp;amp; other stakeholders, so we created a cultural model to better understand these forces.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/img/ci_4.png&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;affinity-modeling-and-walking-the-wall&quot;&gt;Affinity Modeling and Walking the Wall&lt;/h3&gt;
+
+&lt;p&gt;After going through all of our notes from our interviews and interpretation sessions, we created an affinity model to cluster and get higher level insights from our interviews.&lt;/p&gt;
+
+&lt;p&gt;Our process for doing so was to silently walk the wall of affinity notes, labeling breakdowns, questions, and design ideas on post-it notes.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/img/ci_5.jpeg&quot; /&gt;
+&lt;img src=&quot;/img/ci_6.jpeg&quot; /&gt;
+&lt;img src=&quot;/img/ci_7.jpg&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;visioning-session&quot;&gt;Visioning Session&lt;/h4&gt;
+
+&lt;p&gt;We quickly came with low level insights and design ideas from this process but we needed to brainstorm further. We used a collaborative style “yes, and” method to build on each others ideas and go as broad as possible. We came up solutions for collaboration, data cleaning, data sharing, and using AR for showing search results.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;storyboarding&quot;&gt;Storyboarding&lt;/h4&gt;
+
+&lt;p&gt;After our visioning session, we refined our ideas into presentable storyboards. We wanted to ue these to have a higher level idea of our envisioned solutions and see how it solved the breakdowns that we found from our interviews&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;img src=&quot;/img/ci_8.png&quot; /&gt;
+&lt;img src=&quot;/img/ci_9.png&quot; /&gt;
+&lt;img src=&quot;/img/ci_10.png&quot; /&gt;
+&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h3&gt;
+
+&lt;p&gt;After creating our storyboards, we went back to academic researchers and presented our ideas in a short speed dating session to get their reactions.&lt;/p&gt;
+
+&lt;p&gt;We received positive feedback for the Chrome plugin to collect literature from multiple sources. This solution produced a lot of value to our end users at little technical cost and feasibility, so we moved forward to present this idea to our client.&lt;/p&gt;
+
+&lt;h3 id=&quot;poster-presentation&quot;&gt;Poster Presentation&lt;/h3&gt;
+
+&lt;p&gt;After finalizing our idea for uClipper, we made a poster presentation to show our client our insights and present 
+how our solution would address breakdowns in researchers workflows using their existing technology. We believe that we 
+addressed some key issues and created a product that produces a lot of value at little cost to the client.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;img src=&quot;/img/ci_11.png&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>
         <link>http://localhost:4000/uclipper</link>
