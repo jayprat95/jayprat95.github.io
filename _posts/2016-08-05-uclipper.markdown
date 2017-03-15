@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "uClipper"
+banner_img: "twitch.png"
+date:   2016-03-22 15:33:53 -0400
+description: "Envisioning the future of the Research Process at Universities"
+title_desc: "Using Contextual Inquiry to find Product Market Fit"
+permalink: uclipper
+categories: jekyll update
+---
+
+
+# About
+
+<div class="row">
+	    <div class="col-sm-8">
+<img src="/img/wolfe_title_card.png">
+          </div>
+          <div class="col-sm-4">
+          <h4>Project Overview</h4>
+          <p>
+          	We used Contextual Inquiry to explore the academic research process. Our client was seeking to 
+            adapt an existing ML product from a larger customer base and focus on academic researchers.
+		      </p>
+            <h4> Summary </h4> 
+            <p><b style="color:grey;">Skills </b>| Contextual interviews, interview interpretation, affinity models, flow and cultural models, visioning, storyboards, speed-dating</p>
+            <p><b style="color:grey;">Team</b> | Jayanth Prathipati, Clare Carroll, Nora Tane, Stephanie Liao, and Neeraj Verma</p> 
+
+
+
+          </div>
+</div>
+
+
+<br> 
+<br> 
+
+# Solution 
+
+We Propose uClipper, a chrome plugin used for saving content from different sources of literature for 

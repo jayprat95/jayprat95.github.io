@@ -5,9 +5,50 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Mar 2017 15:04:28 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Mar 2017 15:04:28 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Mar 2017 15:32:01 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Mar 2017 15:32:01 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>uClipper</title>
+        <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	    &lt;div class=&quot;col-sm-8&quot;&gt;
+&lt;img src=&quot;/img/wolfe_title_card.png&quot; /&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;h4&gt;Project Overview&lt;/h4&gt;
+          &lt;p&gt;
+          	We used Contextual Inquiry to explore the academic research process. Our client was seeking to 
+            adapt an existing ML product from a larger customer base and focus on academic researchers.
+		      &lt;/p&gt;
+            &lt;h4&gt; Summary &lt;/h4&gt; 
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Skills &lt;/b&gt;| Contextual interviews, interview interpretation, affinity models, flow and cultural models, visioning, storyboards, speed-dating&lt;/p&gt;
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Team&lt;/b&gt; | Jayanth Prathipati, Clare Carroll, Nora Tane, Stephanie Liao, and Neeraj Verma&lt;/p&gt; 
+
+
+
+          &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;solution&quot;&gt;Solution&lt;/h1&gt;
+
+&lt;p&gt;We Propose uClipper, a chrome plugin used for saving content from different sources of literature for&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>
+        <link>http://localhost:4000/uclipper</link>
+        <guid isPermaLink="true">http://localhost:4000/uclipper</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Wolf Goes To School</title>
