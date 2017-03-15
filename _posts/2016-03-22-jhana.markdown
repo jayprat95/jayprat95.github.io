@@ -4,6 +4,7 @@ title:  "Jhana: An exploration of the Experience Sampling Method"
 banner_img: "jhana_icon.png"
 date:   2016-03-22 15:33:53 -0400
 description: "Learn insights about how focused you are throughout the day."
+title_desc: "Exploratory design on translating psychology research to the Apple Watch"
 permalink: jhana
 categories: jekyll update
 ---

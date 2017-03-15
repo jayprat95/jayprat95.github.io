@@ -4,6 +4,7 @@ title:  "ScottyChat"
 banner_img: "scotty.png"
 date:   2016-03-22 15:33:53 -0400
 description: "Helping prospective CMU students make educated decisions about their futures"
+title_desc: "Web service design for prospective CMU students"
 permalink: scottychat
 categories: jekyll update
 ---
@@ -12,17 +13,15 @@ categories: jekyll update
 # About 
 
 <div class="row">
-	    <div class="col-sm-6">
-            <h4> Summary </h4> 
-            <p><b>Domain </b>| Education/Social </p> 
-            <p><b>Skills </b>| Journey Mapping, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona & Scenario Generation  </p>
-            <p><b>Tools</b> | Sketch, InVision</p> 
-            <p><b>Role</b> | Researcher & Designer</p>
-            <p><b>Team</b> | Jayanth Prathipati and <a href="http://carolinewin.com">Caroline Win</a> </p> 
+	    <div class="col-sm-8"> 
           </div>
-          <div class="col-sm-6">
-          <h4>Problem Space</h4>
-          <p>While there is a lot of information available for undergraduate programs in the USA, finding information about Graduate Programs can be quite difficult. There aren't many resources available online. In addition, finding accounts of student life and job opportunities can be scarce as well. It's hard for prospective students to evaluate and make an educated decision about their futures. </p>
+          <div class="col-sm-4">
+          <h4>Project Overview</h4>
+          <p>This project is a web service design solution that services the gap between college admittance and college acceptance. There are currently little to no resources available for masters and PhD students in comparison to undergraduates. We created a friendly chatbot that can help guide admitted students </p>
+
+            <h4> Summary </h4> 
+            <p><b style="color:grey;">Skills </b>| Journey Mapping, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona & Scenario Generation  </p>
+            <p><b style="color:grey;">Team</b> | Jayanth Prathipati and <a href="http://carolinewin.com">Caroline Win</a> </p> 
           </div>
 </div>
 
@@ -87,6 +86,18 @@ They also asked Career-Oriented Questions such as:
 
 <br> 
 <br> 
+
+
+We envisioned a future where all of these issues could be fixed and created an envisioned journey map where 
+all of these painpoints were alleviated.
+
+
+<div class="row" style="margin-left:0px; margin-right:0px;">
+	    <div class="col-sm-12">
+	    	<img src="/img/scotty_10.png">
+	    </div> 
+
+</div> 
 
 # Prototyping 
 
@@ -182,12 +193,6 @@ After our changes, we made InVision prototypes for both the mobile and deskop fl
 
 After creating these prototypes, we did a final round of evaluation and tried to better view where our end users would be. We did a journey map of a user with our envisioned solution and found that they would be a better experience overall. We were able to add benefits to the university and to the end user and make their admittance experience better overall. 
 
-<div class="row" style="margin-left:0px; margin-right:0px;">
-	    <div class="col-sm-12">
-	    	<img src="/img/scotty_10.png">
-	    </div> 
-
-</div> 
 
 
 

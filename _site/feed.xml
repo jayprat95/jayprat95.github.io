@@ -5,8 +5,8 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Mar 2017 17:33:29 -0400</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 17:33:29 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Mar 2017 14:52:40 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Mar 2017 14:52:40 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -14,19 +14,20 @@
         <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
 
 &lt;div class=&quot;row&quot;&gt;
-	    &lt;div class=&quot;col-sm-6&quot;&gt;
-            &lt;h4&gt; Summary &lt;/h4&gt; 
-            &lt;p&gt;&lt;b&gt;Domain &lt;/b&gt;| Audience Participation, Video Games, Twitch &lt;/p&gt; 
-            &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| Game Design/Strategy, Game wireframing, Playtesting, Unity/C# Development &lt;/p&gt;
-            &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Unity, Twitch Api, Keynote, Sketch&lt;/p&gt; 
-            &lt;p&gt;&lt;b&gt;Role&lt;/b&gt; | Software Developer + Designer &lt;/p&gt;
-            &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati, Conrad Bassett-Bouchard, Emily Porat, Kate Carey, Riva Fouzdar, Sina Siddiqi&lt;/p&gt; 
+	    &lt;div class=&quot;col-sm-8&quot;&gt;
+&lt;img src=&quot;/img/wolfe_title_card.png&quot; /&gt;
           &lt;/div&gt;
-          &lt;div class=&quot;col-sm-6&quot;&gt;
-          &lt;h4&gt;Problem Space&lt;/h4&gt;
+          &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;h4&gt;Project Overview&lt;/h4&gt;
           &lt;p&gt;
           	Design and build a game or Twitch.tv feature that improves upon the current state of Audience Participation Games.
-		 &lt;/p&gt;
+		      &lt;/p&gt;
+            &lt;h4&gt; Summary &lt;/h4&gt; 
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Skills &lt;/b&gt;| Game Design/Strategy, Game wireframing, Playtesting, Unity/C# Development &lt;/p&gt;
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Team&lt;/b&gt; | Jayanth Prathipati, Conrad Bassett-Bouchard, Emily Porat, Kate Carey, Riva Fouzdar, Sina Siddiqi&lt;/p&gt; 
+
+
+
           &lt;/div&gt;
 &lt;/div&gt;
 
@@ -41,12 +42,7 @@
 
 &lt;p&gt;Based on this initial brainstorm, Mafia seemed like a logical starting point for designing and building an Audience Participation Game (APG) for the Twitch.tv medium.APGs are a nascent video gaming genre in which the audience has a say in the game’s outcome. One weakness of these games, so far, is the interaction tends to be limited to sending commands or votes to a chatbot in a Twitch.tv stream. My team of six believed the influence and persuasion elements of Mafia could serve as a model to overcome the shortcomings of current APGs. Our resulting APG, Wolf Goes to School, leverages the game’s output to inspire lively discussion amongst audience members.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/wolfe_title_card.png&quot; /&gt;&lt;/p&gt;
-&lt;p id=&quot;post-caption&quot;&gt;Initial Login Screen&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; 
+&lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;game-summary&quot;&gt;Game Summary&lt;/h1&gt;
@@ -137,18 +133,22 @@ from a human and playtest as if they were part of an APG. We found that users we
         <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
 
 &lt;div class=&quot;row&quot;&gt;
-	    &lt;div class=&quot;col-sm-6&quot;&gt;
-            &lt;h4&gt; Summary &lt;/h4&gt; 
-            &lt;p&gt;&lt;b&gt;Domain &lt;/b&gt;| Crowdsourcing &lt;/p&gt; 
-            &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| Literature Review, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona &amp;amp; Scenario Generation  &lt;/p&gt;
-            &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Sketch, Principle, and Invision&lt;/p&gt; 
-            &lt;p&gt;&lt;b&gt;Role&lt;/b&gt; | Researcher &amp;amp; Designer&lt;/p&gt;
-            &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati, &lt;a href=&quot;http://shansul.com&quot;&gt;Shannon Sullivan&lt;/a&gt;, Rho Eun Song, and Kathy Liu &lt;/p&gt; 
+	    &lt;div class=&quot;col-md-8&quot;&gt;
+	    	&lt;img src=&quot;/img/today_start.png&quot; /&gt;
+	    	&lt;img src=&quot;/img/today_done.png&quot; /&gt;
           &lt;/div&gt;
-          &lt;div class=&quot;col-sm-6&quot;&gt;
-          &lt;h4&gt;Problem Space&lt;/h4&gt;
-          &lt;p&gt;Parking is expensive and difficult to find, yet some research suggests that around 3 parking spaces exist for every car. How can a resource seem scarce, yet actually be so abundant? One contributing factor is that some spaces can only be utilized by a specific person, like a driveway at someone’s house. When the homeowner is away, their driveway is unoccupied, making it an unutilized resource. Is it possible to make these exclusive resources available to others when their primary owner is not using them? And why doesn’t this happen now? One contributing factor is that there is a mutual lack of trust between the person with the driveway and the person looking for parking.
- &lt;/p&gt;
+          &lt;div class=&quot;col-md-4&quot;&gt;
+
+ 		    &lt;h4&gt; Project Overview &lt;/h4&gt; 
+ 		   	&lt;p&gt;MeterMaid is a mobile service design solution that opens up homeowner's driveways to drivers 
+ 		   	in need of parking in urban environments. Our final deliverable was an invision prototype. &lt;/p&gt;
+ 		   	&lt;br /&gt; 
+            &lt;h4&gt; Summary &lt;/h4&gt; 
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Skills &lt;/b&gt;| Literature Review, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona &amp;amp; Scenario Generation  &lt;/p&gt;
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Team&lt;/b&gt; | Jayanth Prathipati, &lt;a href=&quot;http://shansul.com&quot;&gt;Shannon Sullivan&lt;/a&gt;, Rho Eun Song, and Kathy Liu &lt;/p&gt; 
+
+
+
           &lt;/div&gt;
 &lt;/div&gt;
 
@@ -159,7 +159,7 @@ from a human and playtest as if they were part of an APG. We found that users we
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;MeterMaid is an application that enables homeowners to capitalize upon their open driveway space by connecting with drivers seeking convenient and affordable parking. We designed it specifically to facilitate trust between the two parties, particularly on the homeowner’s side by enabling them to monitor their property in the application, report inappropriate or malicious behavior, and filter out and block certain users.&lt;/p&gt;
+&lt;p&gt;MeterMaid is an application that enables homeowners to capitalize upon their open driveway space by connecting with drivers seeking convenient and affordable parking. We designed it specifically to facilitate trust between the two parties, particularly on the homeowner’s side by enabling them to monitor their property in the application, report inappropriate or malicious behavior, and deal with poor behavior through a robust ratings system.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt; 
 &lt;br /&gt;&lt;/p&gt;
@@ -170,14 +170,9 @@ from a human and playtest as if they were part of an APG. We found that users we
 
 &lt;p&gt;We started our research by understanding the target personas for the application. We had one for the homeowner and one for the driver.&lt;/p&gt;
 
-&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
-	    &lt;div class=&quot;col-sm-6&quot;&gt;
-	    	&lt;img src=&quot;/img/metermaid_1.png&quot; /&gt;
-	    &lt;/div&gt; 
-	   	&lt;div class=&quot;col-sm-6&quot;&gt;
-	    	&lt;img src=&quot;/img/metermaid_2.png&quot; /&gt;
-	    &lt;/div&gt; 
-&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/personas.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -205,25 +200,21 @@ from a human and playtest as if they were part of an APG. We found that users we
   &lt;li&gt;To understand the trust mechanics of existing resource sharing services (e.g. AirBnB, Uber) and to understand what led current users to trust these services&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;To address the first question and part of the second question, we developed a short survey on Google Forms and distributed it on social media. Respondents answered questions such as how frequently they use public parking, what is important to them when finding parking, and how long it took them to find a spot to park in the last time they used public parking.&lt;/p&gt;
+&lt;p&gt;In order to answer these questions, we researched existing services and how they leveraged design and technology to maintain trust (AirBnB, Uber, and eBay). We also used a short survey to figure out how users in Pittsburgh felt about parking. In addition, we interviewed 2 Uber drivers to understand how they mantained trust in the service. Finally, we interviewed two parking managers in person for an hour to understand the management aspect of parking.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;For our second question, we explored the various parking options in Pittsburgh and reached out to several landlords who handle parking asking for an interview. Of the individuals we reached out to, only one responded. We visited that one person and conducted a brief one-hour interview.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Regarding the third question of how other resource sharing services built trust between users, we read through existing literature analyzing and explaining their methodologies in conjunction with interviewing Uber drivers to better understand what incentivized them to get started and how Uber protects them and their assets.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/graphs.png&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Results from our survey&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;key-insights-from-our-research&quot;&gt;Key Insights from our research&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;We found from our survey that most indicated that safety is the most important aspect when considering parking, followed by availability/ease of parking. Surprisingly, they said price was the least important, which contradicts the information we had in our scenario (Rebecca doesn’t want to pay the high fees for parking her car in a lot near the hospital) as well as what the Freakonomics podcast indicated, where people in will spend more time driving around looking for a spot that they do not have to pay for&lt;/li&gt;
-  &lt;li&gt;Several respondents remarked that it is currently very hard to find available parking and the price of the parking in advance when using navigation applications such as Google Maps.&lt;/li&gt;
-  &lt;li&gt;The parking lot manager’s biggest challenges include maintaining a good level of public parkers to optimize revenue while also guaranteeing any leaseholder is able to find parking. Another challenge is being unable to contact public parkers who have unknowingly parked in an off-limits space; often she has to have their car towed as a result.&lt;/li&gt;
-  &lt;li&gt;Some ridesharing applications provide more support for drivers than others. For example, before a driver can begin taking passengers using Lyft, a representative comes to their home to verify their information, confirm that their vehicle is up to code, and assists the driver in setting up a profile&lt;/li&gt;
+  &lt;li&gt;Many of our users viewed safety as the most important factor when selecting parking&lt;/li&gt;
+  &lt;li&gt;Parking Lot Managers have to spend a lot of time balancing between managing revenue and dealing with exceptions such as towing unauthorized parkers&lt;/li&gt;
+  &lt;li&gt;Drivers trust Uber/Lyft to handle any edge cases, E.G getting an unruly driver.&lt;/li&gt;
   &lt;li&gt;There are several factors that will build and retain user trust
     &lt;ul&gt;
       &lt;li&gt;A positive first experience with the application&lt;/li&gt;
@@ -235,9 +226,20 @@ from a human and playtest as if they were part of an APG. We found that users we
 
 &lt;p&gt;We then built scenarios to exemplify our key insights and figure out what edge cases we need to worry about when building this app, such as What happens when drivers arriving really late to the location? How does a driveway owner handle harassment? What security measures are in place to make sure that people do not use this service for robbing houses?&lt;/p&gt;
 
-&lt;p&gt;From these scenarios, we created over 20 storyboards in order to figure out what details we needed to look at. I was specifically interested in the idea of trust and focused on bringing that up&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;From these scenarios, we created over 20 storyboards in order to figure out what details we needed to look at. I was specifically interested in the idea of trust and focused on bringing that up in the scenarios that I created.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/scenarios.png&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Example Scenario&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;After creating these scenarios, we had a clear understanding of what edge cases we needed to accomodate for 
+and where breakdowns could potentially exist in a service like this. We narrowed down and focused on a set of 8-9 scenarios that seemed realistic. 
+&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h1&gt;
 
@@ -283,9 +285,11 @@ from a human and playtest as if they were part of an APG. We found that users we
 	    &lt;/div&gt; 
 	    &lt;div class=&quot;col-sm-4&quot;&gt;
 	    	&lt;img src=&quot;/img/metermaid_8.gif&quot; /&gt;
+	    	&lt;p id=&quot;post-caption&quot;&gt;Feedback of earnings for the user&lt;/p&gt;
 	    &lt;/div&gt; 
 	    &lt;div class=&quot;col-sm-4&quot;&gt;
 	    	&lt;img src=&quot;/img/metermaid_9.gif&quot; /&gt;
+	    	&lt;p id=&quot;post-caption&quot;&gt;Feedback of earnings for the user&lt;/p&gt;
 	    &lt;/div&gt; 
 &lt;/div&gt;
 
@@ -323,17 +327,15 @@ from a human and playtest as if they were part of an APG. We found that users we
         <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
 
 &lt;div class=&quot;row&quot;&gt;
-	    &lt;div class=&quot;col-sm-6&quot;&gt;
-            &lt;h4&gt; Summary &lt;/h4&gt; 
-            &lt;p&gt;&lt;b&gt;Domain &lt;/b&gt;| Education/Social &lt;/p&gt; 
-            &lt;p&gt;&lt;b&gt;Skills &lt;/b&gt;| Journey Mapping, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona &amp;amp; Scenario Generation  &lt;/p&gt;
-            &lt;p&gt;&lt;b&gt;Tools&lt;/b&gt; | Sketch, InVision&lt;/p&gt; 
-            &lt;p&gt;&lt;b&gt;Role&lt;/b&gt; | Researcher &amp;amp; Designer&lt;/p&gt;
-            &lt;p&gt;&lt;b&gt;Team&lt;/b&gt; | Jayanth Prathipati and &lt;a href=&quot;http://carolinewin.com&quot;&gt;Caroline Win&lt;/a&gt; &lt;/p&gt; 
+	    &lt;div class=&quot;col-sm-8&quot;&gt; 
           &lt;/div&gt;
-          &lt;div class=&quot;col-sm-6&quot;&gt;
-          &lt;h4&gt;Problem Space&lt;/h4&gt;
-          &lt;p&gt;While there is a lot of information available for undergraduate programs in the USA, finding information about Graduate Programs can be quite difficult. There aren't many resources available online. In addition, finding accounts of student life and job opportunities can be scarce as well. It's hard for prospective students to evaluate and make an educated decision about their futures. &lt;/p&gt;
+          &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;h4&gt;Project Overview&lt;/h4&gt;
+          &lt;p&gt;This project is a web service design solution that services the gap between college admittance and college acceptance. There are currently little to no resources available for masters and PhD students in comparison to undergraduates. We created a friendly chatbot that can help guide admitted students &lt;/p&gt;
+
+            &lt;h4&gt; Summary &lt;/h4&gt; 
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Skills &lt;/b&gt;| Journey Mapping, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona &amp;amp; Scenario Generation  &lt;/p&gt;
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Team&lt;/b&gt; | Jayanth Prathipati and &lt;a href=&quot;http://carolinewin.com&quot;&gt;Caroline Win&lt;/a&gt; &lt;/p&gt; 
           &lt;/div&gt;
 &lt;/div&gt;
 
@@ -402,6 +404,16 @@ from a human and playtest as if they were part of an APG. We found that users we
 
 &lt;p&gt;&lt;br /&gt; 
 &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We envisioned a future where all of these issues could be fixed and created an envisioned journey map where 
+all of these painpoints were alleviated.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
+	    &lt;div class=&quot;col-sm-12&quot;&gt;
+	    	&lt;img src=&quot;/img/scotty_10.png&quot; /&gt;
+	    &lt;/div&gt; 
+
+&lt;/div&gt;
 
 &lt;h1 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h1&gt;
 
@@ -497,13 +509,6 @@ Mark is able to use this information and figure out what subscription he needs.&
 &lt;h1 id=&quot;evaluate&quot;&gt;Evaluate&lt;/h1&gt;
 
 &lt;p&gt;After creating these prototypes, we did a final round of evaluation and tried to better view where our end users would be. We did a journey map of a user with our envisioned solution and found that they would be a better experience overall. We were able to add benefits to the university and to the end user and make their admittance experience better overall.&lt;/p&gt;
-
-&lt;div class=&quot;row&quot; style=&quot;margin-left:0px; margin-right:0px;&quot;&gt;
-	    &lt;div class=&quot;col-sm-12&quot;&gt;
-	    	&lt;img src=&quot;/img/scotty_10.png&quot; /&gt;
-	    &lt;/div&gt; 
-
-&lt;/div&gt;
 
 </description>
         <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>

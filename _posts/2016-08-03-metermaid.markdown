@@ -4,6 +4,7 @@ title:  "MeterMaid"
 banner_img: "Metermaid.png"
 date:   2016-03-22 15:33:53 -0400
 description: "Envisioning a crowd-sourced on-demand parking service"
+title_desc: "Mobile service design for parking services"
 permalink: metermaid
 categories: jekyll update
 ---
@@ -11,18 +12,22 @@ categories: jekyll update
 # About
 
 <div class="row">
-	    <div class="col-sm-6">
-            <h4> Summary </h4> 
-            <p><b>Domain </b>| Crowdsourcing </p> 
-            <p><b>Skills </b>| Literature Review, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona & Scenario Generation  </p>
-            <p><b>Tools</b> | Sketch, Principle, and Invision</p> 
-            <p><b>Role</b> | Researcher & Designer</p>
-            <p><b>Team</b> | Jayanth Prathipati, <a href="http://shansul.com">Shannon Sullivan</a>, Rho Eun Song, and Kathy Liu </p> 
+	    <div class="col-md-8">
+	    	<img src="/img/today_start.png">
+	    	<img src="/img/today_done.png">
           </div>
-          <div class="col-sm-6">
-          <h4>Problem Space</h4>
-          <p>Parking is expensive and difficult to find, yet some research suggests that around 3 parking spaces exist for every car. How can a resource seem scarce, yet actually be so abundant? One contributing factor is that some spaces can only be utilized by a specific person, like a driveway at someone’s house. When the homeowner is away, their driveway is unoccupied, making it an unutilized resource. Is it possible to make these exclusive resources available to others when their primary owner is not using them? And why doesn’t this happen now? One contributing factor is that there is a mutual lack of trust between the person with the driveway and the person looking for parking.
- </p>
+          <div class="col-md-4">
+
+ 		    <h4> Project Overview </h4> 
+ 		   	<p>MeterMaid is a mobile service design solution that opens up homeowner's driveways to drivers 
+ 		   	in need of parking in urban environments. Our final deliverable was an invision prototype. </p>
+ 		   	<br> 
+            <h4> Summary </h4> 
+            <p><b style="color:grey;">Skills </b>| Literature Review, Prototyping, Competitive Analysis, Screen Mockups, Reframing, Persona & Scenario Generation  </p>
+            <p><b style="color:grey;">Team</b> | Jayanth Prathipati, <a href="http://shansul.com">Shannon Sullivan</a>, Rho Eun Song, and Kathy Liu </p> 
+
+
+
           </div>
 </div>
 
@@ -33,7 +38,7 @@ categories: jekyll update
 
 <br> 
 
-MeterMaid is an application that enables homeowners to capitalize upon their open driveway space by connecting with drivers seeking convenient and affordable parking. We designed it specifically to facilitate trust between the two parties, particularly on the homeowner’s side by enabling them to monitor their property in the application, report inappropriate or malicious behavior, and filter out and block certain users.
+MeterMaid is an application that enables homeowners to capitalize upon their open driveway space by connecting with drivers seeking convenient and affordable parking. We designed it specifically to facilitate trust between the two parties, particularly on the homeowner’s side by enabling them to monitor their property in the application, report inappropriate or malicious behavior, and deal with poor behavior through a robust ratings system. 
 
 
 <br> 
@@ -45,14 +50,9 @@ MeterMaid is an application that enables homeowners to capitalize upon their ope
 
 We started our research by understanding the target personas for the application. We had one for the homeowner and one for the driver.
 
-<div class="row" style="margin-left:0px; margin-right:0px;">
-	    <div class="col-sm-6">
-	    	<img src="/img/metermaid_1.png">
-	    </div> 
-	   	<div class="col-sm-6">
-	    	<img src="/img/metermaid_2.png">
-	    </div> 
-</div> 
+<br> 
+
+<img src="/img/personas.png">
 
 <br> 
 
@@ -79,24 +79,25 @@ Based on this focus, we generated the following specific research objectives:
 - To understand the existing choices for parking and how they operate.
 - To understand the trust mechanics of existing resource sharing services (e.g. AirBnB, Uber) and to understand what led current users to trust these services
 
-To address the first question and part of the second question, we developed a short survey on Google Forms and distributed it on social media. Respondents answered questions such as how frequently they use public parking, what is important to them when finding parking, and how long it took them to find a spot to park in the last time they used public parking.
+
+
+In order to answer these questions, we researched existing services and how they leveraged design and technology to maintain trust (AirBnB, Uber, and eBay). We also used a short survey to figure out how users in Pittsburgh felt about parking. In addition, we interviewed 2 Uber drivers to understand how they mantained trust in the service. Finally, we interviewed two parking managers in person for an hour to understand the management aspect of parking. 
+
+<br>
+
+<img src="/img/graphs.png">
+<p id="post-caption">Results from our survey</p>
 
 <br> 
 
-For our second question, we explored the various parking options in Pittsburgh and reached out to several landlords who handle parking asking for an interview. Of the individuals we reached out to, only one responded. We visited that one person and conducted a brief one-hour interview.
 
-<br> 
 
-Regarding the third question of how other resource sharing services built trust between users, we read through existing literature analyzing and explaining their methodologies in conjunction with interviewing Uber drivers to better understand what incentivized them to get started and how Uber protects them and their assets.
-
-<br> 
 
 #### Key Insights from our research 
 
-- We found from our survey that most indicated that safety is the most important aspect when considering parking, followed by availability/ease of parking. Surprisingly, they said price was the least important, which contradicts the information we had in our scenario (Rebecca doesn’t want to pay the high fees for parking her car in a lot near the hospital) as well as what the Freakonomics podcast indicated, where people in will spend more time driving around looking for a spot that they do not have to pay for
-- Several respondents remarked that it is currently very hard to find available parking and the price of the parking in advance when using navigation applications such as Google Maps.
-- The parking lot manager's biggest challenges include maintaining a good level of public parkers to optimize revenue while also guaranteeing any leaseholder is able to find parking. Another challenge is being unable to contact public parkers who have unknowingly parked in an off-limits space; often she has to have their car towed as a result.
-- Some ridesharing applications provide more support for drivers than others. For example, before a driver can begin taking passengers using Lyft, a representative comes to their home to verify their information, confirm that their vehicle is up to code, and assists the driver in setting up a profile
+- Many of our users viewed safety as the most important factor when selecting parking 
+- Parking Lot Managers have to spend a lot of time balancing between managing revenue and dealing with exceptions such as towing unauthorized parkers 
+- Drivers trust Uber/Lyft to handle any edge cases, E.G getting an unruly driver. 
 - There are several factors that will build and retain user trust
 	* A positive first experience with the application 
 	* Ratings System 
@@ -105,8 +106,22 @@ Regarding the third question of how other resource sharing services built trust 
 
 We then built scenarios to exemplify our key insights and figure out what edge cases we need to worry about when building this app, such as What happens when drivers arriving really late to the location? How does a driveway owner handle harassment? What security measures are in place to make sure that people do not use this service for robbing houses? 
 
-From these scenarios, we created over 20 storyboards in order to figure out what details we needed to look at. I was specifically interested in the idea of trust and focused on bringing that up 
+<br> 
 
+From these scenarios, we created over 20 storyboards in order to figure out what details we needed to look at. I was specifically interested in the idea of trust and focused on bringing that up in the scenarios that I created. 
+
+
+
+<br>
+
+<img src="/img/scenarios.png">
+<p id="post-caption">Example Scenario</p>
+<br> 
+
+
+After creating these scenarios, we had a clear understanding of what edge cases we needed to accomodate for 
+and where breakdowns could potentially exist in a service like this. We narrowed down and focused on a set of 8-9 scenarios that seemed realistic. 
+<br> 
 <br> 
 
 # Prototyping 
@@ -155,9 +170,11 @@ I also focused on making simple animations with Principle to give a testers a be
 	    </div> 
 	    <div class="col-sm-4">
 	    	<img src="/img/metermaid_8.gif">
+	    	<p id="post-caption">Feedback of earnings for the user</p>
 	    </div> 
 	    <div class="col-sm-4">
 	    	<img src="/img/metermaid_9.gif">
+	    	<p id="post-caption">Feedback of earnings for the user</p>
 	    </div> 
 </div> 
 

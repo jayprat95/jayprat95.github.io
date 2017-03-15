@@ -5,6 +5,7 @@ banner_img: "twitch.png"
 date:   2016-03-22 15:33:53 -0400
 description: "Envisioning the future of Audience 
 Participation games"
+title_desc: "Prototyping the Future of Video Games"
 permalink: wolf
 categories: jekyll update
 ---
@@ -13,19 +14,20 @@ categories: jekyll update
 # About
 
 <div class="row">
-	    <div class="col-sm-6">
-            <h4> Summary </h4> 
-            <p><b>Domain </b>| Audience Participation, Video Games, Twitch </p> 
-            <p><b>Skills </b>| Game Design/Strategy, Game wireframing, Playtesting, Unity/C# Development </p>
-            <p><b>Tools</b> | Unity, Twitch Api, Keynote, Sketch</p> 
-            <p><b>Role</b> | Software Developer + Designer </p>
-            <p><b>Team</b> | Jayanth Prathipati, Conrad Bassett-Bouchard, Emily Porat, Kate Carey, Riva Fouzdar, Sina Siddiqi</p> 
+	    <div class="col-sm-8">
+<img src="/img/wolfe_title_card.png">
           </div>
-          <div class="col-sm-6">
-          <h4>Problem Space</h4>
+          <div class="col-sm-4">
+          <h4>Project Overview</h4>
           <p>
           	Design and build a game or Twitch.tv feature that improves upon the current state of Audience Participation Games.
-		 </p>
+		      </p>
+            <h4> Summary </h4> 
+            <p><b style="color:grey;">Skills </b>| Game Design/Strategy, Game wireframing, Playtesting, Unity/C# Development </p>
+            <p><b style="color:grey;">Team</b> | Jayanth Prathipati, Conrad Bassett-Bouchard, Emily Porat, Kate Carey, Riva Fouzdar, Sina Siddiqi</p> 
+
+
+
           </div>
 </div>
 
@@ -44,11 +46,6 @@ During an initial round of brainstorming, our team kept coming back to Mafia as 
 Based on this initial brainstorm, Mafia seemed like a logical starting point for designing and building an Audience Participation Game (APG) for the Twitch.tv medium.APGs are a nascent video gaming genre in which the audience has a say in the game's outcome. One weakness of these games, so far, is the interaction tends to be limited to sending commands or votes to a chatbot in a Twitch.tv stream. My team of six believed the influence and persuasion elements of Mafia could serve as a model to overcome the shortcomings of current APGs. Our resulting APG, Wolf Goes to School, leverages the game’s output to inspire lively discussion amongst audience members.
 
 <br>
-
-<img src="/img/wolfe_title_card.png">
-<p id="post-caption">Initial Login Screen</p>
-
-<br> 
 <br> 
 
 # Game Summary

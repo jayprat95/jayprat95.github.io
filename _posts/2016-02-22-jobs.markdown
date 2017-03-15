@@ -4,6 +4,7 @@ title:  "Jobs: A look into Data Viz and Machine Learning"
 banner_img: "graph_icon.png"
 date:   2016-03-22 15:33:53 -0400
 description: "Use Machine Learning to find deep insights into a software developer's job search"
+title_desc: "Using Machine Learning to create meaningful information visualizations"
 permalink: jobs
 categories: jekyll update
 ---
