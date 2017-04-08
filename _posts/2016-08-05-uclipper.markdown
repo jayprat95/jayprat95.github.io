@@ -37,7 +37,7 @@ categories: jekyll update
 
 # Solution 
 
-We Propose uClipper, a chrome plugin used for saving content from different sources of literature for concept building and analysis. Since uClipper is a flexible tool and can fit in the existing workflow of researchers, research analysis and synthesis can be faster than before. 
+We created uClipper, a chrome plugin used for saving content from different sources of literature for concept building and analysis. Since uClipper is a flexible tool and can fit in the existing workflow of researchers, research analysis and synthesis can be faster than before. 
 
 <br> 
 <br> 

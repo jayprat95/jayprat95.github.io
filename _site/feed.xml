@@ -5,8 +5,8 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Mar 2017 17:06:25 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Mar 2017 17:06:25 -0400</lastBuildDate>
+    <pubDate>Sat, 08 Apr 2017 14:34:47 -0400</pubDate>
+    <lastBuildDate>Sat, 08 Apr 2017 14:34:47 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -37,7 +37,7 @@
 
 &lt;h1 id=&quot;solution&quot;&gt;Solution&lt;/h1&gt;
 
-&lt;p&gt;We Propose uClipper, a chrome plugin used for saving content from different sources of literature for concept building and analysis. Since uClipper is a flexible tool and can fit in the existing workflow of researchers, research analysis and synthesis can be faster than before.&lt;/p&gt;
+&lt;p&gt;We created uClipper, a chrome plugin used for saving content from different sources of literature for concept building and analysis. Since uClipper is a flexible tool and can fit in the existing workflow of researchers, research analysis and synthesis can be faster than before.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt; 
 &lt;br /&gt;&lt;/p&gt;
@@ -446,6 +446,7 @@ and where breakdowns could potentially exist in a service like this. We narrowed
 
 &lt;div class=&quot;row&quot;&gt;
 	    &lt;div class=&quot;col-sm-8&quot;&gt; 
+	    	&lt;img src=&quot;/img/header.png&quot; /&gt;
           &lt;/div&gt;
           &lt;div class=&quot;col-sm-4&quot;&gt;
           &lt;h4&gt;Project Overview&lt;/h4&gt;

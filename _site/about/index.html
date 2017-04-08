@@ -42,9 +42,9 @@
       </a>
 
       <div class="trigger">
-         <a class="page-link" href="/about/" onclick="$('.about-section').animatescroll();">About</a>
-         <a class="page-link" href="#projects" onclick="$('.portfolio-section').animatescroll();">Portfolio</a>
-         <a class="page-link" href="https://drive.google.com/file/d/0B7IF0Vcb-2vZMDdINi0xTXBjLTg/view?usp=sharing" >Résumé</a>
+         <a class="page-link" href="/about/" >About</a>
+         <a class="page-link" href="/#portfolio-combined" >Portfolio</a>
+         <a class="page-link" href="https://drive.google.com/file/d/0B7IF0Vcb-2vZMDdINi0xTXBjLTg/view?usp=sharing">Résumé</a>
          <a class="page-link" href="https://medium.com/@jayprat95">Blog</a>
       </div>
     </nav>
@@ -53,15 +53,20 @@
 
 </header>
 
-    <div style="overflow:auto;
+    <div class="" style="overflow:auto;
 	padding-bottom: 180px;">
-    	<article class="post">
+    	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-  <header class="post-header">
-    <h1 class="post-title">About Me</h1>
+<div style="margin-left:5px;">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+
+  <header class="post-header" >
+    <h1 class="post-title" itemprop="name headline">About Me</h1>
+    <p class="post-meta"></p>
   </header>
 
-  <div class="post-content">
+  <div class="post-content" itemprop="articleBody">
     <p><br /> 
 <br /></p>
 <div class="row">
@@ -78,8 +83,30 @@
 
 
   </div>
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+
 
 </article>
+</div>
+
+<script type="text/javascript">
+// ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+</script>
+
+
 
     </div>
   </body>
