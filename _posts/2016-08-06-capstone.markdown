@@ -14,7 +14,7 @@ categories: jekyll update
 
 <div class="row">
 	    <div class="col-sm-8">
-<img src="/img/ci_header.png">
+<img src="/img/bloomberg-cover.png">
           </div>
           <div class="col-sm-4">
           <h4>Project Overview</h4>
