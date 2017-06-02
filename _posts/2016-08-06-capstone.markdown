@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Capstone Project"
+banner_img: "bloomberg-cover.png"
+date:   2016-03-22 15:33:53 -0400
+description: "Understanding Financial Data Nonvisually"
+title_desc: "Understanding Financial Data Nonvisually (Work In Progress)`"
+permalink: capstone
+categories: jekyll update
+---
+
+
+# About
+
+<div class="row">
+	    <div class="col-sm-8">
+<img src="/img/ci_header.png">
+          </div>
+          <div class="col-sm-4">
+          <h4>Project Overview</h4>
+          <p>
+          	
+            We worked on making financial data and visualizations accessible for people with visual impairments with the sponsorship of Bloomberg and the support of Carnegie Mellon University.
+		      </p>
+            <h4> Summary </h4> 
+            <p><b style="color:grey;">Skills </b>| Literature review, contextual inquiry with people with visual impairments and finance experts, empathy exercises, visioning, creative matrices, and experience prototyping, book design, survey design</p>
+            <p><b style="color:grey;">Team</b> | Jayanth Prathipati, Clare Carroll, Nora Tane, Conrad Bassett-Bouchard, and Emily Saltz</p> 
+          </div>
+</div>
+
+
+# Spring Presentation 
+
+<h3>Spring Research Presentation</h3>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/zJUzjeEvhWHP0q" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/secret/zJUzjeEvhWHP0q" title="What am I Missing? Understanding Financial Data Nonvisually" target="_blank">What am I Missing? Understanding Financial Data Nonvisually</a> 
+
+
+<br> 
+<br> 
+
+
+<br> 
+<br> 

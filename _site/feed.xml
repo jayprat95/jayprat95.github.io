@@ -5,9 +5,55 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Apr 2017 14:34:47 -0400</pubDate>
-    <lastBuildDate>Sat, 08 Apr 2017 14:34:47 -0400</lastBuildDate>
+    <pubDate>Thu, 01 Jun 2017 23:03:53 -0400</pubDate>
+    <lastBuildDate>Thu, 01 Jun 2017 23:03:53 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Capstone Project</title>
+        <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	    &lt;div class=&quot;col-sm-8&quot;&gt;
+&lt;img src=&quot;/img/ci_header.png&quot; /&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;h4&gt;Project Overview&lt;/h4&gt;
+          &lt;p&gt;
+          	
+            We worked on making financial data and visualizations accessible for people with visual impairments with the sponsorship of Bloomberg and the support of Carnegie Mellon University.
+		      &lt;/p&gt;
+            &lt;h4&gt; Summary &lt;/h4&gt; 
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Skills &lt;/b&gt;| Literature review, contextual inquiry with people with visual impairments and finance experts, empathy exercises, visioning, creative matrices, and experience prototyping, book design, survey design&lt;/p&gt;
+            &lt;p&gt;&lt;b style=&quot;color:grey;&quot;&gt;Team&lt;/b&gt; | Jayanth Prathipati, Clare Carroll, Nora Tane, Conrad Bassett-Bouchard, and Emily Saltz&lt;/p&gt; 
+          &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;spring-presentation&quot;&gt;Spring Presentation&lt;/h1&gt;
+
+&lt;h3&gt;Spring Research Presentation&lt;/h3&gt;
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/zJUzjeEvhWHP0q&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/secret/zJUzjeEvhWHP0q&quot; title=&quot;What am I Missing? Understanding Financial Data Nonvisually&quot; target=&quot;_blank&quot;&gt;What am I Missing? Understanding Financial Data Nonvisually&lt;/a&gt; 
+
+
+&lt;br /&gt; 
+&lt;br /&gt; 
+
+
+&lt;br /&gt; 
+&lt;br /&gt; 
+&lt;/strong&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>
+        <link>http://localhost:4000/capstone</link>
+        <guid isPermaLink="true">http://localhost:4000/capstone</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>uClipper</title>
