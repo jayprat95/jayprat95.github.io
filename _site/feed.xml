@@ -5,17 +5,17 @@
     <description>UX Researcher | Software Developer | Designer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jun 2017 23:03:53 -0400</pubDate>
-    <lastBuildDate>Thu, 01 Jun 2017 23:03:53 -0400</lastBuildDate>
+    <pubDate>Thu, 08 Jun 2017 08:01:04 -0400</pubDate>
+    <lastBuildDate>Thu, 08 Jun 2017 08:01:04 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Capstone Project</title>
+        <title>B7G Capstone Project</title>
         <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 	    &lt;div class=&quot;col-sm-8&quot;&gt;
-&lt;img src=&quot;/img/ci_header.png&quot; /&gt;
+&lt;img src=&quot;/img/bloomberg-cover.png&quot; /&gt;
           &lt;/div&gt;
           &lt;div class=&quot;col-sm-4&quot;&gt;
           &lt;h4&gt;Project Overview&lt;/h4&gt;
@@ -29,20 +29,261 @@
           &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h1 id=&quot;spring-presentation&quot;&gt;Spring Presentation&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3&gt;Spring Research Presentation&lt;/h3&gt;
-&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/zJUzjeEvhWHP0q&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
-&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/secret/zJUzjeEvhWHP0q&quot; title=&quot;What am I Missing? Understanding Financial Data Nonvisually&quot; target=&quot;_blank&quot;&gt;What am I Missing? Understanding Financial Data Nonvisually&lt;/a&gt; 
+&lt;h1 id=&quot;problem&quot;&gt;Problem&lt;/h1&gt;
 
+&lt;p&gt;People with visual impairments (PWVI) are at a huge disadvantage when it comes to making financial decisions, be it in a professional setting, or when managing personal finances.&lt;/p&gt;
 
-&lt;br /&gt; 
-&lt;br /&gt; 
+&lt;p&gt;For our masters’ capstone project, we were asked to explore the domains of finance and visual accessibility, with the goal of giving PWVI better access to financial visualizations and other information. The first step was to quickly become experts in designing for accessibility.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;br /&gt; 
-&lt;br /&gt; 
-&lt;/strong&gt;&lt;/div&gt;
+&lt;h1 id=&quot;understanding-the-problem-space&quot;&gt;Understanding the Problem Space&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;subject-matter-expert-interviews&quot;&gt;Subject Matter Expert Interviews&lt;/h3&gt;
+
+&lt;p&gt;To begin understanding the complex space of accessibility, data visualizations, and expert finance decisions, our team interviewed ten subject matter experts (SMEs). Our interviewees ranged from accessibility and emerging technology academics to finance and accessibility industry professionals. Along with our literature review, we used these interviews to learn more about the current state and future of assistive technology, the benefits and challenges of using different modalities for communicating data, and current efforts to make financial data used for decision-making more accessible.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;question-storming&quot;&gt;Question Storming&lt;/h3&gt;
+
+&lt;p&gt;Our team conducted a question-storming session with our client to quickly generate a large number of research questions and align our team’s goals with those of Bloomberg. As a group, we represented the problem space as:&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;“Bloomberg’s products provide too much information, making it difficult for visually impaired people to get to the “nub” of the data.” &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;“Sighted people are privileged because financial tools are designed for them.” &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a result of generating questions individually and going over them as a group,  we identified and scoped to three major problems to help guide our research:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do the mental models and workflows of people with visual impairments differ from sighted people?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How might a non-visual tool benefit different audiences?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What financial data is essential for decision-making?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bb_1.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Internal Question Storming&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;empathy-exercise&quot;&gt;Empathy Exercise&lt;/h3&gt;
+
+&lt;p&gt;As a team we felt it necessary to try to put ourselves in the shoes of a PWVI. However, it was important to develop empathy specifically in the context of our research, rather than just simulating blindness. After doing research on how to effectively design an empathy exercise, we wrote our own experimental protocol. In this exercise, we first learned the basics of the Apple Voiceover screen reader, and then used it to navigate our bank accounts on both our laptops and iPhones.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bb_2.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Empathy Exercises&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;literature-review&quot;&gt;Literature Review&lt;/h1&gt;
+
+&lt;h3 id=&quot;sensemaking&quot;&gt;Sensemaking&lt;/h3&gt;
+
+&lt;p&gt;Our team split up some 60 research papers on accessibility, cognitive science, data visualization, and emerging technology. Every week, we conveyed our findings to each other and developed a shared understanding by printing out discrete points of interest onto individual notes. We then clustered these notes to see what themes emerged in each research space. We digitized these higher level themes into the clusters shown below&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bb_3.png&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Clusters&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;emerging-tech-survey&quot;&gt;Emerging Tech Survey&lt;/h3&gt;
+
+&lt;p&gt;Since we’re focused on nonvisual means of communication, one of our teammates completed a survey of emerging technologies to give us a better idea of what tools we might be able to use, and understand their limits.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;secondary-research-report&quot;&gt;Secondary Research Report&lt;/h3&gt;
+
+&lt;p&gt;We conveyed our findings to our client through our secondary research report, offering five insights to help guide our contextual inquiry, as well as our future product designs.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1) “Don’t move my stuff.”
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spatial representations of an interface or an environment work well, but only if things stay exactly the same. Even small changes are detrimental.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2) “I want to use the same stuff as everyone else.”
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;PWVI don’t want to stand out more than they need to.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3) “Don’t fix what isn’t broken.”
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learning new technologies takes a great deal of time - leave PWVI the opportunity to leverage their existing skills.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4) “So what product are you making?”
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;People with visual impairments have a tendency to approach user studies with the assumption that they are testing a final product, as opposed to having a conversation about research, or giving feedback on a prototype.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5) “I do a lot of additional work others don’t know about.”
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The concept of invisible work inspired our team: a PWVI necessarily conducts additional work to create an accessible space.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;contextual-inquiry&quot;&gt;Contextual Inquiry&lt;/h1&gt;
+
+&lt;h3 id=&quot;making-connections-with-pwvi&quot;&gt;Making Connections with PWVI&lt;/h3&gt;
+
+&lt;p&gt;We leveraged the networks of our SMEs to deploy a screener survey to the PWVI community. Our survey screened for PWVI who use many of the same tools as finance workers, such as spreadsheets and programming languages. In total, we received 203 responses: 189 of these were legally blind, ranging from moderate to total vision loss with no light perception. Encouragingly, over 40% of respondents had checked financial securities in the last 30 days.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bb_4.png&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Survey Respondents&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;contextual-interviews&quot;&gt;Contextual Interviews&lt;/h3&gt;
+
+&lt;p&gt;From our survey, we scheduled remote and in-person interviews with 10 PWVI: five with congenital blindness, and five whose vision declined later in life. Our interviews were structured around observing how our interviewees accessed financial data in real time. Some walked us through checking their actual financial information, while others we asked to recount recent interactions with financial data.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bb_5.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Image from one of our interviews&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also talked to six finance experts about their use of data and visualizations for decision-making. We focused on people who actively managed investments and frequently made buy/sell decisions. Roles included stockbrokers, the president of a capital management firm, and analysts, and MBA students.&lt;/p&gt;
+
+&lt;p&gt;Our goals were to learn more about the workflows of high performing users and identify what data is and is not important for guiding their steps and decisions.&lt;/p&gt;
+
+&lt;h3 id=&quot;interpretation&quot;&gt;Interpretation&lt;/h3&gt;
+
+&lt;p&gt;After each interview, three team members interpreted notes and recordings, then created visual models of the workflows described. Many of the people we interviewed told us that they have their own idiosyncratic workflows. To capture how they follow the information scent, we create sequence models.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bb_6.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Image from one of our interviews&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;affinity-diagramming&quot;&gt;Affinity Diagramming&lt;/h3&gt;
+
+&lt;p&gt;We combined all of our notes from our interpretation sessions, and clustered . We color-coded notes based on whether they came from PWVI or finance experts. As insights began to crystallize, we were excited to see overlap between the two different domains, suggesting that both groups faced some similar challenges in their decision-making and workflows.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bb_7.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Me creating clusters in our affinity&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;walking-the-wall&quot;&gt;Walking the Wall&lt;/h3&gt;
+
+&lt;p&gt;We spent several team sessions “walking the wall,” a process during which team members, first silently, then through discussion, annotate the affinity diagram with questions, breakdowns, and design ideas. From here, we began ideating on possible solutions. As part of this process, we also created early prototypes to explore the forms of potential solutions. We tested internally with tactile materials and audio cues. We also considered the feasibility of our top design ideas, the input and output of each idea, and what impact the idea would have on sighted users and PWVI, respectively.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/bb_8.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p id=&quot;post-caption&quot;&gt;Ideas from visioning session on impact/difficulty matrix&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt; 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;presenting-our-research&quot;&gt;Presenting Our Research&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;book&quot;&gt;Book&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We presented our research to our client in our spring book, “What Am I Missing?” offering six insights, told from the perspective of a PWVI:&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;1) People who help me are interfaces too.
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The transfer of information by a sighted person is subject to that person’s interpretation and expertise.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2) My assistive technology only provides one piece of information at time. 
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It’s hard to view all parts of the puzzle at once because screen readers only provide one piece of information at a time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3) I use charts as a communication tool.
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Highlighting visual cues in charts is the easiest way to persuade colleagues and clients of investment decisions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4) There is no normal.
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Both PWVI and finance experts depend on their idiosyncratic workflows to get things done.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5) Changing technology is difficult, so it better be worth it.
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A product must offer a meaningful improvement to justify altering a hard-earned workflow.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;6) I use visuospatial metaphors as mnemonics.
+&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Visual and spatial reference points help bridge communication between sighted and blind colleagues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;presentation&quot;&gt;Presentation&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt; 
+We presented our research findings for the semester to our clients at Bloomberg, as well as other members of Bloomberg accessibility, UX, and software teams. Our presentation focused on four specific areas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Giving our audience an understanding of our problem space&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Showing our six main research insights&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Presenting guiding principles for our future designs&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Displaying possible prototyping directions for our next steps&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;were-in-nyc&quot;&gt;We’re in NYC!&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Team B7G is currently in Manhattan at Bloomberg HQ for the summer. Stay tuned for a summer of designing, prototyping, user testing, and building!&lt;/p&gt;
+
 </description>
         <pubDate>Tue, 22 Mar 2016 15:33:53 -0400</pubDate>
         <link>http://localhost:4000/capstone</link>
