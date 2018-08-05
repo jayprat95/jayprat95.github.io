@@ -1,10 +1,26 @@
-<footer class="site-footer">
-    <div class="wrapper" style="text-align:center;">
-        <a href="https://medium.com/@jayprat95" id="share-icons" class="hvr-float"> <i class="fa fa-medium fa-2x"></i> </a>
-        <a href="http://github.com/jayprat95" id="share-icons" class="hvr-float"><i class="fa fa-github-alt fa-2x"></i> </a>
-        <a href="https://www.linkedin.com/in/jprathipati" id="share-icons" class="hvr-float"><i class="fa fa-linkedin fa-2x"></i> </a>
-        <a href="mailto:jayprat95@gmail.com?Subject=let's%20talk" id="share-icons" class="hvr-float"><i class="fa fa-paper-plane-o fa-2x"></i>  </a>
-        <a href="http://www.instagram.com/jayprat95" id="share-icons" class="hvr-float"><i class="fa fa-instagram fa-2x"></i>  </a>
+<footer class="footer">
 
-    </div>
+	<div class="wrap">
+
+		{% if site.data.settings.footer_settings.logo_image %}
+		<a href="/" class="footer__logo">
+			<img src="{{ site.data.settings.footer_settings.logo_image }}" class="footer__logo__img">
+		</a>
+		{% else %}
+		<a href="/" class="footer__title">
+			{{ site.data.settings.basic_settings.site_title }}
+		</a>
+		{% endif %}
+
+		<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
+
+		<div class="footer__copyright">
+			<span>© {{ 'now' | date: "%Y" }} </span>
+			Made with ❤️ in Washington D.C
+		</div>
+
+		{% include socials.html %}
+
+	</div>
+
 </footer>
