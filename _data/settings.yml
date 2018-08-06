@@ -35,7 +35,7 @@ social_settings:
   google-plus_url: ''
   vimeo_url: ''
   pinterest_url: ''
-  medium_url: ''
+  medium_url: 'http://medium.com/@jayprat95'
   quora_url: ''
   amazon_url: ''
   apple_url: ''
@@ -52,7 +52,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/jprathipati'
 
 color_settings:
   background_color: '#ffffff'
